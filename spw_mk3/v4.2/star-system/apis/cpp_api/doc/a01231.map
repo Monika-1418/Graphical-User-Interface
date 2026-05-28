@@ -1,0 +1,4 @@
+<map id="ChannelListener" name="ChannelListener">
+<area shape="rect" id="node2" href="$a01637.xhtml" title="Parent class for objects which are used to identify listeners or call&#45;back objects which have been re..." alt="" coords="17,261,193,381"/>
+<area shape="rect" id="node4" href="$a01633.xhtml" title="Helper class which holds a reference count for possible shared ownership of a listener for STAR&#45;Syste..." alt="" coords="5,6,205,178"/>
+</map>

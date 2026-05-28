@@ -1,0 +1,7 @@
+<map id="BrickMk2ExternalPort" name="BrickMk2ExternalPort">
+<area shape="rect" id="node9" href="$a01205.xhtml" title="Represents an External Port on a Brick Mk3 device. " alt="" coords="5,1320,181,1475"/>
+<area shape="rect" id="node11" href="$a01593.xhtml" title="Represents an External Port on a Router Mk2S device. " alt="" coords="205,1320,400,1475"/>
+<area shape="rect" id="node2" href="$a01373.xhtml" title="Represents an External Port on a Mk2 device. " alt="" coords="85,637,309,931"/>
+<area shape="rect" id="node4" href="$a01317.xhtml" title="Represents an External Port on a device. " alt="" coords="136,400,259,589"/>
+<area shape="rect" id="node6" href="$a01437.xhtml" title="Base class for ports on a device. " alt="" coords="109,6,285,351"/>
+</map>

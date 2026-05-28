@@ -1,0 +1,4 @@
+<map id="PCIMk2DeviceConfiguration" name="PCIMk2DeviceConfiguration">
+<area shape="rect" id="node2" href="$a01369.xhtml" title="Holds the configuration state of a Mk2 compatible device. " alt="" coords="15,382,241,693"/>
+<area shape="rect" id="node4" href="$a01273.xhtml" title="Base class to represent the configuration state of a device and which can be used to query or set a d..." alt="" coords="28,5,228,333"/>
+</map>

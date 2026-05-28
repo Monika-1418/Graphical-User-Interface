@@ -1,0 +1,6 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Error Injection
+Exec=/usr/local/STAR-Dundee/STAR-System/bin/star_error_inject
+Icon=/usr/local/STAR-Dundee/STAR-System/STAR.png

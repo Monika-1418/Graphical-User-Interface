@@ -1,0 +1,7 @@
+<map id="STAR&#45;API" name="STAR&#45;API">
+<area shape="rect" id="node1" href="$group__items.xhtml" title="Stream items are abstract representations of packets, time&#45;codes and link control tokens that can be ..." alt="" coords="192,5,293,35"/>
+<area shape="rect" id="node2" href="$group__channel.xhtml" title="Used to open and close channels, between applications and devices. " alt="" coords="168,59,317,88"/>
+<area shape="rect" id="node3" href="$group__devmgmt.xhtml" title="Functions providing information on devices and drivers present. " alt="" coords="140,112,345,141"/>
+<area shape="rect" id="node4" href="$group__general.xhtml" title="These are functions that provide information about the API and the STAR&#45;System stack itself..." alt="" coords="165,165,320,195"/>
+<area shape="rect" id="node5" href="$group__transfers.xhtml" title="Transfer operations are used to transmit and receive packets and time&#45;codes. " alt="" coords="175,219,311,248"/>
+</map>

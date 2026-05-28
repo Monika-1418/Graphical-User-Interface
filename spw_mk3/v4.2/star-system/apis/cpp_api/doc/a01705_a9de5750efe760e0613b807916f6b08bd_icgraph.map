@@ -1,0 +1,10 @@
+<map id="IncrementReferenceCount" name="IncrementReferenceCount">
+<area shape="rect" id="node3" href="$a01501.xhtml#a713aa0955840d18be34dbce655af04fe" title="Creates a receive operation using receive parameters provided, which can then be submitted later..." alt="" coords="235,5,480,69"/>
+<area shape="rect" id="node7" href="$a01717.xhtml#a07fe4916c82baa2994a759347ee6e548" title="Create a transmit operation using the stream items provided, which can then be submitted later..." alt="" coords="233,93,481,157"/>
+<area shape="rect" id="node11" href="$a01697.xhtml#a0afd2bcb3aa5d375e36b5772b2bb1af3" title="Overloaded assignment operator. " alt="" coords="229,181,485,245"/>
+<area shape="rect" id="node13" href="$a01709.xhtml#a089b0605c0b66f44887d3afda888c61d" title="Overloaded assignment operator &#45; to allow instances of transfer operation objects to have their conte..." alt="" coords="235,269,480,333"/>
+<area shape="rect" id="node15" href="$a01697.xhtml#ac13bd3b59211135469438be161b652ce" title="Overloaded constructor, initialise with a specified transfer operation and pointer to callback functi..." alt="" coords="229,357,485,421"/>
+<area shape="rect" id="node17" href="$a01709.xhtml#a557666d9128e9fe875a2f2098bd0ab6d" title="Copy constructor &#45; to allow copies of transfer operation objects to be made when being passed by valu..." alt="" coords="235,445,480,509"/>
+<area shape="rect" id="node5" href="$a01501.xhtml#a093778278715fd14c92d49fdffeeb141" title="Overloaded constructor to automatically create a receive operation using receive parameters provided..." alt="" coords="536,5,781,69"/>
+<area shape="rect" id="node9" href="$a01717.xhtml#aeabee951a3cddce67271ffcffa2f56b6" title="Overloaded constructor to automatically create a transmit operation using the stream items provided..." alt="" coords="535,93,783,157"/>
+</map>

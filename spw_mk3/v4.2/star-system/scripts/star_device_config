@@ -1,0 +1,88 @@
+#!/bin/bash
+### BEGIN INIT INFO
+# Provides:          star_device_config
+# Required-Start:    $local_fs $remote_fs $syslog
+# Required-Stop:     $local_fs $remote_fs $syslog
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: Starts the Device Config Service at boot time
+# Description:       Starts the STAR-System Device Configuration Service when
+#                    the system is started, and stops it when the system is
+#                    stopped.
+### END INIT INFO
+
+# source function library
+
+if [ -r /etc/rc.d/init.d/functions ]; then
+	. /etc/rc.d/init.d/functions
+elif [ -r /etc/init.d/functions ]; then
+	. /etc/init.d/functions
+elif [ -r /lib/lsb/init-functions ]; then
+	. /lib/lsb/init-functions
+	
+	action() {
+		log_action_begin_msg $1
+		$2
+		log_action_end_msg $?
+	}
+else
+	echo "Unable to find functions to be used"
+	exit 1
+fi
+
+ 
+RETVAL=0
+
+CONFIG_PATTERN=star_conf
+
+kill_process() {
+	pkill -SIGINT $CONFIG_PATTERN
+	sleep 1
+	if [ -n "$(pgrep $CONFIG_PATTERN)" ]; then
+		pkill -SIGTERM $CONFIG_PATTERN
+		sleep 1
+	fi 
+	if [ -n "$(pgrep $CONFIG_PATTERN)" ]; then
+		pkill -SIGKILL $CONFIG_PATTERN
+		sleep 1
+	fi 
+	if [ -z "$(pgrep $CONFIG_PATTERN)" ]; then
+		rm -f /var/lock/subsys/star_conf_service
+	fi
+}
+
+start() {
+	action $"Starting STAR-System Device Configuration Service: " /sbin/star_conf_service
+}
+
+stop() {
+	action $"Stopping STAR-System Device Configuration Service: " kill_process
+}
+
+restart() {
+	stop
+	start
+}
+
+case "$1" in
+  start)
+	start
+	;;
+  stop) 
+	stop
+	;;
+  restart|force-reload)
+	restart
+	;;
+  reload)
+	;;
+  condrestart)
+	;;
+  status)
+	;;
+  *)
+	echo $"Usage: $0 {start|stop|status|restart|reload|force-reload|condrestart}"
+	exit 1
+esac
+
+exit $RETVAL

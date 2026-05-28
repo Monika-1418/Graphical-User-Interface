@@ -1,0 +1,4 @@
+<map id="TimeCode" name="TimeCode">
+<area shape="rect" id="node3" href="$a01677.xhtml#a3aafddc7461afc7395dd7d1e413aefb7" title="Creates a time&#45;code using the time&#45;code value provided. " alt="" coords="137,5,257,35"/>
+<area shape="rect" id="node5" href="$a01677.xhtml#a9d5daa927d1c97d4903db8a13594f2bc" title="Free any resources held by the time&#45;code object, e.g. " alt="" coords="307,5,435,35"/>
+</map>

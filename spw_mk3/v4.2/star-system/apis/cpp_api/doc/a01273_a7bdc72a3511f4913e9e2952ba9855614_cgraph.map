@@ -1,0 +1,6 @@
+<map id="GetPort" name="GetPort">
+<area shape="rect" id="node3" href="$a01273.xhtml#a8cc6f9767b76f81ac7c949e8ee7a68df" title="Create and return an instance of a Port object which corresponds to the given port number on the give..." alt="" coords="120,59,205,88"/>
+<area shape="rect" id="node5" href="$a01273.xhtml#aa9df725ecbac12fb410aa677e1f31168" title="Create an instance of a ConfigPort with the given values. " alt="" coords="259,5,381,35"/>
+<area shape="rect" id="node7" href="$a01273.xhtml#a4a1cb284a54e0a6f5877f4716fbfa219" title="Create an instance of an ExternalPort with the given values. " alt="" coords="253,59,387,88"/>
+<area shape="rect" id="node9" href="$a01273.xhtml#ac5e6675e752bc9cc4cd8e12e14c8bc57" title="Create an instance of a LinkPort with the given values. " alt="" coords="265,112,375,141"/>
+</map>

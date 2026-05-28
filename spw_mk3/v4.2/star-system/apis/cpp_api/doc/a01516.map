@@ -1,0 +1,4 @@
+<map id="RMAPNotification" name="RMAPNotification">
+<area shape="rect" id="node3" href="$a01173.xhtml" title="Class that encapsulates data for an authorisation request notification. " alt="" coords="5,382,237,485"/>
+<area shape="rect" id="node5" href="$a01245.xhtml" title="Class that encapsulates data for a command complete notification. " alt="" coords="261,278,485,589"/>
+</map>

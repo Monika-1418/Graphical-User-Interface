@@ -1,0 +1,10 @@
+<map id="STAR&#45;System C++ API" name="STAR&#45;System C++ API">
+<area shape="rect" id="node2" href="$a01107.xhtml" title="Classes to represent the stream items which can be transmitted and received over SpaceWire links such..." alt="" coords="240,5,341,35"/>
+<area shape="rect" id="node3" href="$a01119.xhtml" title="Classes for handling embedded RMAP targets. " alt="" coords="240,59,341,88"/>
+<area shape="rect" id="node4" href="$a01106.xhtml" title="Classes for the Channels which can be opened on a Device to transmit and receive data over a SpaceWir..." alt="" coords="216,112,365,141"/>
+<area shape="rect" id="node5" href="$a01108.xhtml" title="Classes representing transfer operations which are used to transmit and receive packets, time&#45;codes and other stream item types. " alt="" coords="223,165,359,195"/>
+<area shape="rect" id="node6" href="$a01126.xhtml" title="Classes for configuring triggering capabilities on supported devices. " alt="" coords="252,219,329,248"/>
+<area shape="rect" id="node7" href="$a01105.xhtml" title="Classes which provide information about the STAR&#45;System API itself, including any Devices and Drivers..." alt="" coords="219,272,363,301"/>
+<area shape="rect" id="node8" href="$a01109.xhtml" title="Classes required to perform general device configuration tasks with any type of device. " alt="" coords="219,325,363,355"/>
+<area shape="rect" id="node9" href="$a01118.xhtml" title="Classes for building RMAP packets. " alt="" coords="235,379,347,408"/>
+</map>

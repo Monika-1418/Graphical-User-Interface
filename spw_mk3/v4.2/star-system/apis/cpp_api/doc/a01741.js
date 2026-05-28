@@ -1,0 +1,45 @@
+var a01741 =
+[
+    [ "BusType", "a01741.xhtml#a5e19c75c2809d2f27eb33a29d1971b46", [
+      [ "BUS_TYPE_UNKNOWN", "a01741.xhtml#a5e19c75c2809d2f27eb33a29d1971b46a5c9cd882dc6e95bf727521d3d596bd65", null ],
+      [ "BUS_TYPE_PCI", "a01741.xhtml#a5e19c75c2809d2f27eb33a29d1971b46abed4046e9e80cbb1192be6c4ca0b6db8", null ],
+      [ "BUS_TYPE_USB", "a01741.xhtml#a5e19c75c2809d2f27eb33a29d1971b46a15fc7a6f541dc5d031512d266fbaf089", null ],
+      [ "BUS_TYPE_TCP", "a01741.xhtml#a5e19c75c2809d2f27eb33a29d1971b46a1ee962f37ace79913c39fd226cd875f5", null ],
+      [ "BUS_TYPE_CPCI", "a01741.xhtml#a5e19c75c2809d2f27eb33a29d1971b46afe78721255348101bf03659080fe604a", null ],
+      [ "BUS_TYPE_VIRTUAL", "a01741.xhtml#a5e19c75c2809d2f27eb33a29d1971b46a56f6387fd3b4ca0e0a871277f9fccb50", null ]
+    ] ],
+    [ "StringConstants", "a01741.xhtml#a0450dbc5dd63e4dd00ca11b56fee158b", [
+      [ "STR_DEVICE_NAME_LEN", "a01741.xhtml#a0450dbc5dd63e4dd00ca11b56fee158ba4e6c0e9cebfa2159d67fb0d233f40f4a", null ],
+      [ "STR_DEVICE_SERIAL_LEN", "a01741.xhtml#a0450dbc5dd63e4dd00ca11b56fee158ba3eb3c7131f975a908f5739c172144a31", null ],
+      [ "STR_DEVICE_TYPE_LEN", "a01741.xhtml#a0450dbc5dd63e4dd00ca11b56fee158baaf88fe719fb6944b5a352a223e1a92e3", null ],
+      [ "STR_DEVICE_BUS_TYPE_LEN", "a01741.xhtml#a0450dbc5dd63e4dd00ca11b56fee158badb698d4cd9565905905d9316ecb99fc3", null ]
+    ] ],
+    [ "VirtualDevice", "a01741.xhtml#af42764576b7152245cf7e6dc2c778250", null ],
+    [ "~VirtualDevice", "a01741.xhtml#a4cf328d14c65214b08d57b6ae9e52457", null ],
+    [ "CopyDevice", "a01741.xhtml#a692a9dce661481258715fa6d59a7156a", null ],
+    [ "FreeDevice", "a01741.xhtml#af3058141eff32aeeff10726258ed1e89", null ],
+    [ "GetApplicationAttachedToChannel", "a01741.xhtml#a2f62c706a7cffc0d98e2ae38a3a5a995", null ],
+    [ "GetDeviceBusType", "a01741.xhtml#a15e914f0b3a4755b3c5b93056b4f3a22", null ],
+    [ "GetDeviceBusTypeAsString", "a01741.xhtml#af82583b91703034c18d5725e3837fdeb", null ],
+    [ "GetDeviceChannels", "a01741.xhtml#a43659ddc3b8e1168e2d345a6b5130cab", null ],
+    [ "GetDeviceConfigCapabilities", "a01741.xhtml#a395e6c5f581eedc65b49fcb2d16ce253", null ],
+    [ "GetDeviceConfiguration", "a01741.xhtml#a844afba4836894a0a0062a2370f0e24a", null ],
+    [ "GetDeviceDriver", "a01741.xhtml#a2ccbca748115d802a9c39c6b114cb09f", null ],
+    [ "GetDeviceFirmwareVersion", "a01741.xhtml#a93ed46fa91b6c3b81c899f6a9830d14f", null ],
+    [ "GetDeviceID", "a01741.xhtml#ab60e1b7d62b67f1fba59ecb68e4c5d61", null ],
+    [ "GetDeviceIndex", "a01741.xhtml#a27dfd08c87cc8e5a9f1c0f42153c8275", null ],
+    [ "GetDeviceName", "a01741.xhtml#ac9ae91205347a5668c76aae2434c374a", null ],
+    [ "GetDeviceSerialNumber", "a01741.xhtml#a08bbfa7f37a09169bc9fb4ba798a45ae", null ],
+    [ "GetDeviceTxRxCapabilities", "a01741.xhtml#a27a4000b90aeedd8674279f966f8d2ea", null ],
+    [ "GetDeviceType", "a01741.xhtml#a8b7ab65d22603e860daa687dc7b0cecd", null ],
+    [ "GetDeviceTypeAsString", "a01741.xhtml#ae768a254b9228cf1749336d66a32fac3", null ],
+    [ "GetLocalDeviceAttachedToChannel", "a01741.xhtml#a764385324ae824405f9920a3ae71d8cb", null ],
+    [ "IsChannelOpen", "a01741.xhtml#ac575141d4721cbbd468ad6887e01d118", null ],
+    [ "IsDeviceVirtual", "a01741.xhtml#aa624918fba4e8da10205f9de8a291745", null ],
+    [ "OpenChannel", "a01741.xhtml#a10bd44ef3dcb36d5372e4df632c743e9", null ],
+    [ "OpenChannelBetweenLocalDevices", "a01741.xhtml#a2f36218a7ea35048b67cbd37d7f0e163", null ],
+    [ "ResetDevice", "a01741.xhtml#ad5b3068a84d95893dec39d4dd59a1b38", null ],
+    [ "SetDeviceID", "a01741.xhtml#a05a487cc6ffbf0e31537f4eba6ea2d30", null ],
+    [ "SetDeviceName", "a01741.xhtml#a8f3a788ca16cf3c44dd2e193bc2b0343", null ],
+    [ "deviceID", "a01741.xhtml#ae8b467a60a021ed44b3131cb81dd1fd9", null ]
+];

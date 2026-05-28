@@ -1,0 +1,6 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=CUBA Software
+Exec=/usr/local/STAR-Dundee/STAR-System/launch_star_cuba.sh
+Icon=/usr/local/STAR-Dundee/STAR-System/STAR.png

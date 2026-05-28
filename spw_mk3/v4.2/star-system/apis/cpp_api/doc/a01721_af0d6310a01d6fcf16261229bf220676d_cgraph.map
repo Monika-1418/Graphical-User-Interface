@@ -1,0 +1,6 @@
+<map id="operator=" name="operator=">
+<area shape="rect" id="node3" href="$a01721.xhtml#a608d29f754edddb8ffff5acde628f3a4" title="Gets the output actions from a counter that are caused by an internal trigger being set..." alt="" coords="132,5,303,35"/>
+<area shape="rect" id="node5" href="$a01721.xhtml#a03f4a91ab1c095ac614bc339f6f62742" title="Gets the output actions from a port that are caused by an internal trigger being set. " alt="" coords="143,59,292,88"/>
+<area shape="rect" id="node7" href="$a01721.xhtml#a586f2a482623295579da07c96f8d02f3" title="Sets the output actions for a counter that are caused by an internal trigger being set..." alt="" coords="132,112,303,141"/>
+<area shape="rect" id="node9" href="$a01721.xhtml#ae7912156aedcda917ebc9c4805750277" title="Sets the output actions for a port that are caused by an internal trigger being set. " alt="" coords="143,165,292,195"/>
+</map>

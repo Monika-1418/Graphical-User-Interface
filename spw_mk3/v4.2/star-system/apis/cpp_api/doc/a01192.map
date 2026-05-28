@@ -1,0 +1,7 @@
+<map id="BrickMk2LinkPort" name="BrickMk2LinkPort">
+<area shape="rect" id="node9" href="$a01209.xhtml" title="Represents a Link Port on a Brick Mk3 device. " alt="" coords="5,1355,184,1579"/>
+<area shape="rect" id="node11" href="$a01597.xhtml" title="Represents a Link Port on a Router Mk2S device. " alt="" coords="208,1389,379,1544"/>
+<area shape="rect" id="node2" href="$a01377.xhtml" title="Represents a Link Port on a Mk2 device. " alt="" coords="97,741,289,1000"/>
+<area shape="rect" id="node4" href="$a01345.xhtml" title="Represents a (SpaceWire) Link Port on a device. " alt="" coords="76,400,311,693"/>
+<area shape="rect" id="node6" href="$a01437.xhtml" title="Base class for ports on a device. " alt="" coords="105,6,281,351"/>
+</map>

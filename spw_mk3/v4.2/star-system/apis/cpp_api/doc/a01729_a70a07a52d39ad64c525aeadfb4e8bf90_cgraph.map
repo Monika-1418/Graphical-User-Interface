@@ -1,0 +1,8 @@
+<map id="operator=" name="operator=">
+<area shape="rect" id="node3" href="$a01729.xhtml#a39a12af53e370e57f7d7e900b660b8d0" title="Gets the input events from a counter which will cause an internal trigger to be set. " alt="" coords="132,5,289,35"/>
+<area shape="rect" id="node5" href="$a01729.xhtml#afb86fd382c4d76f0c6824653705a94b8" title="Gets the input events from a port which will cause an internal trigger to be set. ..." alt="" coords="143,59,279,88"/>
+<area shape="rect" id="node7" href="$a01729.xhtml#ad9e03c84361fd754f7e8e602ee867743" title="Gets the input events for an internal trigger which will cause another internal trigger to be set..." alt="" coords="135,112,287,141"/>
+<area shape="rect" id="node9" href="$a01729.xhtml#afe944469c49c1f06173c1b59ab0b18f2" title="Sets the input events for a counter which will cause an internal trigger to be set. " alt="" coords="132,165,289,195"/>
+<area shape="rect" id="node11" href="$a01729.xhtml#a0c9a07f639c30da88da48b31ad1ded19" title="Sets the input events for a port which will cause an internal trigger to be set. " alt="" coords="143,219,279,248"/>
+<area shape="rect" id="node13" href="$a01729.xhtml#ad884266c4f9b9eb317808177d3365070" title="Sets the input events for an internal trigger which will cause another internal trigger to be set..." alt="" coords="135,272,287,301"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="CreatePort" name="CreatePort">
+<area shape="rect" id="node3" href="$a01273.xhtml#a7bdc72a3511f4913e9e2952ba9855614" title="Get the port on the device corresponding to the given port number. " alt="" coords="172,5,239,35"/>
+<area shape="rect" id="node5" href="$a01273.xhtml#a9aa876ec7e5fbeb037179c887b7a26bc" title="Gets the output port to which the given (source) port is currently connected to whilst routing is in ..." alt="" coords="139,59,272,88"/>
+</map>

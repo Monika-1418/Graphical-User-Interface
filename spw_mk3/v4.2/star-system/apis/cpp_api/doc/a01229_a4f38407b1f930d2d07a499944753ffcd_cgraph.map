@@ -1,0 +1,5 @@
+<map id="Channel" name="Channel">
+<area shape="rect" id="node3" href="$a01225.xhtml#ac59bc919e4cefa277a83436943b01f2a" title="Default constructor. " alt="" coords="127,5,359,69"/>
+<area shape="rect" id="node5" href="$a01225.xhtml#af9c8a6ef8b9c8c7032f6b4fe2dfc72d7" title="Increment the reference count for the channel, and return the updated value. " alt="" coords="127,93,359,157"/>
+<area shape="rect" id="node7" href="$a01225.xhtml#ab194b899f22d3da233dcab65991d187d" title="Set the status to indicate an open channel. " alt="" coords="127,181,359,245"/>
+</map>

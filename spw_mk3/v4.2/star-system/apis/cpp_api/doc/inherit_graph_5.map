@@ -1,0 +1,14 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node3" href="$a01265.xhtml" title="Signifies an exception which may occur when attempting to use a constructor that has been deprecated..." alt="" coords="135,5,348,35"/>
+<area shape="rect" id="node5" href="$a01261.xhtml" title="Signifies an exception which may occur when attempting to use a method that has been deprecated..." alt="" coords="147,59,336,88"/>
+<area shape="rect" id="node7" href="$a01385.xhtml" title="Signifies an exception which can occur when attempting to call a device configuration function on an ..." alt="" coords="161,112,321,141"/>
+<area shape="rect" id="node9" href="$a01509.xhtml" title="Signifies an exception which may occur when attempting to create or process remote devices..." alt="" coords="159,165,324,195"/>
+<area shape="rect" id="node11" href="$a01529.xhtml" title="Represents an exception which may occur when creating and/or using RMAP packets. " alt="" coords="161,219,321,248"/>
+<area shape="rect" id="node13" href="$a01649.xhtml" title="Signifies an exception which may occur when attempting to create or process Addresses. " alt="" coords="177,272,305,301"/>
+<area shape="rect" id="node15" href="$a01657.xhtml" title="Signifies an exception which may occur when attempting to create or process Data Chunks. " alt="" coords="168,325,315,355"/>
+<area shape="rect" id="node17" href="$a01669.xhtml" title="Signifies an exception which may occur when attempting to create or process an error in data stream i..." alt="" coords="168,379,315,408"/>
+<area shape="rect" id="node19" href="$a01653.xhtml" title="Signifies an exception which may occur when attempting to create or process packets. " alt="" coords="181,432,301,461"/>
+<area shape="rect" id="node21" href="$a01665.xhtml" title="Signifies an exception which may occur when attempting to create or process a general stream item..." alt="" coords="168,485,315,515"/>
+<area shape="rect" id="node23" href="$a01661.xhtml" title="Signifies an exception which may occur when attempting to create or process time&#45;codes. " alt="" coords="172,539,311,568"/>
+<area shape="rect" id="node25" href="$a01713.xhtml" title="Signifies an exception which may occur when attempting to create or process transfer operations..." alt="" coords="149,592,333,621"/>
+</map>

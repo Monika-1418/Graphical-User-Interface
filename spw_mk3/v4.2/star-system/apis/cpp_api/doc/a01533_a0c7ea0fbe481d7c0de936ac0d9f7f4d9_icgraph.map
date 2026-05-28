@@ -1,0 +1,3 @@
+<map id="GetRMAPPacketFromBuffer" name="GetRMAPPacketFromBuffer">
+<area shape="rect" id="node3" href="$a01533.xhtml#a2b24aa902d9e444361e73d9a0d15f5b8" title="Extract an RMAP packet from the data of a received Packet stream item, and return it..." alt="" coords="243,5,464,35"/>
+</map>

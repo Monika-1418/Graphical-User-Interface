@@ -1,0 +1,6 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Receive
+Exec=/usr/local/STAR-Dundee/STAR-System/bin/star_receive
+Icon=/usr/local/STAR-Dundee/STAR-System/STAR.png

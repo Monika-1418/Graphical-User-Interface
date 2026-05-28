@@ -1,0 +1,4 @@
+<map id="GetReceivedPacketRawDataLen" name="GetReceivedPacketRawDataLen">
+<area shape="rect" id="node3" href="$a01525.xhtml#a3556f9997473e27fd1150dfd0a89bb3a" title="Overloaded assignment operator &#45; to allow instances of RMAPPacket objects to have their contents assi..." alt="" coords="283,5,360,35"/>
+<area shape="rect" id="node5" href="$a01525.xhtml#a4560ab0467e350b5639c34b6c0044e98" title="Copy constructor &#45; to allow copies of RMAPPacket objects to be made when being passed by value in fun..." alt="" coords="271,59,372,88"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="RMAPPacket" name="RMAPPacket">
+<area shape="rect" id="node3" href="$a01537.xhtml" title="Represents an RMAP read command packet. " alt="" coords="5,565,227,737"/>
+<area shape="rect" id="node5" href="$a01541.xhtml" title="Represents an RMAP read&#45;modify&#45;write command packet. " alt="" coords="251,504,493,797"/>
+<area shape="rect" id="node7" href="$a01545.xhtml" title="Represents an RMAP read&#45;modify&#45;write reply packet. " alt="" coords="517,539,733,763"/>
+<area shape="rect" id="node9" href="$a01549.xhtml" title="Represents an RMAP read reply packet. " alt="" coords="757,582,952,719"/>
+<area shape="rect" id="node11" href="$a01573.xhtml" title="Represents an RMAP write command packet. " alt="" coords="976,565,1197,737"/>
+<area shape="rect" id="node13" href="$a01577.xhtml" title="Represents an RMAP write reply packet. " alt="" coords="1221,582,1416,719"/>
+</map>

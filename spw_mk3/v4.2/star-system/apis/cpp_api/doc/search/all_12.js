@@ -1,0 +1,5 @@
+var searchData=
+[
+  ['unregister',['Unregister',['../a01233.xhtml#ab8f27193ddc195abf3b092d0ae2f9aef',1,'stardundee::com::starsystem::channels::ChannelListener::Unregister()'],['../a01289.xhtml#ab8f27193ddc195abf3b092d0ae2f9aef',1,'stardundee::com::starsystem::general::DeviceListener::Unregister()'],['../a01305.xhtml#ab8f27193ddc195abf3b092d0ae2f9aef',1,'stardundee::com::starsystem::general::DriverListener::Unregister()'],['../a01637.xhtml#acc7d06125d421dfedfe655527690e28d',1,'stardundee::com::starsystem::general::STARSystemListener::Unregister()'],['../a01697.xhtml#ab8f27193ddc195abf3b092d0ae2f9aef',1,'stardundee::com::starsystem::transferoperations::TransferCompletionListener::Unregister()']]],
+  ['unregisternotificationlistener',['UnregisterNotificationListener',['../a01473.xhtml#a1ac28fbc902260bc8423b4a49ae9c575',1,'stardundee::com::starsystem::rmaptarget::notifications::pxi::PXIRMAPTargetNotificationManager::UnregisterNotificationListener()'],['../a01565.xhtml#a7d73de0c60734fb3f41ad6b5c462af89',1,'stardundee::com::starsystem::rmaptarget::notifications::RMAPTargetNotificationManager::UnregisterNotificationListener()']]]
+];

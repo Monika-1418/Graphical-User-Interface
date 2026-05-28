@@ -1,0 +1,10 @@
+<map id="operator=" name="operator=">
+<area shape="rect" id="node3" href="$a01525.xhtml#abfc30f91ab75c6f4552003f777672e74" title="Perform any clean&#45;up necessary on this object, e.g. " alt="" coords="203,5,275,35"/>
+<area shape="rect" id="node5" href="$a01525.xhtml#a88c6f640d69cf1fb78a275253f4b1199" title="Get the length of the packet&#39;s raw data. " alt="" coords="180,59,297,88"/>
+<area shape="rect" id="node7" href="$a01525.xhtml#afceec51e0db8d825e12011be59a2c89a" title="Obtains a pointer to the raw data for the packet. " alt="" coords="181,112,296,141"/>
+<area shape="rect" id="node9" href="$a01525.xhtml#ae7c6c3dd642cabda06a337be630be9d7" title="Get the length of a received packet&#39;s raw data. " alt="" coords="132,165,345,195"/>
+<area shape="rect" id="node11" href="$a01525.xhtml#a5d98e8f1ea77e35a9d7bcb1a41956488" title="Obtains a pointer to the raw data for a received packet. " alt="" coords="133,219,344,248"/>
+<area shape="rect" id="node13" href="$a01525.xhtml#a05b355b15dad7126bdb15673ec2c4393" title="Obtains a pointer to the RMAP_PACKET struct for a held for a packet. " alt="" coords="149,272,328,301"/>
+<area shape="rect" id="node15" href="$a01525.xhtml#a01bf08035cbf84e5a11c7c4c3bcaba7c" title="Return whether this object holds the data for a received packet (rather than the data for a packet wh..." alt="" coords="135,325,343,355"/>
+<area shape="rect" id="node17" href="$a01525.xhtml#aa967e5255e6711bbac38379f18e19c26" title="Determine whether the given packet type corresponds to a &#39;reply&#39; packet. " alt="" coords="185,379,292,408"/>
+</map>

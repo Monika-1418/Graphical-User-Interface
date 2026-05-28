@@ -1,0 +1,5 @@
+<map id="Packet" name="Packet">
+<area shape="rect" id="node3" href="$a01389.xhtml#ab736d2cec4f52a8431ab57c76a699c8c" title="Frees an array of packet data previously created by a call to GetPacketData(). " alt="" coords="119,5,255,35"/>
+<area shape="rect" id="node5" href="$a01389.xhtml#af76e3db8021235bed9325130cdec0887" title="Get the packet&#39;s data as an array of bytes. " alt="" coords="131,59,243,88"/>
+<area shape="rect" id="node7" href="$a01389.xhtml#a716b91eeec821408a50a74c2200e1fb1" title="Gets the end of packet marker type for the packet. " alt="" coords="131,112,243,141"/>
+</map>

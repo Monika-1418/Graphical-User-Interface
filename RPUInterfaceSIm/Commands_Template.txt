@@ -1,0 +1,86 @@
+Health 16 bytes
+01 49 7e 00 76 ff 77 04 4a
+
+FULL FRAME-
+
+Image Mode- 1048584 bytes
+01 49 7e a8 53 00 00 52 00 00 55 03 ff 54 03 ff 56 00 0f 76 40 77 04 7b f8 7a 00 7c 2d 7d 4b 51 00 00 75 01
+
+ffparams
+1
+2
+1
+0
+1023
+15
+0
+Image Mode from ffparams-
+01 49 7e a8 53 00 00 52 00 00 55 03 ff 54 03 ff 56 00 0f 76 40 77 04 7b f8 7a 00 7c 2d 7d 4b 51 00 00 75 01
+
+
+Thresh Mode- (6K pixels * 6 bytes/pixel) + 16 =36880 bytes
+01 49 7e 19 53 00 00 52 00 00 55 03 ff 54 03 ff 56 00 0f 76 40 77 04 7b f8 7a 00 7c 2d 7d 4b 51 00 64 75 01
+
+ffparams for Thresh
+1
+1
+0
+0
+1023
+15
+100
+Thresh Mode from ffparams-
+01 49 7e 19 53 00 00 52 00 00 55 03 ff 54 03 ff 56 00 0f 76 40 77 04 7b f8 7a 00 7c 2d 7d 4b 51 00 64 75 01
+
+Sobel Mode  [Max is still 36880 bytes but here with thresh =100, 8432bytes ]
+01 49 7e 3a 53 00 00 52 00 00 55 03 ff 54 03 ff 56 00 0f 76 40 77 04 7b f8 7a 00 7c 2d 7d 4b 51 00 64 75 01
+
+ffparams for Sobel
+1
+3
+0
+0
+1023
+15
+100
+
+Sobel Mode from ffparams-
+01 49 7e 3a 53 00 00 52 00 00 55 03 ff 54 03 ff 56 00 0f 76 40 77 04 7b f8 7a 00 7c 2d 7d 4b 51 00 64 75 01
+
+TRACK MODE-
+01 49 76 ff 77 04 7a 02 7b f8 79 a1 7e 5c 7f 00 7c 2d 7d 4b 56 00 05 57 00 05 58 00 05 57 00 fb 58 00 fb
+57 00 fb 58 01 fb 57 00 fb 58 02 fb 57 01 fb 58 00 fb 57 01 9f 58 02 08 57 01 fb 58 02 fb 57 02 fb 58 00 fb
+57 02 fb 58 01 fb 57 02 fb 58 02 fb 75 01
+
+wmparams
+1
+10
+1
+1
+0
+0
+5
+5
+5
+251
+251
+251
+507
+251
+763
+507
+251
+415
+520
+507
+763
+763
+251
+763
+507
+763
+763
+Window from wmparams-
+01 49 76 ff 77 04 7a 02 7e 5c 79 a1 7b f8 7f 00 7c 2d 7d 4b 56 00 05 57 00 05 58 00 05 57 00 fb 58 00 fb
+57 00 fb 58 01 fb 57 00 fb 58 02 fb 57 01 fb 58 00 fb 57 01 9f 58 02 08 57 01 fb 58 02 fb 57 02 fb 58 00 fb
+57 02 fb 58 01 fb 57 02 fb 58 02 fb 75 01

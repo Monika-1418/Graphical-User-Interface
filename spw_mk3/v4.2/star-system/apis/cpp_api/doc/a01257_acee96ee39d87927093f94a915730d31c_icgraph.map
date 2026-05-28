@@ -1,0 +1,4 @@
+<map id="CreateDataChunk" name="CreateDataChunk">
+<area shape="rect" id="node3" href="$a01257.xhtml#a3fae5fd7fecde5a555cfd2b9aac39066" title="Constructor &#45; create a data chunk and initialise it using the buffer provided. " alt="" coords="181,5,269,35"/>
+<area shape="rect" id="node5" href="$a01257.xhtml#ad018f03c831d501acb319a199a3a638e" title="Overloaded assignment operator &#45; to allow instances of DataChunk objects to have their contents assig..." alt="" coords="187,59,264,88"/>
+</map>

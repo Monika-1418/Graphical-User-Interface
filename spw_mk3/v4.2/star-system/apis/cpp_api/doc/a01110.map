@@ -1,0 +1,10 @@
+<map id="Mk2 Devices" name="Mk2 Devices">
+<area shape="rect" id="node1" href="$a01112.xhtml" title="Classes required to perform device configuration tasks which are specific to Brick Mk2 devices..." alt="" coords="365,5,499,35"/>
+<area shape="rect" id="node2" href="$a01117.xhtml" title="Classes required to perform device configuration tasks which are specific to SPLT devices..." alt="" coords="379,59,485,88"/>
+<area shape="rect" id="node4" href="$a01114.xhtml" title="Classes required to perform device configuration tasks which are specific to PCIe devices..." alt="" coords="380,112,484,141"/>
+<area shape="rect" id="node5" href="$a01111.xhtml" title="Classes required to perform device configuration tasks which are specific to PCI Mk2 devices..." alt="" coords="369,165,495,195"/>
+<area shape="rect" id="node6" href="$a01115.xhtml" title="Classes required to perform device configuration tasks which are specific to Router Mk2s devices..." alt="" coords="357,219,507,248"/>
+<area shape="rect" id="node7" href="$a01116.xhtml" title="Classes required to perform device configuration tasks which are specific to PXI devices. " alt="" coords="344,272,520,301"/>
+<area shape="rect" id="node9" href="$a01113.xhtml" title="Classes required to perform device configuration tasks which are specific to Brick Mk3 devices..." alt="" coords="365,325,499,355"/>
+<area shape="rect" id="node8" href="$a01109.xhtml" title="Classes required to perform general device configuration tasks with any type of device. " alt="" coords="5,165,149,195"/>
+</map>

@@ -1,0 +1,45 @@
+End-User Licence Agreement for STAR-Dundee Software
+
+IMPORTANT-PLEASE READ CAREFULLY:
+
+This End-User Licence Agreement is a legal agreement between you, (the "End-User"), and STAR-Dundee, which governs your use of the software ("Software") and any associated documentation, instructions, example software or other materials provided with the software ("Associated Materials").
+
+By installing the Software you agree to be legally bound by the terms of this End-User Licence Agreement which are noted below.
+
+IF YOU DO NOT AGREE to the terms of this End-User Licence Agreement, STAR-Dundee cannot licence the Software to you and you may not, under any circumstances, install or otherwise use the Software. 
+
+Terms and Conditions of End User License
+
+1.  Ownership of Copyright
+Copyright and all other proprietary rights in the Software, including any copies made for archival purposes, and in the Associated Materials shall remain at all times with STAR-Dundee regardless of the form or media in which the Software or Associated Materials exist. This licence does not constitute a sale of the Software or Associated Materials or any copies thereof. 
+
+2.  Licence
+STAR-Dundee grants the End-User a non-transferable, non-exclusive licence to 1) use the Software with the supplied Equipment, and 2) use the Associated Materials. Unless multiple licences have been purchased, the End-User may not use the Software with more than one Equipment unit concurrently. STAR-Dundee further grants the End-User a licence to make one copy of the Software solely for archival purposes. The End-User is solely responsible for installation.
+    
+3.  Restrictions on the use and transfer of the Software
+Except with the express written permission of STAR-Dundee the End-User may NOT:
+- Rent, lease or allow any third party access to the Software or any portion thereof.
+- Transfer the Software and/or the licence granted hereunder to any third party.
+- Save as permitted by law, reverse engineer, decompile, disassemble or use the Software to create any derivative software, provided that, for the avoidance of doubt, nothing in the foregoing shall prevent the End-User from building additional software that calls upon the Software to perform a function.
+- Reproduce, use, or permit to be used, the Software, or any portion or derivatives thereof, in any training or development of any AI System or any portion thereof or of any other datasets, systems, algorithms or methodologies. 
+- Disclose or provide any Software, or any portion or derivative thereof, to any AI System, if the AI System will train or develop itself based on such information or maintain any persistent copy of such information, or any portion or derivative thereof.
+
+For the purposes of this section 3, "AI System" means any large language model, machine learning system or algorithm, or any technology that can make decisions, create predictions, generate new content, or recognize patterns without being explicitly programmed to do so.
+
+4.  Warranty, Liability and Indemnity 
+The Software and Associated Materials are provided "as is" without any warranty of any kind. STAR-Dundee does not warrant, guarantee or make any representations regarding the use, or the results of the use of the Software or the Associated Materials in terms of correctness, accuracy, reliability, fitness for purpose or otherwise. STAR-Dundee shall not be liable for any defect in the Software or Associated Materials or for any loss, damages or injury whatsoever or howsoever caused arising directly or indirectly out of the use of the Software or Associated Materials (except to the extent that such liability may not be lawfully excluded). The End-User agrees to indemnify STAR-Dundee in relation to any claim arising out of that End-User's use of the Software and Associated Materials and for any breach of this End-User Licence Agreement.
+    
+5.  Governing Law
+This End-User Licence Agreement shall be governed by, and interpreted in accordance with, the law of Scotland. The parties hereby submit to the exclusive jurisdiction of the Scottish Courts, provided that the foregoing shall not prevent STAR-Dundee from raising proceedings in any appropriate forum in respect of infringement of intellectual property rights or breach of this End-User Licence Agreement.
+    
+6.  Contact Points
+General – email: enquiries@star-dundee.com
+Support – email: support@star-dundee.com
+
+STAR-Dundee Ltd
+STAR House
+166 Nethergate
+Dundee
+DD1 4EE
+Scotland
+UK

@@ -1,0 +1,5 @@
+<map id="GetPacketData" name="GetPacketData">
+<area shape="rect" id="node3" href="$a01533.xhtml#a2b24aa902d9e444361e73d9a0d15f5b8" title="Extract an RMAP packet from the data of a received Packet stream item, and return it..." alt="" coords="165,5,395,69"/>
+<area shape="rect" id="node5" href="$a01389.xhtml#a1c8a6cabd54835d622e3071205c5ddf0" title="Overloaded assignment operator &#45; to allow instances of Packets to have their contents assigned to eac..." alt="" coords="241,93,319,123"/>
+<area shape="rect" id="node7" href="$a01389.xhtml#a64bda847535a1f56b3e0b55713e2ccef" title="Copy constructor &#45; invoked when a copy of a Packet object is made, e.g. " alt="" coords="249,147,311,176"/>
+</map>

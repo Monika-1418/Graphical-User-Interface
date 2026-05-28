@@ -1,0 +1,10 @@
+<map id="Other Device Configuration APIs" name="Other Device Configuration APIs">
+<area shape="rect" id="node1" href="$group__remote.xhtml" title="Functions in this group deal with creating and destroying remote device identifiers, and obtaining the properties associated with a remote device identifier. " alt="" coords="328,5,448,35"/>
+<area shape="rect" id="node2" href="$group___p_c_i_mk2_config.xhtml" title="The PCI Mk2 Configuration API provides functions for configuring features of the SpaceWire PCI Mk2 an..." alt="" coords="297,59,479,88"/>
+<area shape="rect" id="node4" href="$group___mk2_config.xhtml" title="The Mk2 compatible device API provides functions for configuring features common across the Mk2 range..." alt="" coords="267,111,509,158"/>
+<area shape="rect" id="node5" href="$group___brick_mk3_config.xhtml" title="The Brick Mk3 Configuration API provides functions for configuring features of SpaceWire Brick Mk3 de..." alt="" coords="295,181,481,211"/>
+<area shape="rect" id="node6" href="$group___router_mk2_s_config.xhtml" title="The Router Mk2S Configuration API provides functions for configuring features specific to the SpaceWi..." alt="" coords="285,235,491,264"/>
+<area shape="rect" id="node7" href="$group___p_x_i_config.xhtml" title="The PXI Configuration API provides functions for configuring features of SpaceWire PXI Interface and ..." alt="" coords="313,288,463,317"/>
+<area shape="rect" id="node8" href="$group___router_config.xhtml" title="The Router Configuration API provides functions for configuring features common to a number of SpaceW..." alt="" coords="304,341,472,371"/>
+<area shape="rect" id="node9" href="$group___brick_mk2_config.xhtml" title="The Brick Mk2 Configuration API provides functions for configuring features of SpaceWire Brick Mk2..." alt="" coords="295,395,481,424"/>
+</map>

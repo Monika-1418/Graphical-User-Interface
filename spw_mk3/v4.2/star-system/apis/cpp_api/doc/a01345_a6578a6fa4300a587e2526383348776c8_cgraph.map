@@ -1,0 +1,4 @@
+<map id="SetSpaceWireLinkStatus" name="SetSpaceWireLinkStatus">
+<area shape="rect" id="node3" href="$a01353.xhtml#a75a8dfba4e34dab9d70118066067f925" title="Return the STAR_CFG_SPW_LINK_STATUS struct which is held internally by this object. " alt="" coords="223,5,495,69"/>
+<area shape="rect" id="node5" href="$a01437.xhtml#a95251b99f03ff7d467f5f4c7810c8681" title="Get the port type. " alt="" coords="263,93,455,139"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="DestroyTimeCode" name="DestroyTimeCode">
+<area shape="rect" id="node3" href="$a01677.xhtml#a3aafddc7461afc7395dd7d1e413aefb7" title="Creates a time&#45;code using the time&#45;code value provided. " alt="" coords="183,57,303,87"/>
+<area shape="rect" id="node5" href="$a01677.xhtml#a9b5fe421697fe4640d0e63311ac39b55" title="Overloaded assignment operator &#45; to allow instances of time&#45;codes to have their contents assigned to ..." alt="" coords="355,5,432,35"/>
+<area shape="rect" id="node10" href="$a01677.xhtml#a0ee7efe82b57781670a68abec96a01e4" title="Destructor. " alt="" coords="197,111,288,140"/>
+<area shape="rect" id="node7" href="$a01677.xhtml#a4f352c9c985dc1bf2adacc02d2c29fbc" title="Constructor &#45; create a time&#45;code and initialise it using the value provided. " alt="" coords="352,59,435,88"/>
+</map>

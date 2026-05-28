@@ -1,0 +1,5 @@
+<map id="TransferCompletionListener" name="TransferCompletionListener">
+<area shape="rect" id="node3" href="$a01633.xhtml#aa142492c2c3361401d7396c5795a1b78" title="Increment the reference count for the listener, and return the updated value. " alt="" coords="267,5,488,69"/>
+<area shape="rect" id="node5" href="$a01705.xhtml#a9de5750efe760e0613b807916f6b08bd" title="Increment the reference count for the transfer op, and return the updated value. " alt="" coords="239,93,516,157"/>
+<area shape="rect" id="node7" href="$a01633.xhtml#a833395a66115f8982bf2dc3466a357a5" title="Set the status to indicate listener is registered. " alt="" coords="267,181,488,245"/>
+</map>

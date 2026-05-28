@@ -1,0 +1,4 @@
+<map id="PortStatus" name="PortStatus">
+<area shape="rect" id="node3" href="$a01325.xhtml" title="Holds information about the status of an external port on a device. " alt="" coords="5,209,179,433"/>
+<area shape="rect" id="node5" href="$a01353.xhtml" title="Holds information about the status of a SpaceWire link. " alt="" coords="203,192,320,451"/>
+</map>

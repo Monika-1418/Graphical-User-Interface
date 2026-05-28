@@ -74,21 +74,9 @@ if [ ! -s "$PGM_SRC" ]; then
     exit 1
 fi
 
-# ---- Copy all output files to save path ----
+# ---- Copy PGM to save path ----
 mkdir -p "${SAVE_PATH}/images"
+cp "$PGM_SRC" "${SAVE_PATH}/images/${FILE_NAME}_0.pgm"
 
-SRC_BASE="${RPU_DIR}/images/${FILE_NAME}_0"
-DST_BASE="${SAVE_PATH}/images/${FILE_NAME}_0"
-
-for ext in "" ".test" ".pgm" ".txt"; do
-    SRC="${SRC_BASE}${ext}"
-    if [ -f "$SRC" ]; then
-        cp "$SRC" "${DST_BASE}${ext}"
-        echo "Copied: ${FILE_NAME}_0${ext}"
-    else
-        echo "WARN: ${FILE_NAME}_0${ext} not found in RPU output"
-    fi
-done
-
-echo "Done. All files saved to ${SAVE_PATH}/images/"
+echo "Done. PGM image saved to ${SAVE_PATH}/images/${FILE_NAME}_0.pgm"
 exit 0

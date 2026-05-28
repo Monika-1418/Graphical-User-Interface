@@ -1,0 +1,4 @@
+<map id="GetPortCount" name="GetPortCount">
+<area shape="rect" id="node3" href="$a01273.xhtml#a8f78deeaa993d2b5f32dbf8016912c83" title="Get the network discovery information for the device. " alt="" coords="180,5,353,35"/>
+<area shape="rect" id="node5" href="$a01381.xhtml#acde78084ca6dca493f56deeed182536c" title="Get the number of ports the device has. " alt="" coords="157,59,376,123"/>
+</map>

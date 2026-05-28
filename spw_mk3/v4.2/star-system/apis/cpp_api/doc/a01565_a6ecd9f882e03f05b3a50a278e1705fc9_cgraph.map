@@ -1,0 +1,8 @@
+<map id="RMAPTargetNotificationManager" name="RMAPTargetNotificationManager">
+<area shape="rect" id="node3" href="$a01565.xhtml#a5df4c566c64ca87e5af810beeee11e1c" title="Get the notifications that are enabled for a target. " alt="" coords="285,5,448,35"/>
+<area shape="rect" id="node5" href="$a01565.xhtml#ad8f7652cb4e4ea8b86ccafcb8559e52c" title="Register a notification callback. " alt="" coords="276,59,457,88"/>
+<area shape="rect" id="node7" href="$a01565.xhtml#ac47f895af628e7f16642d84e85aefb74" title="Set the notifications that are enabled for a target. " alt="" coords="285,112,448,141"/>
+<area shape="rect" id="node9" href="$a01565.xhtml#a64299c037b26097d82782a3acd763b68" title="Start receiving notifications for a device. " alt="" coords="276,165,457,195"/>
+<area shape="rect" id="node11" href="$a01565.xhtml#a696052337c3f044a448a7f74affad540" title="Stop receiving notifications for a device. " alt="" coords="277,219,456,248"/>
+<area shape="rect" id="node13" href="$a01565.xhtml#a7d73de0c60734fb3f41ad6b5c462af89" title="Unregister a notification callback. " alt="" coords="269,272,464,301"/>
+</map>

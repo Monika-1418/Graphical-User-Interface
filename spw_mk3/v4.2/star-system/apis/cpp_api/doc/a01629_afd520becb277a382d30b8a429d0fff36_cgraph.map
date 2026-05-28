@@ -1,0 +1,6 @@
+<map id="GetDevice" name="GetDevice">
+<area shape="rect" id="node3" href="$a01277.xhtml#a3d1e70844eb20a3fdc87ce913bbfb2ff" title="Create and return an instance of a Device object corresponding to the given device ID..." alt="" coords="139,36,331,100"/>
+<area shape="rect" id="node5" href="$a01621.xhtml#a05a487cc6ffbf0e31537f4eba6ea2d30" title="Set the device&#39;s ID. " alt="" coords="379,45,619,91"/>
+<area shape="rect" id="node7" href="$a01621.xhtml#a6e3e20395600d3ee8eeea21ed8db1b75" title="Create and return an instance of a new Device object which is a copy of this device. " alt="" coords="667,5,904,51"/>
+<area shape="rect" id="node9" href="$a01621.xhtml#a4c2f14b261161a3e38c8516e4ab8bd6a" title="Gets the configuration state for the device. " alt="" coords="672,75,899,139"/>
+</map>

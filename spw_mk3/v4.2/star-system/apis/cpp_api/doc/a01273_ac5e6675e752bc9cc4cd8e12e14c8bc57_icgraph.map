@@ -1,0 +1,5 @@
+<map id="CreateLinkPort" name="CreateLinkPort">
+<area shape="rect" id="node3" href="$a01273.xhtml#a8cc6f9767b76f81ac7c949e8ee7a68df" title="Create and return an instance of a Port object which corresponds to the given port number on the give..." alt="" coords="163,32,248,61"/>
+<area shape="rect" id="node5" href="$a01273.xhtml#a7bdc72a3511f4913e9e2952ba9855614" title="Get the port on the device corresponding to the given port number. " alt="" coords="329,5,396,35"/>
+<area shape="rect" id="node7" href="$a01273.xhtml#a9aa876ec7e5fbeb037179c887b7a26bc" title="Gets the output port to which the given (source) port is currently connected to whilst routing is in ..." alt="" coords="296,59,429,88"/>
+</map>

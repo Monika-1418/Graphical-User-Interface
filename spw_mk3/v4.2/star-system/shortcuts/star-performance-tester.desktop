@@ -1,0 +1,6 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Performance Tester
+Exec=/usr/local/STAR-Dundee/STAR-System/launch_star_performance_tester.sh
+Icon=/usr/local/STAR-Dundee/STAR-System/STAR.png

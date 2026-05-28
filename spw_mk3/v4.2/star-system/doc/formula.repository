@@ -1,0 +1,21 @@
+\form#0:$F_{sync}$
+\form#1:$Seconds = SyncPulse / F_{sync}$
+\form#2:$SubSeconds = ClockCycles / (TotalCycles * F_{sync})$
+\form#3:$x.y = Seconds + SubSeconds$
+\form#4:\begin{eqnarray*} Seconds &=& 1234 / 10 \\ &=& 123.4 \end{eqnarray*}
+\form#5:\begin{eqnarray*} SubSeconds &=& \frac{234567}{301210 * F_{sync}} \\ &=& 77.8749045516E-3 \end{eqnarray*}
+\form#6:\begin{eqnarray*} x.y = 123.477874905 seconds \end{eqnarray*}
+\form#7:$RMAP OFFSET$
+\form#8:\[ {PHYSICAL MEMORY ADDRESS} = (2^{20} \times {RMAP OFFSET}) + {RMAP ADDRESS} \]
+\form#9:$LOCAL OFFSET$
+\form#10:\[ {PHYSICAL MEMORY ADDRESS} = (2^{24} \times {LOCAL OFFSET}) + {LA} \]
+\form#11:\[ Link Transmit Rate = \frac{Link Clock Rate}{Link Clock Rate Divider} \]
+\form#12:$Link Clock Rate$
+\form#13:$Link Clock Rate Divider$
+\form#14:\[ Base Clock Rate = \frac{100 \mathrm{MHz} \times MULTIPIER}{DIVISOR} \]
+\form#15:$MULTIPIER$
+\form#16:$DIVISOR$
+\form#17:\[ Link Transmit Rate = \frac{Base Clock Rate}{Link Clock Rate Divider} \times 2 \]
+\form#18:\[ Link Transmit Rate = \frac{100 \mathrm{MHz} \times MULTIPIER}{DIVISOR} \times 2 \]
+\form#19:$Base Clock Rate$
+\form#20:$Link Clock Rate Divider =$

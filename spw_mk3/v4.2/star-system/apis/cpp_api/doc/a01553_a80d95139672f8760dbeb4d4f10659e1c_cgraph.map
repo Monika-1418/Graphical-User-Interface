@@ -1,0 +1,21 @@
+<map id="operator=" name="operator=">
+<area shape="rect" id="node3" href="$a01553.xhtml#abc53ef1266b7ce2b2482f53df27c1257" title="Gets the address offset from a specific target. " alt="" coords="169,5,295,35"/>
+<area shape="rect" id="node5" href="$a01553.xhtml#af930827c346d688f80df00dec2800a3d" title="Gets the authorised RMAP commands from a specific target. " alt="" coords="164,59,300,88"/>
+<area shape="rect" id="node7" href="$a01553.xhtml#abe9672754e474ade487be4dce1c927a3" title="Gets the authorisation control mode from a specific target. " alt="" coords="160,112,304,141"/>
+<area shape="rect" id="node9" href="$a01553.xhtml#a03844aac714e3d51dc795b0c8a80a0f6" title="Gets the authorised key range from a specific target. " alt="" coords="167,165,297,195"/>
+<area shape="rect" id="node11" href="$a01553.xhtml#ad8395bc0fd1954053f911ce25e253f92" title="Gets the authorised target logical address range from a specific target. " alt="" coords="133,219,331,248"/>
+<area shape="rect" id="node13" href="$a01553.xhtml#a74fd58aee05dafee6eafbd8cc4e992b9" title="Gets the authorised memory address range from a specific target. " alt="" coords="131,272,333,301"/>
+<area shape="rect" id="node15" href="$a01553.xhtml#a9fe24b7016e23ffab27371f56bfd70ef" title="Gets the authorised protocol ID from a specific target. " alt="" coords="168,325,296,355"/>
+<area shape="rect" id="node17" href="$a01553.xhtml#a56a8bcfd984bc0966d648bbd4675eecf" title="Gets the RMAP interface mode for a specific port. " alt="" coords="169,379,295,408"/>
+<area shape="rect" id="node19" href="$a01553.xhtml#a23ce69d5d84b54dcf8c36bf91af8b967" title="Gets the RMAP target status for a specific target. " alt="" coords="192,432,272,461"/>
+<area shape="rect" id="node21" href="$a01553.xhtml#a60297924d5fa68d61f4890f3e6f5b420" title="Reads an area of RMAP target memory into a user&#45;supplied buffer. " alt="" coords="183,485,281,515"/>
+<area shape="rect" id="node23" href="$a01553.xhtml#a533eb1cd22d9bc7248ac617ed7a1d39c" title="Sets the address offset for a specific target. " alt="" coords="169,539,295,568"/>
+<area shape="rect" id="node25" href="$a01553.xhtml#a49185a15152856d985d0c5a4fd873c77" title="Sets the authorised RMAP commands for a specific target. " alt="" coords="164,592,300,621"/>
+<area shape="rect" id="node27" href="$a01553.xhtml#ab931b144f240e3c959b902cf69d5b6cb" title="Sets the authorisation control mode for a specific target. " alt="" coords="161,645,303,675"/>
+<area shape="rect" id="node29" href="$a01553.xhtml#a8935eec10149529297f29e401606843c" title="Sets the authorised key range for a specific target. " alt="" coords="167,699,297,728"/>
+<area shape="rect" id="node31" href="$a01553.xhtml#ae905ed1603337e2a87ba4b95ce778cac" title="Sets the authorised target logical address range for a specific target. " alt="" coords="135,752,329,781"/>
+<area shape="rect" id="node33" href="$a01553.xhtml#a26cc1ec530bc8757026337d9039af25a" title="Sets the authorised memory address range for a specific target. " alt="" coords="131,805,333,835"/>
+<area shape="rect" id="node35" href="$a01553.xhtml#ac20e11a159d35132094244b1cb684f3d" title="Sets the authorised protocol ID for a specific target. " alt="" coords="168,859,296,888"/>
+<area shape="rect" id="node37" href="$a01553.xhtml#a35886998055d1babd3ea3e135f133585" title="Sets the RMAP interface mode for a specific port. " alt="" coords="169,912,295,941"/>
+<area shape="rect" id="node39" href="$a01553.xhtml#a1aa695d4d4d918b0fbf697b6eb263911" title="Writes an area of RMAP target memory from a user&#45;supplied buffer. " alt="" coords="183,965,281,995"/>
+</map>

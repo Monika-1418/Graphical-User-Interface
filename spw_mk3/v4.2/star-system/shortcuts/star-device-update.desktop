@@ -1,0 +1,6 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Device Update
+Exec=/usr/local/STAR-Dundee/STAR-System/bin/star_device_update
+Icon=/usr/local/STAR-Dundee/STAR-System/STAR.png

@@ -1,0 +1,5 @@
+<map id="PortErrors" name="PortErrors">
+<area shape="rect" id="node3" href="$a01253.xhtml" title="Holds information about errors that may be present on a device&#39;s configuration port. " alt="" coords="5,209,224,468"/>
+<area shape="rect" id="node5" href="$a01321.xhtml" title="Holds information about errors which may be present on one of the external ports on a device..." alt="" coords="248,235,405,442"/>
+<area shape="rect" id="node7" href="$a01349.xhtml" title="Holds information about errors which may be present on one of the link ports on a device..." alt="" coords="429,192,608,485"/>
+</map>

@@ -1,0 +1,2982 @@
+
+
+Window-0...centl-499.582916 , centp- 500.606201, cpi-3742, fratio-8.944551, avgside-418.355286,sumi-6017.053223, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-1...centl-499.591919 , centp- 500.591675, cpi-3691, fratio-9.392801, avgside-392.960510,sumi-5760.894043, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-2...centl-499.593323 , centp- 500.591309, cpi-3772, fratio-9.389538, avgside-401.723694,sumi-5894.512695, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-3...centl-499.603607 , centp- 500.602814, cpi-3785, fratio-9.466860, avgside-399.815796,sumi-5823.526367, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-4...centl-499.603699 , centp- 500.601349, cpi-3846, fratio-9.243438, avgside-416.078949,sumi-5924.631348, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-5...centl-499.608337 , centp- 500.600739, cpi-3890, fratio-9.586873, avgside-405.763153,sumi-5926.105469, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-6...centl-499.607330 , centp- 500.604858, cpi-3861, fratio-9.300665, avgside-415.131592,sumi-5978.052734, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-7...centl-499.606659 , centp- 500.602722, cpi-3891, fratio-9.289021, avgside-418.881592,sumi-6025.052734, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-8...centl-499.593811 , centp- 500.596771, cpi-3888, fratio-9.100619, avgside-427.223694,sumi-6098.012695, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-9...centl-499.596893 , centp- 500.587830, cpi-3891, fratio-9.301585, avgside-418.315796,sumi-6103.592285, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-10...centl-499.598389 , centp- 500.598877, cpi-3893, fratio-8.858323, avgside-439.473694,sumi-6180.512695, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-11...centl-499.593079 , centp- 500.599243, cpi-3888, fratio-8.844828, avgside-439.578949,sumi-6170.710449, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-12...centl-499.612610 , centp- 500.605927, cpi-3887, fratio-8.979089, avgside-432.894714,sumi-6119.157715, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-13...centl-499.613464 , centp- 500.603607, cpi-3892, fratio-9.122625, avgside-426.631592,sumi-6072.052734, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-14...centl-499.603668 , centp- 500.606628, cpi-3890, fratio-8.775044, avgside-443.302612,sumi-6130.421387, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-15...centl-499.608643 , centp- 500.611084, cpi-3885, fratio-8.851250, avgside-438.921051,sumi-6115.368652, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-16...centl-499.617371 , centp- 500.612366, cpi-3893, fratio-8.648330, avgside-450.144714,sumi-6167.157715, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-17...centl-499.603333 , centp- 500.598694, cpi-3892, fratio-8.655975, avgside-449.631592,sumi-6234.433594, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-18...centl-499.597717 , centp- 500.599457, cpi-3892, fratio-8.422323, avgside-462.105286,sumi-6313.697754, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-19...centl-499.620270 , centp- 500.611237, cpi-3887, fratio-8.362926, avgside-464.789490,sumi-6288.316406, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-20...centl-499.606567 , centp- 500.598846, cpi-3889, fratio-8.345022, avgside-466.026306,sumi-6331.987305, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-21...centl-499.607910 , centp- 500.604462, cpi-3891, fratio-8.383874, avgside-464.105286,sumi-6337.447754, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-22...centl-499.595642 , centp- 500.598907, cpi-3888, fratio-8.097115, avgside-480.171051,sumi-6385.789551, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-23...centl-499.603485 , centp- 500.599396, cpi-3888, fratio-8.112230, avgside-479.276306,sumi-6396.487305, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-24...centl-499.598816 , centp- 500.601166, cpi-3888, fratio-7.854128, avgside-495.026306,sumi-6463.487305, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-25...centl-499.606445 , centp- 500.601776, cpi-3890, fratio-7.813723, avgside-497.842102,sumi-6455.579102, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-26...centl-499.617645 , centp- 500.624146, cpi-3888, fratio-7.776000, avgside-500.000000,sumi-6448.000000, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-27...centl-499.602173 , centp- 500.605988, cpi-3892, fratio-7.553229, avgside-515.276306,sumi-6555.737305, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-28...centl-499.621307 , centp- 500.629211, cpi-3889, fratio-7.457335, avgside-521.500000,sumi-6575.000000, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-29...centl-499.607422 , centp- 500.608704, cpi-3888, fratio-7.271224, avgside-534.710510,sumi-6658.644531, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-30...centl-499.605255 , centp- 500.613037, cpi-3891, fratio-7.491601, avgside-519.381592,sumi-6604.683594, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-31...centl-499.607330 , centp- 500.617920, cpi-3891, fratio-7.533590, avgside-516.486816,sumi-6597.381348, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-32...centl-499.606445 , centp- 500.611328, cpi-3890, fratio-7.544146, avgside-515.631592,sumi-6597.183594, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-33...centl-499.604675 , centp- 500.614868, cpi-3890, fratio-7.501840, avgside-518.539490,sumi-6609.105469, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-34...centl-499.610565 , centp- 500.613037, cpi-3894, fratio-7.192883, avgside-541.368408,sumi-6709.566406, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-35...centl-499.606781 , centp- 500.616913, cpi-3887, fratio-7.072010, avgside-549.631592,sumi-6744.183594, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-36...centl-499.609406 , centp- 500.617157, cpi-3891, fratio-6.958678, avgside-559.157898,sumi-6828.170898, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-37...centl-499.614258 , centp- 500.618378, cpi-3885, fratio-6.883160, avgside-564.421021,sumi-6815.289551, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-38...centl-499.611694 , centp- 500.619049, cpi-3890, fratio-6.882712, avgside-565.184204,sumi-6846.157715, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-39...centl-499.618042 , centp- 500.624023, cpi-3893, fratio-6.646777, avgside-585.697388,sumi-6972.776367, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-40...centl-499.621643 , centp- 500.621338, cpi-3887, fratio-6.685496, avgside-581.407898,sumi-6946.670898, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-41...centl-499.610474 , centp- 500.626099, cpi-3885, fratio-6.463801, avgside-601.039490,sumi-7042.855469, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-42...centl-499.616791 , centp- 500.622070, cpi-3889, fratio-6.392785, avgside-608.342102,sumi-7037.329102, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-43...centl-499.619873 , centp- 500.626953, cpi-3893, fratio-6.373032, avgside-610.855286,sumi-7057.697754, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-44...centl-499.622803 , centp- 500.623138, cpi-3890, fratio-6.338765, avgside-613.684204,sumi-7090.157715, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-45...centl-499.616333 , centp- 500.633179, cpi-3889, fratio-6.352800, avgside-612.171021,sumi-7115.539551, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-46...centl-499.622986 , centp- 500.627991, cpi-3888, fratio-6.172718, avgside-629.868408,sumi-7178.316406, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-47...centl-499.623657 , centp- 500.626343, cpi-3893, fratio-6.240888, avgside-623.789490,sumi-7156.355469, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-48...centl-499.625671 , centp- 500.632507, cpi-3886, fratio-6.063025, avgside-640.934204,sumi-7214.157715, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-49...centl-499.622070 , centp- 500.625519, cpi-3892, fratio-6.012155, avgside-647.355286,sumi-7273.947754, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-50...centl-499.628174 , centp- 500.624969, cpi-3891, fratio-6.135696, avgside-634.157898,sumi-7209.170898, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-51...centl-499.625763 , centp- 500.632172, cpi-3891, fratio-5.970562, avgside-651.697388,sumi-7307.526367, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-52...centl-499.629211 , centp- 500.627258, cpi-3889, fratio-5.956069, avgside-652.947388,sumi-7290.526367, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-53...centl-499.624237 , centp- 500.628906, cpi-3889, fratio-5.973645, avgside-651.026306,sumi-7299.237305, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-54...centl-499.628754 , centp- 500.632935, cpi-3889, fratio-5.892659, avgside-659.973694,sumi-7312.512695, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-55...centl-499.627777 , centp- 500.635803, cpi-3888, fratio-5.914373, avgside-657.381592,sumi-7351.183594, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-56...centl-499.622681 , centp- 500.627625, cpi-3891, fratio-5.892870, avgside-660.289490,sumi-7334.605469, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-57...centl-499.624390 , centp- 500.630310, cpi-3885, fratio-5.864617, avgside-662.447388,sumi-7357.026367, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-58...centl-499.626282 , centp- 500.631927, cpi-3888, fratio-5.775424, avgside-673.197388,sumi-7365.276367, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-59...centl-499.620483 , centp- 500.621429, cpi-3889, fratio-5.815556, avgside-668.723694,sumi-7354.762695, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-60...centl-499.626465 , centp- 500.633789, cpi-3886, fratio-5.818053, avgside-667.921021,sumi-7352.289551, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-61...centl-499.628845 , centp- 500.630646, cpi-3890, fratio-5.981467, avgside-650.342102,sumi-7272.329102, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-62...centl-499.623718 , centp- 500.628082, cpi-3889, fratio-5.899835, avgside-659.171021,sumi-7320.539551, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-63...centl-499.631866 , centp- 500.632385, cpi-3886, fratio-5.824134, avgside-667.223694,sumi-7351.512695, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-64...centl-499.633209 , centp- 500.629974, cpi-3892, fratio-6.004466, avgside-648.184204,sumi-7294.157715, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-65...centl-499.625885 , centp- 500.624084, cpi-3892, fratio-5.996068, avgside-649.092102,sumi-7286.079102, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-66...centl-499.627594 , centp- 500.626556, cpi-3887, fratio-6.050177, avgside-642.460510,sumi-7244.394531, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-67...centl-499.624146 , centp- 500.627319, cpi-3888, fratio-6.078999, avgside-639.578979,sumi-7211.960449, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-68...centl-499.628967 , centp- 500.626404, cpi-3889, fratio-6.211807, avgside-626.065796,sumi-7152.092285, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-69...centl-499.620331 , centp- 500.625824, cpi-3889, fratio-6.308191, avgside-616.500000,sumi-7081.250000, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-70...centl-499.623474 , centp- 500.623657, cpi-3888, fratio-6.279764, avgside-619.131592,sumi-7112.433594, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-71...centl-499.623260 , centp- 500.623444, cpi-3888, fratio-6.426167, avgside-605.026306,sumi-7070.987305, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-72...centl-499.624542 , centp- 500.621216, cpi-3889, fratio-6.375823, avgside-609.960510,sumi-7052.394531, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-73...centl-499.616058 , centp- 500.619934, cpi-3890, fratio-6.763824, avgside-575.118408,sumi-6890.816406, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-74...centl-499.630676 , centp- 500.633636, cpi-3892, fratio-6.777691, avgside-574.236816,sumi-6838.894531, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-75...centl-499.630554 , centp- 500.631287, cpi-3895, fratio-6.746895, avgside-577.302612,sumi-6835.421387, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-76...centl-499.617676 , centp- 500.612274, cpi-3889, fratio-6.842234, avgside-568.381592,sumi-6851.683594, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-77...centl-499.628418 , centp- 500.627502, cpi-3890, fratio-7.088838, avgside-548.750000,sumi-6680.000000, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-78...centl-499.617310 , centp- 500.613861, cpi-3890, fratio-7.161649, avgside-543.171021,sumi-6689.289551, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-79...centl-499.611908 , centp- 500.613556, cpi-3888, fratio-7.332208, avgside-530.263184,sumi-6702.118652, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-80...centl-499.613464 , centp- 500.614105, cpi-3885, fratio-7.406312, avgside-524.552612,sumi-6626.473633, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-81...centl-499.611664 , centp- 500.611328, cpi-3886, fratio-7.649805, avgside-507.986847,sumi-6528.881348, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-82...centl-499.608612 , centp- 500.601471, cpi-3887, fratio-7.671445, avgside-506.684204,sumi-6532.907715, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-83...centl-499.605652 , centp- 500.606598, cpi-3894, fratio-7.925444, avgside-491.328949,sumi-6447.960449, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-84...centl-499.606201 , centp- 500.605743, cpi-3887, fratio-8.195871, avgside-474.263153,sumi-6374.618652, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-85...centl-499.612915 , centp- 500.614777, cpi-3887, fratio-8.045647, avgside-483.118408,sumi-6322.947266, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-86...centl-499.601349 , centp- 500.594543, cpi-3889, fratio-8.388840, avgside-463.592102,sumi-6326.579102, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-87...centl-499.607971 , centp- 500.601257, cpi-3889, fratio-8.674435, avgside-448.328949,sumi-6253.960449, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-88...centl-499.612152 , centp- 500.611511, cpi-3888, fratio-8.768711, avgside-443.394714,sumi-6147.157715, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-89...centl-499.607086 , centp- 500.615082, cpi-3893, fratio-8.847727, avgside-440.000000,sumi-6129.000000, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-90...centl-499.608429 , centp- 500.609772, cpi-3886, fratio-8.876146, avgside-437.802612,sumi-6105.421387, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-91...centl-499.609955 , centp- 500.605286, cpi-3861, fratio-8.932875, avgside-432.223694,sumi-6052.789062, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-92...centl-499.606140 , centp- 500.614105, cpi-3830, fratio-8.986170, avgside-426.210510,sumi-6005.683594, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-93...centl-499.608154 , centp- 500.606140, cpi-3740, fratio-9.191269, avgside-406.907898,sumi-5840.263184, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-94...centl-499.607666 , centp- 500.602997, cpi-3769, fratio-8.959214, avgside-420.684204,sumi-5904.473633, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-95...centl-499.610718 , centp- 500.610992, cpi-3693, fratio-9.245273, avgside-399.447388,sumi-5746.578613, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-96...centl-499.589539 , centp- 500.597717, cpi-3734, fratio-9.222750, avgside-404.868408,sumi-5850.816406, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-97...centl-499.611267 , centp- 500.609131, cpi-3664, fratio-9.370529, avgside-391.013153,sumi-5667.105469, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-98...centl-499.596405 , centp- 500.596527, cpi-3649, fratio-9.210055, avgside-396.197388,sumi-5727.026367, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-99...centl-499.605804 , centp- 500.612946, cpi-3622, fratio-9.316095, avgside-388.789490,sumi-5615.316406, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-100...centl-499.613617 , centp- 500.607544, cpi-3598, fratio-9.185662, avgside-391.697388,sumi-5614.578613, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-101...centl-499.609985 , centp- 500.608704, cpi-3588, fratio-9.303265, avgside-385.671051,sumi-5557.368652, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-102...centl-499.605835 , centp- 500.612640, cpi-3600, fratio-9.387867, avgside-383.473694,sumi-5572.789062, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-103...centl-499.607208 , centp- 500.607697, cpi-3616, fratio-9.158092, avgside-394.842102,sumi-5641.736816, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-104...centl-499.608276 , centp- 500.604980, cpi-3567, fratio-9.244084, avgside-385.868408,sumi-5537.947266, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-105...centl-499.598267 , centp- 500.605377, cpi-3592, fratio-9.557539, avgside-375.828949,sumi-5508.631348, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-106...centl-499.597260 , centp- 500.591125, cpi-3575, fratio-9.202994, avgside-388.460510,sumi-5618.644043, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-107...centl-499.606354 , centp- 500.603760, cpi-3602, fratio-9.647987, avgside-373.342102,sumi-5505.736816, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-108...centl-499.605652 , centp- 500.600342, cpi-3656, fratio-9.653140, avgside-378.736847,sumi-5614.894531, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-109...centl-499.602386 , centp- 500.607239, cpi-3675, fratio-9.537631, avgside-385.315796,sumi-5648.526367, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-110...centl-499.592041 , centp- 500.597229, cpi-3691, fratio-9.388714, avgside-393.131592,sumi-5782.683594, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-111...centl-499.599426 , centp- 500.604492, cpi-3740, fratio-9.480671, avgside-394.486847,sumi-5725.894531, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-112...centl-499.605804 , centp- 500.604431, cpi-3741, fratio-9.327341, avgside-401.078949,sumi-5778.631348, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-113...centl-499.609100 , centp- 500.607391, cpi-3844, fratio-9.494443, avgside-404.868408,sumi-5921.947266, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-114...centl-499.593262 , centp- 500.593628, cpi-3886, fratio-9.212840, avgside-421.802612,sumi-6089.723633, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-115...centl-499.610474 , centp- 500.611938, cpi-3888, fratio-9.059325, avgside-429.171051,sumi-6084.368652, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-116...centl-499.604004 , centp- 500.596680, cpi-3886, fratio-8.869748, avgside-438.118408,sumi-6171.316406, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-117...centl-499.597778 , centp- 500.599121, cpi-3890, fratio-8.957159, avgside-434.289490,sumi-6182.605957, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-118...centl-499.612488 , centp- 500.611328, cpi-3887, fratio-8.679399, avgside-447.842102,sumi-6145.736816, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-119...centl-499.612122 , centp- 500.616272, cpi-3891, fratio-8.386251, avgside-463.973694,sumi-6258.789062, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-120...centl-499.611420 , centp- 500.618073, cpi-3887, fratio-8.144578, avgside-477.250000,sumi-6311.000000, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-121...centl-499.605560 , centp- 500.604126, cpi-3889, fratio-7.905317, avgside-491.947388,sumi-6451.776367, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-122...centl-499.604645 , centp- 500.612762, cpi-3887, fratio-7.683616, avgside-505.881592,sumi-6558.183594, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-123...centl-499.616821 , centp- 500.621948, cpi-3891, fratio-7.823381, avgside-497.355286,sumi-6420.842285, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-124...centl-499.623718 , centp- 500.628204, cpi-3890, fratio-7.714427, avgside-504.250000,sumi-6446.000000, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-125...centl-499.607666 , centp- 500.614227, cpi-3889, fratio-7.545095, avgside-515.434204,sumi-6609.657715, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-126...centl-499.607086 , centp- 500.620422, cpi-3888, fratio-7.334939, avgside-530.065796,sumi-6643.342285, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-127...centl-499.610809 , centp- 500.615936, cpi-3891, fratio-7.427811, avgside-523.842102,sumi-6617.079102, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-128...centl-499.608429 , centp- 500.610382, cpi-3882, fratio-7.253756, avgside-535.171021,sumi-6637.289551, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-129...centl-499.620941 , centp- 500.614563, cpi-3888, fratio-7.160568, avgside-542.973694,sumi-6723.012695, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-130...centl-499.607208 , centp- 500.617310, cpi-3886, fratio-7.090730, avgside-548.039490,sumi-6751.855469, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-131...centl-499.612427 , centp- 500.611816, cpi-3891, fratio-6.770830, avgside-574.671021,sumi-6865.039551, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-132...centl-499.613983 , centp- 500.621155, cpi-3887, fratio-6.659123, avgside-583.710510,sumi-6906.394531, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-133...centl-499.619904 , centp- 500.617340, cpi-3890, fratio-6.499297, avgside-598.526306,sumi-7020.237305, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-134...centl-499.611084 , centp- 500.620850, cpi-3885, fratio-6.539680, avgside-594.065796,sumi-7016.342285, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-135...centl-499.612946 , centp- 500.622070, cpi-3895, fratio-6.526589, avgside-596.789490,sumi-7063.605469, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-136...centl-499.611298 , centp- 500.625549, cpi-3890, fratio-6.234237, avgside-623.973694,sumi-7153.262695, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-137...centl-499.616180 , centp- 500.623932, cpi-3890, fratio-6.130812, avgside-634.500000,sumi-7205.000000, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-138...centl-499.613403 , centp- 500.620789, cpi-3889, fratio-6.166833, avgside-630.631592,sumi-7215.433594, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-139...centl-499.618469 , centp- 500.631531, cpi-3893, fratio-6.095721, avgside-638.644714,sumi-7207.802246, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-140...centl-499.621887 , centp- 500.630829, cpi-3890, fratio-5.958441, avgside-652.855286,sumi-7267.947754, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-141...centl-499.620850 , centp- 500.630157, cpi-3889, fratio-6.015223, avgside-646.526306,sumi-7304.737305, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-142...centl-499.619049 , centp- 500.632965, cpi-3890, fratio-5.972525, avgside-651.315796,sumi-7302.342285, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-143...centl-499.623230 , centp- 500.631256, cpi-3891, fratio-5.894749, avgside-660.078979,sumi-7346.960449, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-144...centl-499.621857 , centp- 500.630066, cpi-3885, fratio-5.863569, avgside-662.565796,sumi-7380.342285, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-145...centl-499.627716 , centp- 500.632050, cpi-3888, fratio-5.864021, avgside-663.026306,sumi-7367.237305, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-146...centl-499.627106 , centp- 500.632263, cpi-3888, fratio-5.839222, avgside-665.842102,sumi-7357.079102, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-147...centl-499.621155 , centp- 500.627594, cpi-3884, fratio-5.863224, avgside-662.434204,sumi-7358.657715, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-148...centl-499.624817 , centp- 500.623810, cpi-3883, fratio-5.896146, avgside-658.565796,sumi-7302.342285, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-149...centl-499.621704 , centp- 500.624969, cpi-3892, fratio-5.961625, avgside-652.842102,sumi-7282.079102, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-150...centl-499.619995 , centp- 500.624237, cpi-3890, fratio-6.049148, avgside-643.065796,sumi-7244.342285, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-151...centl-499.623169 , centp- 500.626862, cpi-3884, fratio-6.141861, avgside-632.381592,sumi-7137.933594, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-152...centl-499.621521 , centp- 500.625427, cpi-3888, fratio-6.160877, avgside-631.078979,sumi-7161.710449, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-153...centl-499.619873 , centp- 500.627411, cpi-3885, fratio-6.347766, avgside-612.026306,sumi-7054.487305, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-154...centl-499.625458 , centp- 500.623260, cpi-3891, fratio-6.493544, avgside-599.210510,sumi-7024.644531, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-155...centl-499.617188 , centp- 500.615936, cpi-3895, fratio-6.773603, avgside-575.026306,sumi-6899.487305, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-156...centl-499.629425 , centp- 500.621857, cpi-3887, fratio-6.966443, avgside-557.960510,sumi-6752.683594, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-157...centl-499.614258 , centp- 500.613525, cpi-3889, fratio-7.170055, avgside-542.394714,sumi-6731.302246, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-158...centl-499.614716 , centp- 500.604584, cpi-3885, fratio-7.357038, avgside-528.065796,sumi-6663.842285, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-159...centl-499.620514 , centp- 500.609436, cpi-3887, fratio-7.522396, avgside-516.723694,sumi-6598.762695, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-160...centl-499.603851 , centp- 500.609253, cpi-3891, fratio-7.628625, avgside-510.052612,sumi-6527.223633, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-161...centl-499.609528 , centp- 500.613129, cpi-3888, fratio-7.903496, avgside-491.934204,sumi-6479.657715, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-162...centl-499.607056 , centp- 500.608337, cpi-3891, fratio-7.897554, avgside-492.684204,sumi-6479.157715, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-163...centl-499.619629 , centp- 500.610168, cpi-3890, fratio-8.004766, avgside-485.960510,sumi-6363.683594, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-164...centl-499.607971 , centp- 500.607544, cpi-3887, fratio-8.159426, avgside-476.381592,sumi-6356.183594, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-165...centl-499.617035 , centp- 500.612885, cpi-3889, fratio-8.327858, avgside-466.986847,sumi-6296.894531, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-166...centl-499.605286 , centp- 500.599091, cpi-3889, fratio-8.605736, avgside-451.907898,sumi-6256.420898, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-167...centl-499.598938 , centp- 500.602112, cpi-3885, fratio-8.653575, avgside-448.947388,sumi-6236.526367, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-168...centl-499.612335 , centp- 500.606140, cpi-3892, fratio-8.874115, avgside-438.578949,sumi-6122.631348, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-169...centl-499.610016 , centp- 500.608734, cpi-3881, fratio-9.038027, avgside-429.407898,sumi-6045.263184, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-170...centl-499.613892 , centp- 500.605927, cpi-3833, fratio-8.939941, avgside-428.750000,sumi-6012.000000, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-171...centl-499.603088 , centp- 500.597137, cpi-3833, fratio-8.968290, avgside-427.394714,sumi-6053.552246, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-172...centl-499.614288 , centp- 500.606445, cpi-3754, fratio-8.844716, avgside-424.434204,sumi-5920.473633, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-173...centl-499.592010 , centp- 500.601990, cpi-3761, fratio-9.001291, avgside-417.828949,sumi-5925.710449, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-174...centl-499.611938 , centp- 500.608856, cpi-3691, fratio-8.966470, avgside-411.644714,sumi-5776.157715, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-175...centl-499.603516 , centp- 500.611786, cpi-3616, fratio-9.262421, avgside-390.394714,sumi-5587.157715, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-176...centl-499.605621 , centp- 500.614288, cpi-3612, fratio-9.013692, avgside-400.723694,sumi-5649.789062, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-177...centl-499.601318 , centp- 500.590363, cpi-3618, fratio-9.436102, avgside-383.421051,sumi-5662.289551, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-178...centl-499.604614 , centp- 500.605499, cpi-3575, fratio-9.301291, avgside-384.355286,sumi-5535.842285, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-179...centl-499.603516 , centp- 500.605652, cpi-3582, fratio-9.098055, avgside-393.710510,sumi-5568.683594, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-180...centl-499.595154 , centp- 500.609436, cpi-3609, fratio-9.164795, avgside-393.789490,sumi-5613.316406, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-181...centl-499.601990 , centp- 500.611908, cpi-3592, fratio-9.290183, avgside-386.644714,sumi-5563.157715, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-182...centl-499.607025 , centp- 500.604340, cpi-3590, fratio-9.487777, avgside-378.381592,sumi-5526.052734, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-183...centl-499.604004 , centp- 500.605438, cpi-3577, fratio-9.020839, avgside-396.526306,sumi-5560.210938, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-184...centl-499.595612 , centp- 500.600189, cpi-3629, fratio-9.236879, avgside-392.881592,sumi-5691.433594, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-185...centl-499.602234 , centp- 500.609344, cpi-3602, fratio-9.063436, avgside-397.421051,sumi-5616.368652, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-186...centl-499.595612 , centp- 500.594208, cpi-3633, fratio-9.294374, avgside-390.881592,sumi-5649.933594, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-187...centl-499.593475 , centp- 500.593811, cpi-3650, fratio-9.217172, avgside-396.000000,sumi-5713.500000, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-188...centl-499.602936 , centp- 500.608429, cpi-3731, fratio-9.477139, avgside-393.684204,sumi-5741.473633, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-189...centl-499.604675 , centp- 500.597351, cpi-3755, fratio-9.667017, avgside-388.434204,sumi-5785.473633, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-190...centl-499.601288 , centp- 500.602814, cpi-3729, fratio-9.444282, avgside-394.842102,sumi-5748.736816, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-191...centl-499.586090 , centp- 500.600464, cpi-3770, fratio-9.678749, avgside-389.513153,sumi-5830.118652, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-192...centl-499.596680 , centp- 500.605469, cpi-3859, fratio-9.511708, avgside-405.710510,sumi-5899.683594, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-193...centl-499.604401 , centp- 500.612488, cpi-3837, fratio-9.347137, avgside-410.500000,sumi-5934.000000, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-194...centl-499.609528 , centp- 500.608490, cpi-3877, fratio-9.150115, avgside-423.710510,sumi-6021.683594, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-195...centl-499.606964 , centp- 500.606293, cpi-3885, fratio-9.211618, avgside-421.750000,sumi-6014.000000, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-196...centl-499.600769 , centp- 500.617767, cpi-3885, fratio-8.909743, avgside-436.039490,sumi-6135.316406, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-197...centl-499.599609 , centp- 500.606506, cpi-3888, fratio-8.791669, avgside-442.236847,sumi-6205.881348, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-198...centl-499.597473 , centp- 500.594421, cpi-3890, fratio-8.519639, avgside-456.592102,sumi-6281.579102, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-199...centl-499.599976 , centp- 500.608551, cpi-3891, fratio-8.457244, avgside-460.078949,sumi-6294.710449, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-200...centl-499.616180 , centp- 500.620636, cpi-3892, fratio-8.365158, avgside-465.263153,sumi-6256.105469, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-201...centl-499.601379 , centp- 500.604797, cpi-3891, fratio-8.192941, avgside-474.921051,sumi-6389.789551, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-202...centl-499.607391 , centp- 500.602722, cpi-3889, fratio-7.982822, avgside-487.171051,sumi-6422.539551, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-203...centl-499.607544 , centp- 500.606934, cpi-3888, fratio-8.013669, avgside-485.171051,sumi-6441.039551, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-204...centl-499.605988 , centp- 500.611633, cpi-3894, fratio-7.766744, avgside-501.368408,sumi-6508.066406, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-205...centl-499.605713 , centp- 500.615997, cpi-3883, fratio-7.405842, avgside-524.315796,sumi-6595.842285, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-206...centl-499.614807 , centp- 500.610718, cpi-3888, fratio-7.374847, avgside-527.197388,sumi-6664.526367, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-207...centl-499.607697 , centp- 500.612183, cpi-3892, fratio-7.306754, avgside-532.657898,sumi-6683.920898, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-208...centl-499.612183 , centp- 500.608521, cpi-3887, fratio-7.274008, avgside-534.368408,sumi-6675.316406, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-209...centl-499.608643 , centp- 500.612823, cpi-3888, fratio-7.048182, avgside-551.631592,sumi-6749.183594, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-210...centl-499.605286 , centp- 500.612823, cpi-3887, fratio-7.000119, avgside-555.276306,sumi-6770.737305, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-211...centl-499.612000 , centp- 500.616791, cpi-3887, fratio-6.901505, avgside-563.210510,sumi-6822.644531, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-212...centl-499.611420 , centp- 500.613037, cpi-3887, fratio-6.755826, avgside-575.355286,sumi-6882.947754, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-213...centl-499.617340 , centp- 500.622833, cpi-3891, fratio-6.709839, avgside-579.894714,sumi-6904.052246, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-214...centl-499.620697 , centp- 500.622986, cpi-3889, fratio-6.536423, avgside-594.973694,sumi-6985.762695, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-215...centl-499.615723 , centp- 500.617737, cpi-3887, fratio-6.460764, avgside-601.631592,sumi-7001.183594, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-216...centl-499.612061 , centp- 500.625458, cpi-3893, fratio-6.487764, avgside-600.052612,sumi-7031.473633, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-217...centl-499.617615 , centp- 500.625092, cpi-3889, fratio-6.318576, avgside-615.486816,sumi-7091.631348, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-218...centl-499.617310 , centp- 500.624481, cpi-3888, fratio-6.257422, avgside-621.342102,sumi-7125.829102, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-219...centl-499.619965 , centp- 500.627502, cpi-3893, fratio-6.190225, avgside-628.894714,sumi-7177.552246, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-220...centl-499.624268 , centp- 500.628845, cpi-3889, fratio-5.998742, avgside-648.302612,sumi-7273.973633, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-221...centl-499.621399 , centp- 500.625488, cpi-3888, fratio-5.914136, avgside-657.407898,sumi-7331.170898, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-222...centl-499.613739 , centp- 500.626495, cpi-3890, fratio-5.966860, avgside-651.934204,sumi-7303.657715, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-223...centl-499.620331 , centp- 500.629639, cpi-3892, fratio-5.873784, avgside-662.605286,sumi-7311.947754, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-224...centl-499.626160 , centp- 500.632721, cpi-3887, fratio-5.861466, avgside-663.144714,sumi-7354.302246, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-225...centl-499.619171 , centp- 500.635468, cpi-3885, fratio-5.842915, avgside-664.907898,sumi-7343.670898, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-226...centl-499.627411 , centp- 500.626709, cpi-3887, fratio-5.844072, avgside-665.118408,sumi-7368.316406, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-227...centl-499.621735 , centp- 500.631653, cpi-3890, fratio-5.862035, avgside-663.592102,sumi-7354.079102, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-228...centl-499.627319 , centp- 500.636139, cpi-3892, fratio-5.775157, avgside-673.921021,sumi-7372.539551, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-229...centl-499.625336 , centp- 500.627350, cpi-3893, fratio-5.770895, avgside-674.592102,sumi-7413.079102, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-230...centl-499.622253 , centp- 500.633850, cpi-3890, fratio-5.830244, avgside-667.210510,sumi-7379.894531, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-231...centl-499.618500 , centp- 500.623016, cpi-3887, fratio-5.907413, avgside-657.986816,sumi-7334.131348, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-232...centl-499.619965 , centp- 500.628998, cpi-3889, fratio-5.936689, avgside-655.078979,sumi-7312.710449, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-233...centl-499.623962 , centp- 500.626129, cpi-3890, fratio-5.957961, avgside-652.907898,sumi-7309.670898, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-234...centl-499.618408 , centp- 500.622528, cpi-3889, fratio-6.042770, avgside-643.578979,sumi-7281.710449, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-235...centl-499.621948 , centp- 500.621552, cpi-3886, fratio-6.021244, avgside-645.381592,sumi-7258.183594, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-236...centl-499.619110 , centp- 500.624908, cpi-3892, fratio-6.119624, avgside-635.986816,sumi-7212.381348, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-237...centl-499.624542 , centp- 500.623322, cpi-3888, fratio-6.076999, avgside-639.789490,sumi-7251.355469, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-238...centl-499.624817 , centp- 500.619934, cpi-3892, fratio-6.190319, avgside-628.723694,sumi-7163.262695, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-239...centl-499.617096 , centp- 500.618958, cpi-3894, fratio-6.302984, avgside-617.802612,sumi-7112.973633, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-240...centl-499.618805 , centp- 500.622040, cpi-3888, fratio-6.330755, avgside-614.144714,sumi-7113.552246, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-241...centl-499.615540 , centp- 500.624969, cpi-3887, fratio-6.495855, avgside-598.381592,sumi-7029.433594, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-242...centl-499.620789 , centp- 500.618591, cpi-3886, fratio-6.679996, avgside-581.736816,sumi-6913.881348, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-243...centl-499.621002 , centp- 500.614471, cpi-3891, fratio-6.892183, avgside-564.552612,sumi-6858.723633, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-244...centl-499.617981 , centp- 500.608978, cpi-3884, fratio-7.020502, avgside-553.236816,sumi-6780.881348, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-245...centl-499.609375 , centp- 500.613922, cpi-3895, fratio-7.046585, avgside-552.750000,sumi-6802.500000, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-246...centl-499.621521 , centp- 500.611328, cpi-3892, fratio-7.196360, avgside-540.828979,sumi-6668.460449, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-247...centl-499.617584 , centp- 500.605713, cpi-3891, fratio-7.351548, avgside-529.276306,sumi-6658.237305, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-248...centl-499.613617 , centp- 500.605438, cpi-3889, fratio-7.586929, avgside-512.592102,sumi-6574.329102, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-249...centl-499.603699 , centp- 500.604675, cpi-3891, fratio-7.680137, avgside-506.631592,sumi-6511.683594, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-250...centl-499.608765 , centp- 500.602661, cpi-3887, fratio-7.951015, avgside-488.868408,sumi-6443.066406, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-251...centl-499.602142 , centp- 500.604034, cpi-3888, fratio-8.138596, avgside-477.723694,sumi-6423.012695, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-252...centl-499.606598 , centp- 500.597473, cpi-3886, fratio-8.250761, avgside-470.986847,sumi-6369.881348, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-253...centl-499.606049 , centp- 500.600189, cpi-3888, fratio-8.368631, avgside-464.592102,sumi-6329.579102, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-254...centl-499.612091 , centp- 500.601135, cpi-3887, fratio-8.533480, avgside-455.500000,sumi-6299.250000, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-255...centl-499.599854 , centp- 500.595520, cpi-3886, fratio-8.389512, avgside-463.197388,sumi-6279.526367, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-256...centl-499.596222 , centp- 500.597260, cpi-3890, fratio-9.021667, avgside-431.184204,sumi-6138.657715, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-257...centl-499.598236 , centp- 500.598389, cpi-3889, fratio-8.885669, avgside-437.671051,sumi-6176.789551, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-258...centl-499.597595 , centp- 500.594177, cpi-3876, fratio-8.805931, avgside-440.157898,sumi-6178.670898, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-259...centl-499.607513 , centp- 500.604706, cpi-3837, fratio-8.859278, avgside-433.105286,sumi-6048.842285, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-260...centl-499.603699 , centp- 500.608490, cpi-3827, fratio-8.831360, avgside-433.342102,sumi-6000.736816, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-261...centl-499.595123 , centp- 500.595123, cpi-3816, fratio-8.966054, avgside-425.605286,sumi-6043.447754, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-262...centl-499.606720 , centp- 500.604187, cpi-3751, fratio-9.059523, avgside-414.039490,sumi-5847.316406, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-263...centl-499.589172 , centp- 500.606384, cpi-3780, fratio-9.185905, avgside-411.500000,sumi-5863.000000, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-264...centl-499.611420 , centp- 500.610077, cpi-3749, fratio-8.985304, avgside-417.236847,sumi-5862.894531, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-265...centl-499.597168 , centp- 500.610229, cpi-3711, fratio-9.253453, avgside-401.039490,sumi-5753.316406, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-266...centl-499.589569 , centp- 500.603943, cpi-3648, fratio-9.143159, avgside-398.986847,sumi-5716.381348, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-267...centl-499.611877 , centp- 500.603455, cpi-3632, fratio-8.899952, avgside-408.092102,sumi-5728.736816, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-268...centl-499.601318 , centp- 500.614014, cpi-3619, fratio-9.170274, avgside-394.644714,sumi-5609.157715, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-269...centl-499.607208 , centp- 500.600067, cpi-3649, fratio-9.649408, avgside-378.157898,sumi-5582.263184, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-270...centl-499.600830 , centp- 500.609497, cpi-3655, fratio-9.348141, avgside-390.986847,sumi-5674.894531, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-271...centl-499.606079 , centp- 500.607635, cpi-3640, fratio-9.452284, avgside-385.092102,sumi-5632.736816, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-272...centl-499.598663 , centp- 500.604370, cpi-3643, fratio-9.408638, avgside-387.197388,sumi-5608.578613, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-273...centl-499.597473 , centp- 500.601257, cpi-3625, fratio-9.660227, avgside-375.250000,sumi-5555.000000, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-274...centl-499.599426 , centp- 500.603851, cpi-3624, fratio-9.359568, avgside-387.197388,sumi-5569.578613, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-275...centl-499.592468 , centp- 500.591492, cpi-3647, fratio-9.634398, avgside-378.539490,sumi-5639.855957, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-276...centl-499.605164 , centp- 500.598175, cpi-3589, fratio-9.430696, avgside-380.565796,sumi-5525.526367, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-277...centl-499.599854 , centp- 500.605286, cpi-3567, fratio-9.566714, avgside-372.855286,sumi-5486.842285, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-278...centl-499.604889 , centp- 500.595398, cpi-3569, fratio-9.567690, avgside-373.026306,sumi-5475.210938, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-279...centl-499.599731 , centp- 500.609467, cpi-3590, fratio-9.196131, avgside-390.381592,sumi-5557.052734, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-280...centl-499.602539 , centp- 500.607697, cpi-3625, fratio-9.218363, avgside-393.236847,sumi-5631.894531, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-281...centl-499.602783 , centp- 500.603394, cpi-3645, fratio-9.541227, avgside-382.026306,sumi-5584.210938, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-282...centl-499.596893 , centp- 500.612946, cpi-3654, fratio-9.478276, avgside-385.513153,sumi-5599.105469, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-283...centl-499.602295 , centp- 500.607056, cpi-3692, fratio-9.421213, avgside-391.881592,sumi-5689.052734, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-284...centl-499.606384 , centp- 500.603149, cpi-3690, fratio-9.258195, avgside-398.565796,sumi-5739.526367, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-285...centl-499.600037 , centp- 500.610504, cpi-3694, fratio-9.460941, avgside-390.447388,sumi-5690.578613, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-286...centl-499.601044 , centp- 500.604065, cpi-3751, fratio-9.375957, avgside-400.065796,sumi-5794.526367, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-287...centl-499.601898 , centp- 500.613464, cpi-3740, fratio-9.460791, avgside-395.315796,sumi-5760.526367, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-288...centl-499.601929 , centp- 500.605011, cpi-3735, fratio-9.640018, avgside-387.447388,sumi-5726.578613, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-289...centl-499.599487 , centp- 500.607574, cpi-3779, fratio-9.534375, avgside-396.355286,sumi-5800.842285, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-290...centl-499.598877 , centp- 500.605164, cpi-3828, fratio-9.609196, avgside-398.368408,sumi-5863.947266, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-291...centl-499.593658 , centp- 500.592499, cpi-3861, fratio-9.494160, avgside-406.671051,sumi-6007.289551, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-292...centl-499.594910 , centp- 500.589996, cpi-3886, fratio-9.170502, avgside-423.750000,sumi-6078.750000, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-293...centl-499.585815 , centp- 500.598572, cpi-3887, fratio-9.279764, avgside-418.868408,sumi-6033.566406, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-294...centl-499.596680 , centp- 500.596405, cpi-3891, fratio-9.132675, avgside-426.052612,sumi-6122.473633, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-295...centl-499.602386 , centp- 500.611542, cpi-3888, fratio-9.187489, avgside-423.184204,sumi-6050.473633, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-296...centl-499.594452 , centp- 500.604218, cpi-3892, fratio-8.790514, avgside-442.750000,sumi-6140.250000, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-297...centl-499.606018 , centp- 500.610443, cpi-3892, fratio-8.648383, avgside-450.026306,sumi-6160.210938, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-298...centl-499.592346 , centp- 500.603363, cpi-3888, fratio-8.670932, avgside-448.394714,sumi-6259.802246, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-299...centl-499.561371 , centp- 500.520081, cpi-3890, fratio-8.528732, avgside-456.105286,sumi-6365.552734, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-300...centl-499.612427 , centp- 500.612732, cpi-3888, fratio-8.319153, avgside-467.355286,sumi-6259.842285, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-301...centl-499.602966 , centp- 500.600159, cpi-3888, fratio-7.961846, avgside-488.328949,sumi-6412.460449, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-302...centl-499.602234 , centp- 500.608124, cpi-3885, fratio-7.851198, avgside-494.828949,sumi-6457.960449, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-303...centl-499.603149 , centp- 500.607605, cpi-3888, fratio-7.621956, avgside-510.105286,sumi-6523.697754, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-304...centl-499.606537 , centp- 500.613190, cpi-3885, fratio-7.444781, avgside-521.842102,sumi-6610.079102, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-305...centl-499.601105 , centp- 500.615082, cpi-3891, fratio-7.355571, avgside-528.986816,sumi-6666.631348, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-306...centl-499.610138 , centp- 500.614441, cpi-3885, fratio-7.013968, avgside-553.894714,sumi-6747.302246, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-307...centl-499.609131 , centp- 500.620819, cpi-3887, fratio-6.918151, avgside-561.855286,sumi-6761.447754, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-308...centl-499.607452 , centp- 500.618073, cpi-3888, fratio-6.879654, avgside-565.144714,sumi-6869.552246, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-309...centl-499.615723 , centp- 500.619659, cpi-3893, fratio-6.718623, avgside-579.434204,sumi-6928.157715, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-310...centl-499.620880 , centp- 500.614685, cpi-3884, fratio-6.700200, avgside-579.684204,sumi-6888.407715, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-311...centl-499.610718 , centp- 500.617828, cpi-3886, fratio-6.612987, avgside-587.631592,sumi-6938.933594, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-312...centl-499.614746 , centp- 500.621643, cpi-3888, fratio-6.514142, avgside-596.855286,sumi-6987.697754, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-313...centl-499.619995 , centp- 500.623596, cpi-3885, fratio-6.394646, avgside-607.539490,sumi-7065.105469, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-314...centl-499.614777 , centp- 500.621338, cpi-3887, fratio-6.222737, avgside-624.644714,sumi-7145.552246, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-315...centl-499.616425 , centp- 500.626465, cpi-3892, fratio-6.137146, avgside-634.171021,sumi-7170.039551, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-316...centl-499.617737 , centp- 500.625244, cpi-3887, fratio-5.998335, avgside-648.013184,sumi-7226.618652, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-317...centl-499.617249 , centp- 500.626099, cpi-3887, fratio-6.063714, avgside-641.026306,sumi-7230.737305, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-318...centl-499.613190 , centp- 500.624146, cpi-3888, fratio-6.018086, avgside-646.052612,sumi-7243.223633, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-319...centl-499.619995 , centp- 500.629486, cpi-3892, fratio-5.910048, avgside-658.539490,sumi-7307.605469, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-320...centl-499.622040 , centp- 500.625732, cpi-3890, fratio-5.964211, avgside-652.223694,sumi-7277.762695, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-321...centl-499.617828 , centp- 500.624542, cpi-3889, fratio-5.898657, avgside-659.302612,sumi-7315.973633, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-322...centl-499.623047 , centp- 500.633118, cpi-3890, fratio-5.904062, avgside-658.868408,sumi-7329.316406, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-323...centl-499.617950 , centp- 500.622559, cpi-3893, fratio-5.946020, avgside-654.723694,sumi-7337.012695, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-324...centl-499.621307 , centp- 500.621857, cpi-3886, fratio-5.873710, avgside-661.592102,sumi-7336.829102, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-325...centl-499.616089 , centp- 500.622131, cpi-3886, fratio-5.936522, avgside-654.592102,sumi-7287.829102, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-326...centl-499.622345 , centp- 500.626953, cpi-3889, fratio-5.825528, avgside-667.578979,sumi-7383.210449, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-327...centl-499.615601 , centp- 500.623505, cpi-3886, fratio-5.924613, avgside-655.907898,sumi-7335.170898, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-328...centl-499.615662 , centp- 500.624207, cpi-3885, fratio-5.888947, avgside-659.710510,sumi-7341.144531, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-329...centl-499.619446 , centp- 500.627716, cpi-3882, fratio-6.068869, avgside-639.657898,sumi-7257.420898, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-330...centl-499.620514 , centp- 500.620178, cpi-3885, fratio-5.994761, avgside-648.065796,sumi-7272.592285, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-331...centl-499.617920 , centp- 500.621216, cpi-3887, fratio-5.960694, avgside-652.105286,sumi-7292.447754, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-332...centl-499.620117 , centp- 500.620758, cpi-3887, fratio-5.971056, avgside-650.973694,sumi-7305.012695, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-333...centl-499.613708 , centp- 500.617859, cpi-3892, fratio-6.052134, avgside-643.078979,sumi-7222.710449, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-334...centl-499.614288 , centp- 500.617554, cpi-3888, fratio-6.150618, avgside-632.131592,sumi-7141.933594, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-335...centl-499.616089 , centp- 500.623138, cpi-3887, fratio-6.303602, avgside-616.631592,sumi-7100.183594, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-336...centl-499.617035 , centp- 500.613770, cpi-3886, fratio-6.319511, avgside-614.921021,sumi-7116.039551, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-337...centl-499.617767 , centp- 500.619019, cpi-3886, fratio-6.467306, avgside-600.868408,sumi-7020.066406, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-338...centl-499.610901 , centp- 500.613617, cpi-3887, fratio-6.557570, avgside-592.750000,sumi-6998.000000, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-339...centl-499.612152 , centp- 500.620636, cpi-3887, fratio-6.695345, avgside-580.552612,sumi-6890.973633, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-340...centl-499.613373 , centp- 500.615112, cpi-3885, fratio-6.867949, avgside-565.671021,sumi-6869.039551, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-341...centl-499.611023 , centp- 500.611603, cpi-3891, fratio-7.066768, avgside-550.605286,sumi-6772.947754, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-342...centl-499.607025 , centp- 500.613281, cpi-3889, fratio-7.122367, avgside-546.026306,sumi-6726.237305, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-343...centl-499.609711 , centp- 500.611084, cpi-3888, fratio-7.226943, avgside-537.986816,sumi-6690.131348, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-344...centl-499.607605 , centp- 500.607758, cpi-3888, fratio-7.351180, avgside-528.894714,sumi-6664.302246, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-345...centl-499.606415 , centp- 500.612549, cpi-3886, fratio-7.548717, avgside-514.789490,sumi-6575.605469, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-346...centl-499.607208 , centp- 500.609344, cpi-3889, fratio-7.755143, avgside-501.473694,sumi-6522.262695, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-347...centl-499.612183 , centp- 500.605316, cpi-3891, fratio-7.822140, avgside-497.434204,sumi-6513.157715, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-348...centl-499.600677 , centp- 500.604858, cpi-3886, fratio-8.009981, avgside-485.144714,sumi-6408.552246, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-349...centl-499.608124 , centp- 500.602661, cpi-3889, fratio-8.049348, avgside-483.144714,sumi-6420.052246, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-350...centl-499.612732 , centp- 500.617615, cpi-3891, fratio-8.109362, avgside-479.815796,sumi-6322.526367, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-351...centl-499.603149 , centp- 500.602997, cpi-3891, fratio-8.216159, avgside-473.578949,sumi-6372.960449, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-352...centl-499.595886 , centp- 500.604492, cpi-3885, fratio-8.235984, avgside-471.710510,sumi-6343.144531, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-353...centl-499.597382 , centp- 500.603088, cpi-3890, fratio-8.435530, avgside-461.144714,sumi-6295.802246, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-354...centl-499.610779 , centp- 500.618927, cpi-3889, fratio-8.256900, avgside-471.000000,sumi-6263.000000, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-355...centl-499.607788 , centp- 500.608673, cpi-3887, fratio-8.760736, avgside-443.684204,sumi-6159.473633, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-356...centl-499.610443 , centp- 500.613647, cpi-3889, fratio-8.566327, avgside-453.986847,sumi-6193.894531, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-357...centl-499.598267 , centp- 500.599915, cpi-3891, fratio-8.393869, avgside-463.552612,sumi-6287.973633, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-358...centl-499.609802 , centp- 500.609344, cpi-3885, fratio-8.535500, avgside-455.157898,sumi-6199.263184, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-359...centl-499.590851 , centp- 500.598389, cpi-3885, fratio-8.754670, avgside-443.763153,sumi-6197.118652, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-360...centl-499.611511 , centp- 500.603485, cpi-3886, fratio-8.597845, avgside-451.973694,sumi-6156.789062, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-361...centl-499.608032 , centp- 500.614868, cpi-3885, fratio-8.691276, avgside-447.000000,sumi-6151.000000, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-362...centl-499.601746 , centp- 500.616913, cpi-3851, fratio-8.849930, avgside-435.144714,sumi-6066.157715, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-363...centl-499.596039 , centp- 500.592255, cpi-3888, fratio-9.248161, avgside-420.407898,sumi-6068.420898, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-364...centl-499.591888 , centp- 500.602142, cpi-3824, fratio-8.866165, avgside-431.302612,sumi-6061.723633, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-365...centl-499.590729 , centp- 500.604950, cpi-3771, fratio-8.699490, avgside-433.473694,sumi-6029.762695, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-366...centl-499.606476 , centp- 500.615967, cpi-3712, fratio-8.901117, avgside-417.026306,sumi-5841.210938, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-367...centl-499.598633 , centp- 500.608978, cpi-3815, fratio-9.264442, avgside-411.789490,sumi-5918.316406, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-368...centl-499.597717 , centp- 500.603302, cpi-3699, fratio-8.757757, avgside-422.368408,sumi-5902.566406, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-369...centl-499.584351 , centp- 500.603210, cpi-3734, fratio-9.098266, avgside-410.407898,sumi-5888.920898, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-370...centl-499.604431 , centp- 500.616791, cpi-3658, fratio-8.854321, avgside-413.131592,sumi-5765.052734, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-371...centl-499.611328 , centp- 500.605072, cpi-3711, fratio-9.076561, avgside-408.855286,sumi-5774.842285, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-372...centl-499.599182 , centp- 500.614258, cpi-3693, fratio-9.544582, avgside-386.921051,sumi-5693.368652, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-373...centl-499.588257 , centp- 500.590729, cpi-3678, fratio-9.310152, avgside-395.052612,sumi-5755.473633, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-374...centl-499.603790 , centp- 500.604309, cpi-3673, fratio-9.206728, avgside-398.947388,sumi-5698.578613, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-375...centl-499.600708 , centp- 500.606232, cpi-3596, fratio-9.217714, avgside-390.118408,sumi-5580.947266, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-376...centl-499.590576 , centp- 500.587982, cpi-3630, fratio-9.649528, avgside-376.184204,sumi-5615.407715, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-377...centl-499.608612 , centp- 500.595001, cpi-3610, fratio-9.478994, avgside-380.842102,sumi-5532.736816, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-378...centl-499.601074 , centp- 500.605103, cpi-3624, fratio-9.733329, avgside-372.328949,sumi-5520.631348, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-379...centl-499.610016 , centp- 500.605713, cpi-3591, fratio-9.125489, avgside-393.513153,sumi-5604.105469, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-380...centl-499.595673 , centp- 500.612854, cpi-3615, fratio-9.224106, avgside-391.907898,sumi-5594.263184, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-381...centl-499.583344 , centp- 500.593658, cpi-3636, fratio-9.574389, avgside-379.763153,sumi-5614.368652, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-382...centl-499.594727 , centp- 500.596191, cpi-3605, fratio-9.213127, avgside-391.289490,sumi-5643.605957, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-383...centl-499.598846 , centp- 500.603333, cpi-3655, fratio-9.435142, avgside-387.381592,sumi-5619.052734, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-384...centl-499.586395 , centp- 500.594849, cpi-3591, fratio-9.405383, avgside-381.802612,sumi-5600.973633, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-385...centl-499.594116 , centp- 500.607880, cpi-3643, fratio-9.425614, avgside-386.500000,sumi-5587.000000, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-386...centl-499.602112 , centp- 500.595856, cpi-3646, fratio-9.514026, avgside-383.223694,sumi-5598.789062, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-387...centl-499.602081 , centp- 500.605652, cpi-3631, fratio-9.400647, avgside-386.250000,sumi-5615.000000, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-388...centl-499.606506 , centp- 500.600433, cpi-3685, fratio-9.698711, avgside-379.947388,sumi-5649.578613, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-389...centl-499.584076 , centp- 500.584534, cpi-3660, fratio-9.495136, avgside-385.460510,sumi-5690.894043, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-390...centl-499.596893 , centp- 500.589844, cpi-3695, fratio-9.265846, avgside-398.776306,sumi-5777.237305, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-391...centl-499.602875 , centp- 500.600922, cpi-3674, fratio-9.430057, avgside-389.605286,sumi-5650.842285, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-392...centl-499.590820 , centp- 500.594971, cpi-3713, fratio-9.482123, avgside-391.578949,sumi-5784.210449, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-393...centl-499.604858 , centp- 500.608551, cpi-3752, fratio-9.361217, avgside-400.802612,sumi-5782.421387, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-394...centl-499.587006 , centp- 500.595581, cpi-3795, fratio-9.356084, avgside-405.618408,sumi-5929.316406, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-395...centl-499.599121 , centp- 500.603912, cpi-3816, fratio-9.504670, avgside-401.486847,sumi-5875.894531, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-396...centl-499.597107 , centp- 500.600189, cpi-3760, fratio-9.090793, avgside-413.605286,sumi-5824.842285, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-397...centl-499.603546 , centp- 500.610077, cpi-3786, fratio-9.483092, avgside-399.236847,sumi-5825.894531, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-398...centl-499.598724 , centp- 500.608307, cpi-3826, fratio-9.574448, avgside-399.605286,sumi-5840.842285, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-399...centl-499.603577 , centp- 500.605774, cpi-3843, fratio-9.401834, avgside-408.750000,sumi-5908.000000, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-400...centl-499.599304 , centp- 500.607117, cpi-3891, fratio-9.438147, avgside-412.263153,sumi-5987.105469, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-401...centl-499.608337 , centp- 500.601471, cpi-3868, fratio-9.057153, avgside-427.065796,sumi-6063.526367, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-402...centl-499.595856 , centp- 500.593781, cpi-3889, fratio-8.827550, avgside-440.552612,sumi-6186.223633, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-403...centl-499.600677 , centp- 500.599548, cpi-3890, fratio-9.097175, avgside-427.605286,sumi-6137.697754, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-404...centl-499.588989 , centp- 500.591064, cpi-3892, fratio-9.111384, avgside-427.157898,sumi-6114.670898, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-405...centl-499.597321 , centp- 500.598572, cpi-3886, fratio-8.860700, avgside-438.565796,sumi-6199.592285, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-406...centl-499.593994 , centp- 500.597412, cpi-3892, fratio-8.957422, avgside-434.500000,sumi-6148.750000, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-407...centl-499.598877 , centp- 500.598419, cpi-3893, fratio-8.988577, avgside-433.105286,sumi-6157.197754, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-408...centl-499.612762 , centp- 500.611938, cpi-3890, fratio-8.708100, avgside-446.710510,sumi-6155.683594, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-409...centl-499.609985 , centp- 500.617432, cpi-3887, fratio-8.643590, avgside-449.697388,sumi-6163.578613, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-410...centl-499.610535 , centp- 500.608093, cpi-3891, fratio-8.443239, avgside-460.842102,sumi-6222.736816, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-411...centl-499.604279 , centp- 500.598206, cpi-3890, fratio-8.372462, avgside-464.618408,sumi-6317.566406, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-412...centl-499.603027 , centp- 500.601715, cpi-3888, fratio-8.025422, avgside-484.460510,sumi-6388.644531, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-413...centl-499.613831 , centp- 500.613190, cpi-3894, fratio-7.854349, avgside-495.776306,sumi-6405.210938, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-414...centl-499.597565 , centp- 500.612915, cpi-3887, fratio-7.972042, avgside-487.578949,sumi-6449.460449, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-415...centl-499.605164 , centp- 500.606628, cpi-3883, fratio-8.055357, avgside-482.039490,sumi-6444.105469, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-416...centl-499.614075 , centp- 500.623749, cpi-3892, fratio-7.568690, avgside-514.223694,sumi-6510.789062, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-417...centl-499.601074 , centp- 500.602142, cpi-3886, fratio-7.467975, avgside-520.355286,sumi-6587.947754, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-418...centl-499.610596 , centp- 500.612122, cpi-3889, fratio-7.322828, avgside-531.078979,sumi-6639.210449, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-419...centl-499.604095 , centp- 500.614746, cpi-3888, fratio-7.214943, avgside-538.881592,sumi-6706.683594, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-420...centl-499.610687 , centp- 500.611450, cpi-3886, fratio-7.097376, avgside-547.526306,sumi-6736.487305, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-421...centl-499.604095 , centp- 500.612335, cpi-3890, fratio-6.990777, avgside-556.447388,sumi-6763.026367, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-422...centl-499.612640 , centp- 500.614990, cpi-3889, fratio-6.908930, avgside-562.894714,sumi-6810.552246, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-423...centl-499.608246 , centp- 500.619141, cpi-3888, fratio-6.860964, avgside-566.684204,sumi-6832.657715, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-424...centl-499.614227 , centp- 500.614075, cpi-3890, fratio-6.797885, avgside-572.236816,sumi-6872.881348, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-425...centl-499.613373 , centp- 500.616974, cpi-3886, fratio-6.797302, avgside-571.697388,sumi-6845.526367, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-426...centl-499.617615 , centp- 500.629883, cpi-3887, fratio-6.829546, avgside-569.144714,sumi-6771.157715, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-427...centl-499.607544 , centp- 500.612823, cpi-3889, fratio-6.923171, avgside-561.736816,sumi-6825.631348, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-428...centl-499.605133 , centp- 500.615417, cpi-3892, fratio-7.081954, avgside-549.565796,sumi-6775.592285, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-429...centl-499.609283 , centp- 500.617584, cpi-3885, fratio-6.821616, avgside-569.513184,sumi-6844.368652, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-430...centl-499.614746 , centp- 500.619110, cpi-3888, fratio-6.707709, avgside-579.631592,sumi-6894.683594, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-431...centl-499.616241 , centp- 500.618256, cpi-3890, fratio-6.533481, avgside-595.394714,sumi-6960.552246, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-432...centl-499.612274 , centp- 500.622650, cpi-3886, fratio-6.403088, avgside-606.894714,sumi-7044.802246, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-433...centl-499.613861 , centp- 500.626007, cpi-3890, fratio-6.299058, avgside-617.552612,sumi-7104.973633, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-434...centl-499.620544 , centp- 500.623169, cpi-3888, fratio-6.077124, avgside-639.776306,sumi-7216.737305, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-435...centl-499.608093 , centp- 500.621582, cpi-3886, fratio-6.147071, avgside-632.171021,sumi-7194.789551, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-436...centl-499.615845 , centp- 500.621338, cpi-3894, fratio-5.921130, avgside-657.644714,sumi-7293.802246, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-437...centl-499.616333 , centp- 500.629639, cpi-3892, fratio-6.083126, avgside-639.802612,sumi-7245.223633, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-438...centl-499.616821 , centp- 500.628204, cpi-3895, fratio-5.899751, avgside-660.197388,sumi-7353.276367, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-439...centl-499.615417 , centp- 500.620392, cpi-3893, fratio-5.980635, avgside-650.934204,sumi-7291.907715, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-440...centl-499.618134 , centp- 500.619934, cpi-3889, fratio-5.795486, avgside-671.039490,sumi-7363.105469, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-441...centl-499.615662 , centp- 500.623901, cpi-3887, fratio-5.849974, avgside-664.447388,sumi-7358.276367, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-442...centl-499.617126 , centp- 500.623810, cpi-3890, fratio-5.840841, avgside-666.000000,sumi-7326.250000, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-443...centl-499.619659 , centp- 500.623627, cpi-3893, fratio-5.899896, avgside-659.842102,sumi-7337.829102, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-444...centl-499.614990 , centp- 500.620667, cpi-3890, fratio-5.937738, avgside-655.131592,sumi-7297.933594, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-445...centl-499.613800 , centp- 500.627502, cpi-3888, fratio-5.939219, avgside-654.631592,sumi-7304.683594, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-446...centl-499.613007 , centp- 500.628296, cpi-3891, fratio-5.900159, avgside-659.473694,sumi-7327.762695, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-447...centl-499.623077 , centp- 500.620605, cpi-3887, fratio-5.925662, avgside-655.960510,sumi-7312.644531, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-448...centl-499.615936 , centp- 500.618073, cpi-3891, fratio-5.979738, avgside-650.697388,sumi-7315.776367, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-449...centl-499.618835 , centp- 500.631470, cpi-3892, fratio-6.001664, avgside-648.486816,sumi-7279.381348, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-450...centl-499.614075 , centp- 500.621643, cpi-3885, fratio-6.085074, avgside-638.447388,sumi-7215.276367, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-451...centl-499.613342 , centp- 500.622986, cpi-3890, fratio-5.924531, avgside-656.592102,sumi-7342.579102, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-452...centl-499.617523 , centp- 500.622925, cpi-3884, fratio-5.992124, avgside-648.184204,sumi-7271.907715, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-453...centl-499.617523 , centp- 500.624237, cpi-3890, fratio-5.903944, avgside-658.881592,sumi-7294.183594, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-454...centl-499.616760 , centp- 500.622803, cpi-3884, fratio-6.022197, avgside-644.947388,sumi-7246.026367, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-455...centl-499.613647 , centp- 500.623383, cpi-3886, fratio-5.981004, avgside-649.723694,sumi-7287.262695, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-456...centl-499.619385 , centp- 500.617554, cpi-3887, fratio-6.238375, avgside-623.078979,sumi-7156.460449, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-457...centl-499.620239 , centp- 500.617859, cpi-3888, fratio-6.075250, avgside-639.973694,sumi-7214.012695, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-458...centl-499.619293 , centp- 500.624420, cpi-3889, fratio-6.096366, avgside-637.921021,sumi-7215.039551, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-459...centl-499.615265 , centp- 500.622864, cpi-3889, fratio-6.234080, avgside-623.828979,sumi-7116.960449, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-460...centl-499.618378 , centp- 500.620514, cpi-3884, fratio-6.225410, avgside-623.894714,sumi-7144.802246, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-461...centl-499.618500 , centp- 500.625122, cpi-3882, fratio-6.346685, avgside-611.657898,sumi-7080.670898, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-462...centl-499.610321 , centp- 500.621704, cpi-3890, fratio-6.248864, avgside-622.513184,sumi-7114.368652, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-463...centl-499.615173 , centp- 500.614166, cpi-3891, fratio-6.394413, avgside-608.500000,sumi-7102.750000, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-464...centl-499.617981 , centp- 500.619110, cpi-3883, fratio-6.553877, avgside-592.473694,sumi-6986.262695, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-465...centl-499.615112 , centp- 500.623932, cpi-3882, fratio-6.522350, avgside-595.184204,sumi-6955.907715, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-466...centl-499.607239 , centp- 500.621246, cpi-3892, fratio-6.561054, avgside-593.197388,sumi-6967.276367, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-467...centl-499.613403 , centp- 500.616669, cpi-3886, fratio-6.631995, avgside-585.947388,sumi-6940.776367, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-468...centl-499.613251 , centp- 500.622711, cpi-3888, fratio-6.328043, avgside-614.407898,sumi-7089.420898, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-469...centl-499.614197 , centp- 500.613007, cpi-3885, fratio-6.404356, avgside-606.618408,sumi-7065.066406, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-470...centl-499.618073 , centp- 500.611755, cpi-3887, fratio-6.588429, avgside-589.973694,sumi-6980.762695, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-471...centl-499.611176 , centp- 500.614014, cpi-3891, fratio-6.415777, avgside-606.473694,sumi-7053.262695, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-472...centl-499.617798 , centp- 500.617645, cpi-3892, fratio-6.473606, avgside-601.210510,sumi-7037.144531, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-473...centl-499.612457 , centp- 500.619019, cpi-3887, fratio-6.565587, avgside-592.026306,sumi-6988.737305, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-474...centl-499.618683 , centp- 500.617676, cpi-3891, fratio-6.582730, avgside-591.092102,sumi-6986.079102, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-475...centl-499.611786 , centp- 500.617065, cpi-3892, fratio-6.558726, avgside-593.407898,sumi-7012.420898, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-476...centl-499.618439 , centp- 500.618286, cpi-3889, fratio-6.584917, avgside-590.592102,sumi-7001.079102, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-477...centl-499.619751 , centp- 500.613586, cpi-3890, fratio-6.581038, avgside-591.092102,sumi-6974.079102, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-478...centl-499.614044 , centp- 500.617798, cpi-3889, fratio-6.678205, avgside-582.342102,sumi-6928.079102, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-479...centl-499.613892 , centp- 500.612854, cpi-3889, fratio-6.997917, avgside-555.736816,sumi-6787.881348, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-480...centl-499.602966 , centp- 500.616272, cpi-3889, fratio-7.039249, avgside-552.473694,sumi-6769.762695, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-481...centl-499.606567 , centp- 500.607483, cpi-3892, fratio-7.029612, avgside-553.657898,sumi-6800.920898, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-482...centl-499.609222 , centp- 500.607025, cpi-3890, fratio-7.001373, avgside-555.605286,sumi-6810.197754, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-483...centl-499.616180 , centp- 500.602234, cpi-3885, fratio-6.999502, avgside-555.039490,sumi-6789.105469, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-484...centl-499.607208 , centp- 500.608551, cpi-3888, fratio-7.162477, avgside-542.828979,sumi-6736.710449, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-485...centl-499.609497 , centp- 500.611389, cpi-3891, fratio-7.256478, avgside-536.210510,sumi-6741.144531, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-486...centl-499.609650 , centp- 500.618073, cpi-3889, fratio-7.126660, avgside-545.697388,sumi-6739.526367, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-487...centl-499.608765 , centp- 500.609558, cpi-3889, fratio-7.161716, avgside-543.026306,sumi-6707.987305, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-488...centl-499.598663 , centp- 500.606812, cpi-3887, fratio-7.403996, avgside-524.986816,sumi-6619.381348, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-489...centl-499.609680 , centp- 500.610016, cpi-3890, fratio-7.371099, avgside-527.736816,sumi-6683.131348, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-490...centl-499.612122 , centp- 500.606995, cpi-3887, fratio-7.368536, avgside-527.513184,sumi-6607.618652, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-491...centl-499.597504 , centp- 500.612335, cpi-3884, fratio-7.528476, avgside-515.907898,sumi-6551.420898, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-492...centl-499.620300 , centp- 500.621063, cpi-3891, fratio-7.579546, avgside-513.355286,sumi-6496.842285, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-493...centl-499.599762 , centp- 500.606262, cpi-3891, fratio-7.716008, avgside-504.276306,sumi-6520.987305, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-494...centl-499.602905 , centp- 500.602722, cpi-3890, fratio-7.770390, avgside-500.618408,sumi-6498.316406, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-495...centl-499.597839 , centp- 500.605469, cpi-3887, fratio-7.939476, avgside-489.578949,sumi-6430.960449, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490
+
+
+Window-496...centl-499.611755 , centp- 500.595642, cpi-3887, fratio-8.118168, avgside-478.802612,sumi-6370.473633, err-0, peakl-10, peakp-10
+
+
+pivotL-489 pivotP-490

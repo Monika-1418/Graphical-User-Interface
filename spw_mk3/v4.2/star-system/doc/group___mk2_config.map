@@ -1,0 +1,11 @@
+<map id="Mk2 Compatible Interface and Router Device Configuration API" name="Mk2 Compatible Interface and Router Device Configuration API">
+<area shape="rect" id="node1" href="$group___device_config.xhtml" title="The Device Configuration APIs provide functions for configuring devices. " alt="" coords="5,192,219,221"/>
+<area shape="rect" id="node2" href="$group__hardware_mk2.xhtml" title="Functions in this group deal with hardware information, such as obtaining version information..." alt="" coords="567,5,697,35"/>
+<area shape="rect" id="node4" href="$group__link_speed_mk2.xhtml" title="Functions in this group deal with reading the measured link speed. " alt="" coords="559,59,705,88"/>
+<area shape="rect" id="node5" href="$group__err_inject_mk2.xhtml" title="Functions in this group deal with injecting errors onto SpaceWire links. " alt="" coords="581,112,683,141"/>
+<area shape="rect" id="node6" href="$group__links_mk2.xhtml" title="Functions in this group deal with setting the link speeds on the device. " alt="" coords="589,165,675,195"/>
+<area shape="rect" id="node7" href="$group__interface_mode_mk2.xhtml" title="Functions in this group deal managing the device in Interface mode. " alt="" coords="577,219,687,248"/>
+<area shape="rect" id="node8" href="$group__timecode_mk2.xhtml" title="Functions in this group deal with the management of the device as a time&#45;code master. " alt="" coords="569,272,695,301"/>
+<area shape="rect" id="node9" href="$group__periodic_mk2.xhtml" title="Functions in this group deal with controlling periodic actions on SpaceWire links. " alt="" coords="573,325,691,355"/>
+<area shape="rect" id="node10" href="$group__mk2_events.xhtml" title="Functions in this group deal with enabling and disabling link events. " alt="" coords="601,379,663,408"/>
+</map>

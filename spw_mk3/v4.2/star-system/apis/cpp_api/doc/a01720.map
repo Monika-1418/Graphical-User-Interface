@@ -1,0 +1,6 @@
+<map id="TriggerActionManager" name="TriggerActionManager">
+<area shape="rect" id="node3" href="$a01213.xhtml" title="Functions in this class deal with getting and setting trigger action parameters for the Brick Mk3..." alt="" coords="5,277,237,536"/>
+<area shape="rect" id="node5" href="$a01425.xhtml" title="Functions in this class deal with getting and setting trigger action parameters for the PCIe..." alt="" coords="261,312,467,501"/>
+<area shape="rect" id="node7" href="$a01477.xhtml" title="Functions in this class deal with getting and setting trigger action parameters for the PXI router..." alt="" coords="491,295,728,519"/>
+<area shape="rect" id="node9" href="$a01489.xhtml" title="Functions in this class deal with getting and setting trigger action parameters for the PXI interface..." alt="" coords="752,277,957,536"/>
+</map>

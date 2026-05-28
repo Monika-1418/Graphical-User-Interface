@@ -1,0 +1,14 @@
+<map id="IsRegistered" name="IsRegistered">
+<area shape="rect" id="node3" href="$a01305.xhtml#a33615c9303531691bf7f73085c1d0247" title="Overloaded assignment operator &#45; to allow instances of DriverListener objects to have their contents ..." alt="" coords="181,5,373,69"/>
+<area shape="rect" id="node5" href="$a01289.xhtml#aedc865d28baa35f54596dcac3292630b" title="Overloaded assignment operator &#45; to allow instances of DeviceListener objects to have their contents ..." alt="" coords="181,93,373,157"/>
+<area shape="rect" id="node7" href="$a01233.xhtml#a3c589783d85063edf1a19b7b237a639b" title="Overloaded assignment operator &#45; to allow instances of ChannelListener objects to have their contents..." alt="" coords="181,181,373,245"/>
+<area shape="rect" id="node9" href="$a01697.xhtml#a0afd2bcb3aa5d375e36b5772b2bb1af3" title="Overloaded assignment operator. " alt="" coords="149,269,405,333"/>
+<area shape="rect" id="node11" href="$a01305.xhtml#ab8f27193ddc195abf3b092d0ae2f9aef" title="Unregister the listener and the Call&#45;back object that was previously registered to be called whenever..." alt="" coords="181,357,373,421"/>
+<area shape="rect" id="node13" href="$a01289.xhtml#ab8f27193ddc195abf3b092d0ae2f9aef" title="Unregister the listener and the Call&#45;back object that was previously registered to be called whenever..." alt="" coords="181,445,373,509"/>
+<area shape="rect" id="node15" href="$a01233.xhtml#ab8f27193ddc195abf3b092d0ae2f9aef" title="Unregister the listener and the Call&#45;back object that was previously registered to be called whenever..." alt="" coords="181,533,373,597"/>
+<area shape="rect" id="node17" href="$a01697.xhtml#ab8f27193ddc195abf3b092d0ae2f9aef" title="Unregister the listener and the Call&#45;back object that was previously registered to be called whenever..." alt="" coords="149,621,405,685"/>
+<area shape="rect" id="node19" href="$a01233.xhtml#a490e68ab39c617fac7705521ae6441da" title="Destructor. " alt="" coords="181,709,373,773"/>
+<area shape="rect" id="node21" href="$a01289.xhtml#a3914c9913b0704f8542dd82f13840a1a" title="Destructor. " alt="" coords="181,797,373,861"/>
+<area shape="rect" id="node23" href="$a01305.xhtml#a496de3c93c4860c488cdecbbfcbd13d2" title="Destructor. " alt="" coords="181,885,373,949"/>
+<area shape="rect" id="node25" href="$a01697.xhtml#a64f1e2db88ad8c5979bfbb6acf7eda56" title="Destructor. " alt="" coords="149,973,405,1037"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="SetRegistered" name="SetRegistered">
+<area shape="rect" id="node3" href="$a01233.xhtml#abd7486e54454d8cebdc081e8da86a979" title="Overloaded constructor, initialise with a given channel listener ID. " alt="" coords="192,5,384,69"/>
+<area shape="rect" id="node5" href="$a01289.xhtml#a15876126d8aabb770362a8d50a961470" title="Overloaded constructor, initialise with a given device listener ID. " alt="" coords="192,93,384,157"/>
+<area shape="rect" id="node7" href="$a01305.xhtml#a073d62596ca5489d9d4a0abb28304f03" title="Overloaded constructor, initialise with a given driver listener ID. " alt="" coords="192,181,384,245"/>
+<area shape="rect" id="node9" href="$a01697.xhtml#ac13bd3b59211135469438be161b652ce" title="Overloaded constructor, initialise with a specified transfer operation and pointer to callback functi..." alt="" coords="160,269,416,333"/>
+</map>

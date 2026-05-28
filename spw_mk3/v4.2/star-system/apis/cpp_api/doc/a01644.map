@@ -1,0 +1,9 @@
+<map id="StreamItem" name="StreamItem">
+<area shape="rect" id="node3" href="$a01257.xhtml" title="Represents a chunk of contiguous SpaceWire data, within a single packet. " alt="" coords="5,217,173,527"/>
+<area shape="rect" id="node5" href="$a01313.xhtml" title="An error in data instance is used to indicate an error to be injected into packet data and cause an e..." alt="" coords="197,251,357,493"/>
+<area shape="rect" id="node7" href="$a01357.xhtml" title="Holds information for a link speed event. " alt="" coords="381,260,563,484"/>
+<area shape="rect" id="node9" href="$a01361.xhtml" title="Holds information for a link state event. " alt="" coords="587,208,773,536"/>
+<area shape="rect" id="node11" href="$a01389.xhtml" title="A SpaceWire packet contains the data which is to be sent through a SpaceWire network and may include ..." alt="" coords="797,234,955,510"/>
+<area shape="rect" id="node13" href="$a01677.xhtml" title="Represents a SpaceWire time&#45;code which is to be transmitted (or has been received) over a SpaceWire l..." alt="" coords="979,234,1139,510"/>
+<area shape="rect" id="node15" href="$a01689.xhtml" title="Holds information for a timestamp event. " alt="" coords="1163,225,1349,519"/>
+</map>

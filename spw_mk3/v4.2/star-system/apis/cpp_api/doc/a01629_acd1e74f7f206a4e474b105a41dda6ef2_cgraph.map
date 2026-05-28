@@ -1,0 +1,5 @@
+<map id="RegisterTransferCompletionListener" name="RegisterTransferCompletionListener">
+<area shape="rect" id="node3" href="$a01709.xhtml#a621d1ca72239b02f4100f17c5ee66d95" title="Get the reference count for the transfer operation. " alt="" coords="244,5,489,69"/>
+<area shape="rect" id="node5" href="$a01709.xhtml#a43948a5e3d139340d6e99c9255816803" title="Return a pointer to the underlying STAR_TRANSFER_OPERATION struct which is held by this object..." alt="" coords="240,93,493,157"/>
+<area shape="rect" id="node7" href="$a01709.xhtml#acf33d70c3b15bd944babdf9d2270756d" title="Set the callback function which is used to receive notifications of transfer operation completion eve..." alt="" coords="244,181,489,245"/>
+</map>

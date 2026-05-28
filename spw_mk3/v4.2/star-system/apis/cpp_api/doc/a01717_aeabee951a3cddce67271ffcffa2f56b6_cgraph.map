@@ -1,0 +1,6 @@
+<map id="TransmitOperation" name="TransmitOperation">
+<area shape="rect" id="node3" href="$a01717.xhtml#a07fe4916c82baa2994a759347ee6e548" title="Create a transmit operation using the stream items provided, which can then be submitted later..." alt="" coords="185,67,316,96"/>
+<area shape="rect" id="node5" href="$a01709.xhtml#a136e9e8fd41d83f4d96ffffcf5cd8d84" title="Cancels a transfer operation (if it is not already complete) and indicates that the memory associated..." alt="" coords="383,5,628,69"/>
+<area shape="rect" id="node9" href="$a01705.xhtml#a9de5750efe760e0613b807916f6b08bd" title="Increment the reference count for the transfer op, and return the updated value. " alt="" coords="367,93,644,157"/>
+<area shape="rect" id="node7" href="$a01705.xhtml#af1a0e8e74fc2e3c3477ecea724e598e2" title="Decrement the reference count for the transfer op, and return the updated value. " alt="" coords="695,5,977,69"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="GetErrorType" name="GetErrorType">
+<area shape="rect" id="node3" href="$a01313.xhtml#a19ac929df3270301c265f4686d06d5d2" title="Copy constructor &#45; invoked when a copy of an ErrorInData object is made, e.g. " alt="" coords="156,5,244,35"/>
+<area shape="rect" id="node5" href="$a01313.xhtml#ae5d1607aff75d553c6d7f3106c9eaa97" title="Overloaded assignment operator &#45; invoked when an attempt is made to assign the contents of one ErrorI..." alt="" coords="161,59,239,88"/>
+</map>

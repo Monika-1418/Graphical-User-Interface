@@ -1,0 +1,6 @@
+<map id="TriggerConfiguration" name="TriggerConfiguration">
+<area shape="rect" id="node3" href="$a01217.xhtml" title="Functions in this class deal with getting and setting trigger configuration parameters on the Brick M..." alt="" coords="5,312,248,571"/>
+<area shape="rect" id="node5" href="$a01429.xhtml" title="Functions in this class deal with getting and setting trigger configuration parameters on the PCIe..." alt="" coords="272,312,515,571"/>
+<area shape="rect" id="node7" href="$a01481.xhtml" title="Functions in this class deal with getting and setting trigger configuration parameters on the PXI rou..." alt="" coords="539,312,781,571"/>
+<area shape="rect" id="node9" href="$a01493.xhtml" title="Functions in this class deal with getting and setting trigger configuration parameters on the PXI int..." alt="" coords="805,312,1048,571"/>
+</map>

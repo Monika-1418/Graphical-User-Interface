@@ -1,0 +1,4 @@
+<map id="CloseChannel" name="CloseChannel">
+<area shape="rect" id="node3" href="$a01225.xhtml#a95d4f59eb9b9ee16b1746480fbc26fd5" title="Get whether the channel is open. " alt="" coords="159,5,391,69"/>
+<area shape="rect" id="node5" href="$a01225.xhtml#a88c4730057bcc8acf7f542eea181be18" title="Set the status to indicate a closed channel. " alt="" coords="159,93,391,157"/>
+</map>

@@ -1,0 +1,26 @@
+<map id="GetAsSTAR_CFG_MK2_BASE_TRANSMIT_CLOCK" name="GetAsSTAR_CFG_MK2_BASE_TRANSMIT_CLOCK">
+<area shape="rect" id="node3" href="$a01209.xhtml#a0d361a5bfd0c256b4838f3b0a76bbc1f" title="Gets the base transmit clock parameters for the link. " alt="" coords="307,5,501,86"/>
+<area shape="rect" id="node5" href="$a01421.xhtml#aa4dad6cb7444f78da8f127b28e56b5ed" title="Gets the base transmit clock parameters for the link. " alt="" coords="263,109,545,173"/>
+<area shape="rect" id="node7" href="$a01413.xhtml#a2ef5d6123d302eac6910903764f3c312" title="Gets the base transmit clock parameters for a given link. " alt="" coords="299,197,509,278"/>
+<area shape="rect" id="node9" href="$a01201.xhtml#ae2ca7c2ee39f744c8e4a6773c07b540a" title="Gets the base transmit clock parameters for a given link. " alt="" coords="272,301,536,382"/>
+<area shape="rect" id="node11" href="$a01453.xhtml#ae2ca7c2ee39f744c8e4a6773c07b540a" title="Gets the base transmit clock parameters for a given link. " alt="" coords="307,405,501,486"/>
+<area shape="rect" id="node13" href="$a01461.xhtml#a0d361a5bfd0c256b4838f3b0a76bbc1f" title="Gets the base transmit clock parameters for this link. " alt="" coords="269,509,539,573"/>
+<area shape="rect" id="node15" href="$a01209.xhtml#af328c7c7cd5dc20535550476ddd7b558" title="Gets the transmit clock rate parameters for the link. " alt="" coords="307,597,501,678"/>
+<area shape="rect" id="node17" href="$a01421.xhtml#aeb1d32482580aa1f7aa0f38c20dc7c65" title="Gets the transmit clock parameters for a given link. " alt="" coords="277,701,531,765"/>
+<area shape="rect" id="node19" href="$a01453.xhtml#a16e893eda7bbfd540ac1fa281ca3b5a0" title="Gets the transmit clock parameters for a given link. " alt="" coords="307,789,501,870"/>
+<area shape="rect" id="node21" href="$a01201.xhtml#a16e893eda7bbfd540ac1fa281ca3b5a0" title="Gets the transmit clock rate parameters for a given link. " alt="" coords="272,893,536,974"/>
+<area shape="rect" id="node23" href="$a01413.xhtml#ab3a565ec063f8e2b142dfc8309c7f02a" title="Gets the transmit clock parameters for a given link. " alt="" coords="299,997,509,1078"/>
+<area shape="rect" id="node25" href="$a01461.xhtml#af328c7c7cd5dc20535550476ddd7b558" title="Gets the transmit clock parameters for this link. " alt="" coords="285,1101,523,1165"/>
+<area shape="rect" id="node27" href="$a01421.xhtml#a7d7797a5ed9f6587d36f36f09f528705" title="Sets the base transmit clock rate on thelink. " alt="" coords="263,1189,545,1253"/>
+<area shape="rect" id="node29" href="$a01209.xhtml#ac0c66ea9e5cc01ad3f197a13f9198a6f" title="Sets the base transmit clock rate on this link. " alt="" coords="307,1277,501,1358"/>
+<area shape="rect" id="node31" href="$a01413.xhtml#abc3a5927d9d500e5b70e288da9c6f901" title="Sets the base transmit clock rate on a given link. " alt="" coords="299,1381,509,1462"/>
+<area shape="rect" id="node33" href="$a01453.xhtml#a6d3b4b03935be7537351bddf63ceb3c0" title="Sets the base transmit clock parameters for a given link. " alt="" coords="307,1485,501,1566"/>
+<area shape="rect" id="node35" href="$a01201.xhtml#a6d3b4b03935be7537351bddf63ceb3c0" title="Sets the base transmit clock parameters for a given link. " alt="" coords="272,1589,536,1670"/>
+<area shape="rect" id="node37" href="$a01461.xhtml#ac0c66ea9e5cc01ad3f197a13f9198a6f" title="Sets the base transmit clock parameters for the link. " alt="" coords="271,1693,537,1757"/>
+<area shape="rect" id="node39" href="$a01209.xhtml#a9da3c5be0639bfcf647829de6f5c0b18" title="Sets the transmit clock rate on the link. " alt="" coords="307,1781,501,1862"/>
+<area shape="rect" id="node41" href="$a01421.xhtml#a2ce6696771359393985fd59222d84728" title="Sets the transmit clock rate on the link. " alt="" coords="277,1885,531,1949"/>
+<area shape="rect" id="node43" href="$a01201.xhtml#afb4d21a15b39b3f9ea7dd1deab2b78b9" title="Sets the transmit clock rate on a given link. " alt="" coords="272,1973,536,2054"/>
+<area shape="rect" id="node45" href="$a01413.xhtml#a4a2ab4ad2147766bce9869cf71b81ca5" title="Sets the transmit clock rate on a given link. " alt="" coords="299,2077,509,2158"/>
+<area shape="rect" id="node47" href="$a01453.xhtml#afb4d21a15b39b3f9ea7dd1deab2b78b9" title="Sets the transmit clock parameters for a given link. " alt="" coords="307,2181,501,2262"/>
+<area shape="rect" id="node49" href="$a01461.xhtml#a9da3c5be0639bfcf647829de6f5c0b18" title="Sets the transmit clock parameters for this link. " alt="" coords="285,2285,523,2349"/>
+</map>

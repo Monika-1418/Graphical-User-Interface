@@ -1,0 +1,25 @@
+var a01465 =
+[
+    [ "PXIRMAPTargetConfiguration", "a01465.xhtml#a290a5d640a676c27b39b2d3ec48f8876", null ],
+    [ "PXIRMAPTargetConfiguration", "a01465.xhtml#a94fefb46df0a02048693aa314c9c6dc5", null ],
+    [ "GetAddressOffset", "a01465.xhtml#ab805a6462caf172c1cdc613dbb7dbf10", null ],
+    [ "GetAuthCommands", "a01465.xhtml#ae9b031143702c782f22e8f63ad303593", null ],
+    [ "GetAuthControlMode", "a01465.xhtml#a4aa94719e50d53dedc8fb8800849464c", null ],
+    [ "GetAuthKeyRange", "a01465.xhtml#a8e2a861e28527437508c9750e7b3ad7d", null ],
+    [ "GetAuthLogicalAddressRange", "a01465.xhtml#a76ee051adbb40f532007a81b505fb985", null ],
+    [ "GetAuthMemoryAddressRange", "a01465.xhtml#a6d764d3af7ca27eaca0778bdcb3dbfe9", null ],
+    [ "GetAuthProtocolId", "a01465.xhtml#a55627c6627e889a74c391e72761328a0", null ],
+    [ "GetInterfaceMode", "a01465.xhtml#ad3754237438736241f8600842f3db21d", null ],
+    [ "GetStatus", "a01465.xhtml#a7ff835ec5dccde631bb24eef1fe91fcd", null ],
+    [ "ReadMemory", "a01465.xhtml#a611205632543d02bbbf7f3ee449314d9", null ],
+    [ "SetAddressOffset", "a01465.xhtml#af3d45486b36b0ba705fe6fc209c29fad", null ],
+    [ "SetAuthCommands", "a01465.xhtml#aa660bd78033509e50a2afb84802f6d25", null ],
+    [ "SetAuthControlMode", "a01465.xhtml#a17f630a48f5dd9cf829317f574fd760f", null ],
+    [ "SetAuthKeyRange", "a01465.xhtml#a5d08372565914560dbf3341a64c1d2af", null ],
+    [ "SetAuthLogicalAddressRange", "a01465.xhtml#aec0e1d7e1185b2390b44276258e9e3d0", null ],
+    [ "SetAuthMemoryAddressRange", "a01465.xhtml#a704176d89c0d7281a63d84b83d2c19f8", null ],
+    [ "SetAuthProtocolId", "a01465.xhtml#a9ff24c48adbac6487a583fbf1c651ad6", null ],
+    [ "SetInterfaceMode", "a01465.xhtml#a50883c27186970c85a893d695c55d03a", null ],
+    [ "WriteMemory", "a01465.xhtml#ac89750e2a5602f45e1ae4eefb2d1caa1", null ],
+    [ "idOfOwningDevice", "a01465.xhtml#a6e129debfde1518091dd630bcc7489e8", null ]
+];

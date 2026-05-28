@@ -1,0 +1,6 @@
+<map id="RouterMk2SConfigPort" name="RouterMk2SConfigPort">
+<area shape="rect" id="node2" href="$a01177.xhtml" title="Represents a Configuration Port on a Brick Mk2 device. " alt="" coords="15,840,180,995"/>
+<area shape="rect" id="node4" href="$a01365.xhtml" title="Represents a Configuration Port on a Mk2 device. " alt="" coords="29,637,165,792"/>
+<area shape="rect" id="node6" href="$a01249.xhtml" title="Represents a Configuration Port on a device. " alt="" coords="41,400,153,589"/>
+<area shape="rect" id="node8" href="$a01437.xhtml" title="Base class for ports on a device. " alt="" coords="9,6,185,351"/>
+</map>

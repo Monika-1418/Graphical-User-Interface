@@ -1,0 +1,6 @@
+<map id="DestroyDevice" name="DestroyDevice">
+<area shape="rect" id="node3" href="$a01505.xhtml#a80cb0cf2ba3ba67d22b952a57295dafc" title="Create a remote device. " alt="" coords="164,5,311,35"/>
+<area shape="rect" id="node7" href="$a01505.xhtml#a8f579230bf6ffe53c6a8dd30d3ad6d24" title="Overloaded assignment operator &#45; to allow instances of remote device objects to have their contents a..." alt="" coords="199,59,276,88"/>
+<area shape="rect" id="node9" href="$a01505.xhtml#a1d1ef5b21eb398f590ea96a857408294" title="Destructor. " alt="" coords="179,112,296,141"/>
+<area shape="rect" id="node5" href="$a01505.xhtml#af50c9191717164effb579d17f8097ab5" title="Overloaded constructor. " alt="" coords="360,5,469,35"/>
+</map>

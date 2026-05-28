@@ -1,0 +1,7 @@
+<map id="CheckPacketValid" name="CheckPacketValid">
+<area shape="rect" id="node3" href="$a01525.xhtml#ac8daff8b3010b22733009e15d166d1a4" title="Get the type of the packet (whether it is a read, write or read/modify/write command or reply)..." alt="" coords="192,5,304,35"/>
+<area shape="rect" id="node5" href="$a01525.xhtml#a01bf08035cbf84e5a11c7c4c3bcaba7c" title="Return whether this object holds the data for a received packet (rather than the data for a packet wh..." alt="" coords="360,84,568,113"/>
+<area shape="rect" id="node7" href="$a01525.xhtml#a41386c98a89b4622ed7b05b4c5aaa68e" title="Get the reply address of the packet. " alt="" coords="185,109,311,139"/>
+<area shape="rect" id="node10" href="$a01525.xhtml#a4f72f887e9729e65d39a662873cbb161" title="Get the target address of the packet. " alt="" coords="184,163,312,192"/>
+<area shape="rect" id="node14" href="$a01525.xhtml#aa967e5255e6711bbac38379f18e19c26" title="Determine whether the given packet type corresponds to a &#39;reply&#39; packet. " alt="" coords="195,216,301,245"/>
+</map>

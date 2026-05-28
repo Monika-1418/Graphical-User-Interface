@@ -1,0 +1,8 @@
+<map id="Brick Mk2 Configuration API" name="Brick Mk2 Configuration API">
+<area shape="rect" id="node1" href="$group__brick_link_speed.xhtml" title="Functions in this group deal with reading the measured link speed. " alt="" coords="505,5,652,35"/>
+<area shape="rect" id="node2" href="$group___device_config.xhtml" title="The Device Configuration APIs provide functions for configuring devices. " alt="" coords="5,112,219,141"/>
+<area shape="rect" id="node3" href="$group__brick_interface_mode.xhtml" title="Functions in this group deal with managing the device in Interface mode. " alt="" coords="524,59,633,88"/>
+<area shape="rect" id="node4" href="$group__brick_events.xhtml" title="Functions in this group deal with enabling and disabling link events. " alt="" coords="548,112,609,141"/>
+<area shape="rect" id="node5" href="$group__brick_error_injection.xhtml" title="Functions in this group deal with error injection. " alt="" coords="528,165,629,195"/>
+<area shape="rect" id="node6" href="$group__brick_links.xhtml" title="Functions in this group deal with setting the link speeds on the device. " alt="" coords="536,219,621,248"/>
+</map>

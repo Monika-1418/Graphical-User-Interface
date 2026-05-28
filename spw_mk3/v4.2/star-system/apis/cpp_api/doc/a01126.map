@@ -1,0 +1,6 @@
+<map id="Triggering" name="Triggering">
+<area shape="rect" id="node1" href="$a01104.xhtml" title="STAR&#45;System C++ API" alt="" coords="5,59,168,88"/>
+<area shape="rect" id="node2" href="$a01135.xhtml" title="Functions in this group deal with configuring the different triggering subsystems. " alt="" coords="344,5,443,35"/>
+<area shape="rect" id="node3" href="$a01127.xhtml" title="Functions in this group deal with setting and getting trigger input events. " alt="" coords="363,59,424,88"/>
+<area shape="rect" id="node4" href="$a01131.xhtml" title="Functions in this group deal with setting and getting trigger output actions. " alt="" coords="360,112,427,141"/>
+</map>

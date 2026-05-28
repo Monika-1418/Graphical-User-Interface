@@ -1,0 +1,4 @@
+<map id="SetRawDataForReceivedPacket" name="SetRawDataForReceivedPacket">
+<area shape="rect" id="node3" href="$a01533.xhtml#a0c7ea0fbe481d7c0de936ac0d9f7f4d9" title="Extract an RMAP packet from a given data buffer, and return it. " alt="" coords="268,5,463,69"/>
+<area shape="rect" id="node5" href="$a01533.xhtml#a2b24aa902d9e444361e73d9a0d15f5b8" title="Extract an RMAP packet from the data of a received Packet stream item, and return it..." alt="" coords="512,5,741,69"/>
+</map>

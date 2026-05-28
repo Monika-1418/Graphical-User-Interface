@@ -1,0 +1,6 @@
+<map id="operator=" name="operator=">
+<area shape="rect" id="node3" href="$a01561.xhtml#ae728ba9ceb88eb0ba6e7ddfcda432ff9" title="Authorises a waiting RMAP command. " alt="" coords="131,5,312,35"/>
+<area shape="rect" id="node5" href="$a01561.xhtml#af2a30de3613fe72e42d22eea72b0537e" title="Gets the parameters of the RMAP command waiting to be authorised. " alt="" coords="148,59,295,88"/>
+<area shape="rect" id="node7" href="$a01561.xhtml#a311b0f6885b23595b0b45cf45ef27b30" title="Gets whether or not there is an RMAP command waiting to be authorised. " alt="" coords="165,112,277,141"/>
+<area shape="rect" id="node9" href="$a01561.xhtml#a0bb5b3cb5b0709510e265495494adc7b" title="Gets whether or not there is an RMAP command waiting to be authorised. " alt="" coords="140,165,303,195"/>
+</map>

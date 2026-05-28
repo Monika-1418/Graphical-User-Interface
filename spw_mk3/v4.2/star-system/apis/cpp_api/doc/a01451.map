@@ -1,0 +1,4 @@
+<map id="PXIDeviceConfiguration" name="PXIDeviceConfiguration">
+<area shape="rect" id="node2" href="$a01369.xhtml" title="Holds the configuration state of a Mk2 compatible device. " alt="" coords="5,382,232,693"/>
+<area shape="rect" id="node4" href="$a01273.xhtml" title="Base class to represent the configuration state of a device and which can be used to query or set a d..." alt="" coords="19,5,219,333"/>
+</map>

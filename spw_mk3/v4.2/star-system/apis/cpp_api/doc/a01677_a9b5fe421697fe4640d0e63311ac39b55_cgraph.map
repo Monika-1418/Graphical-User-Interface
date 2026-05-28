@@ -1,0 +1,5 @@
+<map id="operator=" name="operator=">
+<area shape="rect" id="node3" href="$a01677.xhtml#a3aafddc7461afc7395dd7d1e413aefb7" title="Creates a time&#45;code using the time&#45;code value provided. " alt="" coords="139,5,259,35"/>
+<area shape="rect" id="node5" href="$a01677.xhtml#a9d5daa927d1c97d4903db8a13594f2bc" title="Free any resources held by the time&#45;code object, e.g. " alt="" coords="315,32,443,61"/>
+<area shape="rect" id="node8" href="$a01677.xhtml#a3271cb64a29e3d48a907a3429009904c" title="Gets the value of this time&#45;code. " alt="" coords="131,109,267,139"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="GetErrors" name="GetErrors">
+<area shape="rect" id="node3" href="$a01437.xhtml#a17d5c4929105df0f65ed145625e7ceba" title="Get the id of the device which &#39;owns&#39; the port. " alt="" coords="135,23,289,52"/>
+<area shape="rect" id="node5" href="$a01273.xhtml#a9aa876ec7e5fbeb037179c887b7a26bc" title="Gets the output port to which the given (source) port is currently connected to whilst routing is in ..." alt="" coords="339,5,568,69"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Brick Mk3 Configuration API" name="Brick Mk3 Configuration API">
+<area shape="rect" id="node1" href="$group___device_config.xhtml" title="The Device Configuration APIs provide functions for configuring devices. " alt="" coords="5,32,219,61"/>
+<area shape="rect" id="node3" href="$group__brick_mk3_timestamping.xhtml" title="Functions in this group deal with timestamping related functions for the Brick Mk3. " alt="" coords="504,5,608,35"/>
+<area shape="rect" id="node4" href="$group__brick_mk3_links.xhtml" title="Functions in this group deal with setting the link speeds of Brick Mk3 devices. " alt="" coords="513,59,599,88"/>
+</map>

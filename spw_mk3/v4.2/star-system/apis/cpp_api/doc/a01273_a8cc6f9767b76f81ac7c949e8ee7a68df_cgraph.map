@@ -1,0 +1,5 @@
+<map id="CreatePort" name="CreatePort">
+<area shape="rect" id="node3" href="$a01273.xhtml#aa9df725ecbac12fb410aa677e1f31168" title="Create an instance of a ConfigPort with the given values. " alt="" coords="144,5,267,35"/>
+<area shape="rect" id="node5" href="$a01273.xhtml#a4a1cb284a54e0a6f5877f4716fbfa219" title="Create an instance of an ExternalPort with the given values. " alt="" coords="139,59,272,88"/>
+<area shape="rect" id="node7" href="$a01273.xhtml#ac5e6675e752bc9cc4cd8e12e14c8bc57" title="Create an instance of a LinkPort with the given values. " alt="" coords="151,112,260,141"/>
+</map>

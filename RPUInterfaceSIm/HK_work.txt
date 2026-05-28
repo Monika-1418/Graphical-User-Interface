@@ -1,0 +1,365 @@
+[genuser@abhijit star_system_test]$ ./star-system_test 
+STAR-System Test Program                                                                                                         
+Copyright STAR-Dundee Ltd. (c) 2011-2017                                                                                          
+www.star-dundee.com                                                                                                               
+                                                                                                                                   
+Select Option:                                                                                                                     
+ (1)  Display Device and Version Information                                                                                       
+ (2)  Loopback Test, Single Packet (Data Compare, Link Speed)                                                                        
+ (3)  Loopback Test, Multiple Packets (Data Compare, Link Speed)                                                                     
+ (4)  Double Loopback Test, Single Packet (Data Compare, Link Speed)                                                                 
+ (5)  Double Loopback Test, Multiple Packets (Data Compare, Link Speed)                                                               
+ (6)  Transmit Single Packet (Link Speed)                                                                                             
+ (7)  Transmit Multiple Packets (Link Speed)                                                                                          
+ (8)  Receive Packet (Link Speed)                                                                                                      
+ (9)  Receive Multiple Packets (Link Speed)                                                                                             
+(10)  Transmit From File, Single Packet                                                                                                 
+(11)  Receive To File, Single Packet                                                                                                     
+(12)  Transmit From File, Multiple Packets                                                                                                  
+(13)  Receive To File, Multiple Packets (Link Speed) 
+(14)  Reset Device
+(15)  Identify Device
+ (0)  Exit
+Please Select Menu Option: 0
+
+Exiting SpaceWire test program
+Exiting...
+
+[genuser@abhijit star_system_test]$ ./star-system_test 
+STAR-System Test Program
+Copyright STAR-Dundee Ltd. (c) 2011-2017
+www.star-dundee.com
+
+Select Option:
+ (1)  Display Device and Version Information
+ (2)  Loopback Test, Single Packet (Data Compare, Link Speed)
+ (3)  Loopback Test, Multiple Packets (Data Compare, Link Speed)
+ (4)  Double Loopback Test, Single Packet (Data Compare, Link Speed)
+ (5)  Double Loopback Test, Multiple Packets (Data Compare, Link Speed)
+ (6)  Transmit Single Packet (Link Speed)
+ (7)  Transmit Multiple Packets (Link Speed)
+ (8)  Receive Packet (Link Speed)
+ (9)  Receive Multiple Packets (Link Speed)
+(10)  Transmit From File, Single Packet
+(11)  Receive To File, Single Packet 
+(12)  Transmit From File, Multiple Packets 
+(13)  Receive To File, Multiple Packets (Link Speed) 
+(14)  Reset Device
+(15)  Identify Device
+ (0)  Exit
+Please Select Menu Option: 2
+One transmit device detected:   0 - SpaceWire Brick Mk2
+Using channel 1 as the transmit channel, as this is the only channel on the device.
+deviceId--65536, channelNumber--1,pChannelId--65539 
+Enter an optional path to add to the front of the packets to be sent:
+(Values should be in hex, separated by a space, i.e.: 01 0f 02)
+pAddressPath--24163584
+One receive device detected:    0 - SpaceWire Brick Mk2
+Using channel 1 as the receive channel, as this is the only channel on the device.
+deviceId--65536, channelNumber--1,pChannelId--65540 
+Sent Commands--
+01 
+76 
+FFFFFFFF 
+77 
+04 
+7E 
+00 
+4A 
+Running Single-Packet Loopback Test...
+Receive operation transferred...
+Send operation transferred...
+Send operation over...
+Receive operation over...
+Received Data length is 16 and HK data is--
+00
+07
+70
+00
+00
+00
+00
+0F
+FFFFFFFF
+0F
+FFFFFFFF
+04
+FFFFFF8F
+03
+1D
+00
+00
+Test complete.
+
+**** Single-Packet Loopback Test, Results **** 
+        Time Taken = 0.00043   Seconds
+        Average Speed = 1.49E+05  bits/s (0.15 Mbits/s)
+
+Test successful.
+
+
+Select Option:
+ (1)  Display Device and Version Information
+ (2)  Loopback Test, Single Packet (Data Compare, Link Speed)
+ (3)  Loopback Test, Multiple Packets (Data Compare, Link Speed)
+ (4)  Double Loopback Test, Single Packet (Data Compare, Link Speed)
+ (5)  Double Loopback Test, Multiple Packets (Data Compare, Link Speed)
+ (6)  Transmit Single Packet (Link Speed)
+ (7)  Transmit Multiple Packets (Link Speed)
+ (8)  Receive Packet (Link Speed)
+ (9)  Receive Multiple Packets (Link Speed)
+(10)  Transmit From File, Single Packet
+(11)  Receive To File, Single Packet 
+(12)  Transmit From File, Multiple Packets 
+(13)  Receive To File, Multiple Packets (Link Speed) 
+(14)  Reset Device
+(15)  Identify Device
+ (0)  Exit
+Please Select Menu Option: 2
+One transmit device detected:   0 - SpaceWire Brick Mk2
+Using channel 1 as the transmit channel, as this is the only channel on the device.
+deviceId--65536, channelNumber--1,pChannelId--65539 
+Enter an optional path to add to the front of the packets to be sent:
+(Values should be in hex, separated by a space, i.e.: 01 0f 02)
+pAddressPath--24159168
+One receive device detected:    0 - SpaceWire Brick Mk2
+Using channel 1 as the receive channel, as this is the only channel on the device.
+deviceId--65536, channelNumber--1,pChannelId--65540 
+Sent Commands--
+01 
+76 
+FFFFFFFF 
+77 
+04 
+7E 
+00 
+4A 
+Running Single-Packet Loopback Test...
+Receive operation transferred...
+Send operation transferred...
+Send operation over...
+Receive operation over...
+Received Data length is 16 and HK data is--
+00
+07
+5E
+00
+00
+00
+00
+0F
+FFFFFFFF
+0F
+FFFFFFFF
+04
+FFFFFF84
+02
+FFFFFFDA
+00
+00
+Test complete.
+
+**** Single-Packet Loopback Test, Results **** 
+        Time Taken = 0.000487  Seconds
+        Average Speed = 1.31E+05  bits/s (0.13 Mbits/s)
+
+Test successful.
+
+
+Select Option:
+ (1)  Display Device and Version Information
+ (2)  Loopback Test, Single Packet (Data Compare, Link Speed)
+ (3)  Loopback Test, Multiple Packets (Data Compare, Link Speed)
+ (4)  Double Loopback Test, Single Packet (Data Compare, Link Speed)
+ (5)  Double Loopback Test, Multiple Packets (Data Compare, Link Speed)
+ (6)  Transmit Single Packet (Link Speed)
+ (7)  Transmit Multiple Packets (Link Speed)
+ (8)  Receive Packet (Link Speed)
+ (9)  Receive Multiple Packets (Link Speed)
+(10)  Transmit From File, Single Packet
+(11)  Receive To File, Single Packet 
+(12)  Transmit From File, Multiple Packets 
+(13)  Receive To File, Multiple Packets (Link Speed) 
+(14)  Reset Device
+(15)  Identify Device
+ (0)  Exit
+Please Select Menu Option: 2
+One transmit device detected:   0 - SpaceWire Brick Mk2
+Using channel 1 as the transmit channel, as this is the only channel on the device.
+deviceId--65536, channelNumber--1,pChannelId--65539 
+Enter an optional path to add to the front of the packets to be sent:
+(Values should be in hex, separated by a space, i.e.: 01 0f 02)
+pAddressPath--24163584
+One receive device detected:    0 - SpaceWire Brick Mk2
+Using channel 1 as the receive channel, as this is the only channel on the device.
+deviceId--65536, channelNumber--1,pChannelId--65540 
+Sent Commands--
+01 
+76 
+FFFFFFFF 
+77 
+04 
+7E 
+00 
+4A 
+Running Single-Packet Loopback Test...
+Receive operation transferred...
+Send operation transferred...
+Send operation over...
+Receive operation over...
+Received Data length is 16 and HK data is--
+00
+07
+38
+00
+00
+00
+00
+0F
+FFFFFFFF
+0F
+FFFFFFFF
+04
+6A
+02
+FFFFFFCC
+00
+00
+Test complete.
+
+**** Single-Packet Loopback Test, Results **** 
+        Time Taken = 0.000374  Seconds
+        Average Speed = 1.71E+05  bits/s (0.17 Mbits/s)
+
+Test successful.
+
+
+Select Option:
+ (1)  Display Device and Version Information
+ (2)  Loopback Test, Single Packet (Data Compare, Link Speed)
+ (3)  Loopback Test, Multiple Packets (Data Compare, Link Speed)
+ (4)  Double Loopback Test, Single Packet (Data Compare, Link Speed)
+ (5)  Double Loopback Test, Multiple Packets (Data Compare, Link Speed)
+ (6)  Transmit Single Packet (Link Speed)
+ (7)  Transmit Multiple Packets (Link Speed)
+ (8)  Receive Packet (Link Speed)
+ (9)  Receive Multiple Packets (Link Speed)
+(10)  Transmit From File, Single Packet
+(11)  Receive To File, Single Packet 
+(12)  Transmit From File, Multiple Packets 
+(13)  Receive To File, Multiple Packets (Link Speed) 
+(14)  Reset Device
+(15)  Identify Device
+ (0)  Exit
+Please Select Menu Option: 2
+One transmit device detected:   0 - SpaceWire Brick Mk2
+Using channel 1 as the transmit channel, as this is the only channel on the device.
+deviceId--65536, channelNumber--1,pChannelId--65539 
+Enter an optional path to add to the front of the packets to be sent:
+(Values should be in hex, separated by a space, i.e.: 01 0f 02)
+pAddressPath--24159168
+One receive device detected:    0 - SpaceWire Brick Mk2
+Using channel 1 as the receive channel, as this is the only channel on the device.
+deviceId--65536, channelNumber--1,pChannelId--65540 
+Sent Commands--
+01 
+76 
+FFFFFFFF 
+77 
+04 
+7E 
+00 
+4A 
+Running Single-Packet Loopback Test...
+Receive operation transferred...
+Send operation transferred...
+Send operation over...
+Receive operation over...
+Received Data length is 16 and HK data is--
+00
+07
+65
+00
+00
+00
+00
+0F
+FFFFFFFF
+0F
+FFFFFFFF
+04
+FFFFFF8E
+03
+22
+00
+00
+Test complete.
+
+**** Single-Packet Loopback Test, Results **** 
+        Time Taken = 0.000296  Seconds
+        Average Speed = 2.16E+05  bits/s (0.22 Mbits/s)
+
+Test successful.
+
+
+Select Option:
+ (1)  Display Device and Version Information
+ (2)  Loopback Test, Single Packet (Data Compare, Link Speed)
+ (3)  Loopback Test, Multiple Packets (Data Compare, Link Speed)
+ (4)  Double Loopback Test, Single Packet (Data Compare, Link Speed)
+ (5)  Double Loopback Test, Multiple Packets (Data Compare, Link Speed)
+ (6)  Transmit Single Packet (Link Speed)
+ (7)  Transmit Multiple Packets (Link Speed)
+ (8)  Receive Packet (Link Speed)
+ (9)  Receive Multiple Packets (Link Speed)
+(10)  Transmit From File, Single Packet
+(11)  Receive To File, Single Packet 
+(12)  Transmit From File, Multiple Packets 
+(13)  Receive To File, Multiple Packets (Link Speed) 
+(14)  Reset Device
+(15)  Identify Device
+ (0)  Exit
+Please Select Menu Option: 2
+One transmit device detected:   0 - SpaceWire Brick Mk2
+Using channel 1 as the transmit channel, as this is the only channel on the device.
+deviceId--65536, channelNumber--1,pChannelId--65539 
+Enter an optional path to add to the front of the packets to be sent:
+(Values should be in hex, separated by a space, i.e.: 01 0f 02)
+pAddressPath--24163584
+One receive device detected:    0 - SpaceWire Brick Mk2
+Using channel 1 as the receive channel, as this is the only channel on the device.
+deviceId--65536, channelNumber--1,pChannelId--65540 
+Sent Commands--
+01 
+76 
+FFFFFFFF 
+77 
+04 
+7E 
+00 
+4A 
+Running Single-Packet Loopback Test...
+Receive operation transferred...
+Send operation transferred...
+Send operation over...
+
+ERROR occurred during receive.  Test 1 failed.
+
+Select Option:
+ (1)  Display Device and Version Information
+ (2)  Loopback Test, Single Packet (Data Compare, Link Speed)
+ (3)  Loopback Test, Multiple Packets (Data Compare, Link Speed)
+ (4)  Double Loopback Test, Single Packet (Data Compare, Link Speed)
+ (5)  Double Loopback Test, Multiple Packets (Data Compare, Link Speed)
+ (6)  Transmit Single Packet (Link Speed)
+ (7)  Transmit Multiple Packets (Link Speed)
+ (8)  Receive Packet (Link Speed)
+ (9)  Receive Multiple Packets (Link Speed)
+(10)  Transmit From File, Single Packet
+(11)  Receive To File, Single Packet 
+(12)  Transmit From File, Multiple Packets 
+(13)  Receive To File, Multiple Packets (Link Speed) 
+(14)  Reset Device
+(15)  Identify Device
+ (0)  Exit
+Please Select Menu Option: 

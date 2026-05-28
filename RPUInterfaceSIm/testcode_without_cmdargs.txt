@@ -1,0 +1,1962 @@
+//--===========================================================================--
+//-- File Name           : RS_PDS_spwtest_MKII.c
+//-- Project Name    	 : Proximity Docking Sensor (PDS), SPADEX
+//-- Design Name         : PDS
+//-- Dependant Library   : stdio, stdlib, string, time and math
+//-- Description         : C program that uses SpaceWire Dundee MK-II brick APIs for testing PDS
+//-- Revision Number     : 1.0
+//-- Revision Date       : ---
+//-- Revision Descrpn.   : ---
+//-- Author              : ---
+//-- Verified By         : ---
+//--===========================================================================--
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <math.h>
+#include <string.h>
+ 
+#include "star-api.h"
+#include "cfg_api_router.h"
+#include "cfg_api_mk2.h"
+#include "utility.h"
+#include "star-dundee_types.h"
+ 
+ 
+ /* Menu option codes */
+#define MENU_SEND				1
+#define	MENU_EXIT				0
+#define MENU_RESET				2
+#define MENU_CHU_RESET                          3
+
+
+#define RX_BUFFER_SIZE 				50000000
+#define TX_BUFFER_SIZE 				90000000
+
+
+/* Global Variables */
+U8 g_usbport;	        /* The number of the device's USB port */
+char	g_headermode;	/* Whether or not header mode was enabled when the device was opened */
+char	g_networkmode;	/* Whether or not network mode was enabled when the device was opened */
+int cmnd_index;		/* Command index*/
+int sizeOFbuffer;	/* Length of command buffer */
+int pix_width;	/* Whether Image data is 8 bit or 16 bit*/
+U8 hk;			/* Whether HK data is requested*/
+int flines;		/* No. of lines requested in Full Frame mode*/
+int wsizeg,wnum;	/* Window size and no. of windows*/
+int wbytes=0;		/* No. of bytes expected in window mode*/
+int fbytes=0;		/* No. of bytes expected in Full Frame mode*/
+int nframes;		/* No. of frames*/
+int delay;
+int flag_err;		/* Error in a frame*/
+ 
+U8 *pTxBuffer;		/*Tranmit Buffer*/
+U8 *pRxBuffer;          /*Receive Buffer*/
+U8 *threshData;		
+U8 prompt[1000];	/*Command Array*/
+unsigned long  byteSize = 0U ;
+STAR_CHANNEL_ID rxChannelId = 0U, txChannelId = 0U;
+char ***ptrToArg=NULL;
+FILE *logFile;
+ 
+
+void ResetSPWUSB();
+void ResetPDS();
+void DisplayMenu();
+void Test();
+U8 *AllocateMemChar(unsigned long size);
+
+ 
+int getData();
+ 
+void convert(int val);
+int FFdefaultValues();
+int WMdefaultValues();
+int FFPrompt();
+int WMPrompt();
+int HKdefaultValues();
+ 
+	
+/******************************************************************************/
+/*                           SPACEWIRE_BRICK                                  */
+/*  Tests the driver's ability to send packets. Fills buffer with CHU commands*/
+/*  and transmits it out of a link and receives data from CHU.                */
+/******************************************************************************/
+
+ int main(int argc, char *argv[])
+ 
+{
+	int menuSelect;
+	 
+	char bExit = 0;
+	char command[200];
+	 ptrToArg=&argv;
+ 
+ 
+        char logFilePath[50]="logsheet.txt";
+	logFile = fopen(logFilePath,"w"); 
+		
+	if (logFile == NULL)
+	{
+	  printf("Error: Trouble opening log file. No logs will be created. \n");
+	  return 0;
+	}
+	
+	/* Print out Driver, API and Test Program Versions */
+	printf("\n\n+++++++++++++++++++++++++++++++++++++++Welcome to PDS Testing++++++++++++++++++++++++++++++++++++++++++++\n\n");
+	printf("\n\tABOUT : This Program aids the testing of Proximity Docking Sensor using STAR Dundee SpaceWire Brick\n\n");
+	printf("\n\n=======================================SpaceWire Brick Details===========================================\n");
+	clock_t start;
+int con;
+	start = GET_TIME();
+	fprintf(logFile, "%d %s", start,"\n");
+	
+	//menuSelect=atoi(ptrToArg[0][1]);
+menuSelect = 1;
+	
+        //System Call to iniate Spw service
+	snprintf(command,sizeof(command),"service star_device_config restart");
+	system(command);
+	
+	DisplayInformation();
+	
+	/* Try to open the SpaceWire USB device */
+//con = atoi(ptrToArg[0][2]);
+con = 1;
+                SetConfiguration(con);
+		
+		/* Loop until exit option is chosen */
+		while (!bExit)
+		{
+			printf("\n\n\n");
+		  
+			switch(menuSelect)
+			{
+				case MENU_SEND:
+					Test();
+					menuSelect=0;
+					break;
+				
+				case MENU_RESET:
+					ResetSPWUSB();
+					SetConfiguration(con);
+					menuSelect=0;
+					break;
+	 
+				case MENU_CHU_RESET:
+					ResetPDS();
+					menuSelect=0;
+					break;
+	
+				case MENU_EXIT:
+					printf("\nExiting SpaceWire USB test program\n");
+					bExit = 1;
+					break;
+	
+				default:
+					printf("\nERROR: Incorrect menu option\n");
+					break;
+			}
+			 
+		}
+		
+        
+        
+
+	fclose(logFile);
+ 
+	printf("Exiting...\n\n");
+	return 0;
+}
+
+
+
+
+/******************************************************************************/
+/*  Displays the options menu.                                                */
+/******************************************************************************/
+void DisplayMenu()
+{
+	printf("------------TEST BEGINS -----------------------:\n");
+	printf("SpaceWire USB Test Program. Select Option:\n");
+	printf("(1) Send Commands and Receive Data\n");
+	printf("(2) Reset Brick\n");
+        printf("(3) Reset PDS\n");
+	printf("(0) Exit\n\n");
+	printf("Please Select Menu Option: ");
+}
+
+/******************************************************************************/
+/*  Outputs the status to screen                                              */
+/******************************************************************************/
+void OutputStatus(STAR_TRANSFER_STATUS status)
+{
+	fprintf(logFile,"%s","Status = ");
+	switch (status)
+	{
+		case STAR_TRANSFER_STATUS_NOT_STARTED:
+		   
+			fprintf(logFile,"%s","Not yet started.\n");
+			 
+			break;
+	
+		case STAR_TRANSFER_STATUS_STARTED :
+		        
+		        fprintf(logFile,"%s","Transfer has begun.\n");
+			 
+			break;
+
+		case STAR_TRANSFER_STATUS_COMPLETE :
+			fprintf(logFile,"%s","Transfer has completed.\n");
+			 
+			break;
+
+		case STAR_TRANSFER_STATUS_CANCELLED :
+			fprintf(logFile,"%s","Transfer was cancelled.\n");
+			 
+			break;
+
+		case STAR_TRANSFER_STATUS_ERROR :
+			fprintf(logFile,"%s","An error occurred while processing the transfer.\n");
+			 
+			break;
+
+		default:
+			fprintf(logFile,"%s","Unknown Result state!\n");
+			 
+			break;
+	}
+}
+
+
+
+void DisposeAll( STAR_CHANNEL_ID *txChannelId,  STAR_CHANNEL_ID *rxChannelId, 
+	STAR_STREAM_ITEM **pTxStreamItem, STAR_TRANSFER_OPERATION **pTxTransferOp, 
+	STAR_TRANSFER_OPERATION **pRxTransferOp,  STAR_SPACEWIRE_ADDRESS **pAddress)
+{
+  
+
+  
+	 
+      /* Dispose of the transfer operations */
+   if (*pTxTransferOp != NULL)
+    {
+	STAR_disposeTransferOperation(*pTxTransferOp);
+	fprintf(logFile,"%s","***Successfully disposed transmit transfer operation.\n");
+	 
+    }
+     if (*pRxTransferOp != NULL)
+    {
+        fprintf(logFile,"%s","Successfully disposed receive transfer operation.\n");
+	 
+	STAR_disposeTransferOperation(*pRxTransferOp);
+    }
+
+    /* Destroy the packet transmitted */
+    if (*pTxStreamItem != NULL)
+    {
+        fprintf(logFile,"%s","Successfully disposed transmit stream.\n");
+	 
+	STAR_destroyStreamItem(*pTxStreamItem);
+    }
+
+ 
+
+    /* Free the address path */
+     if (*pAddress != NULL)
+    {
+        fprintf(logFile,"%s","Successfully disposed transmit address.\n");
+	 
+	STAR_destroyAddress(*pAddress);
+    }
+ 
+    /* Close the channels */
+     if (*rxChannelId != 0U )
+    {
+        fprintf(logFile,"%s","Successfully disposed receive channel ID.\n");
+	 
+	STAR_closeChannel(*rxChannelId);
+    }
+     if (*txChannelId != 0U )
+    {
+        fprintf(logFile,"%s","Successfully disposed transmit channel ID.***\n");
+        
+	STAR_closeChannel(*txChannelId);
+    }
+}
+
+
+
+/******************************************************************************/
+
+
+/*  Tests the SpaceWire USB device. Fills buffer with user data,              */
+/*  transmits it out of one link. Writes received data to file.               */
+/*  If Image mode, image is generated for 8-bit mode and pixel intensities    */
+/*  are stored if 16-bit. If Threshold and Sobel mode, image is displayed     */
+/*  for 8-bit mode and pixel intensities are stored for 16-bit mode.          */
+/*  If window mode, window data is stored.                                    */
+/******************************************************************************/
+void Test()
+{
+	
+ 
+	int i,j,k,l,pass_cntr=0, n=0,mode,z,errorCount=0,flag_errCount=0,testNum,last=0;
+	int transmitLink=1;
+	U8 thresh_display[1024][1024];
+	int im_write[1024][1024];
+	int twrite[1048576];
+	int pData[60][60],a=0,intensity=0,linenum=0,pixelnum=0;
+	int bytesReceived = 0;
+	int rcvdata_index = 0;
+	 
+	unsigned int rxPacketCount=0;
+	
+	
+	STAR_TRANSFER_OPERATION *pTxTransferOp = NULL, *pRxTransferOp = NULL;
+	STAR_STREAM_ITEM *pTxStreamItem = NULL;
+        STAR_DEVICE_ID deviceID;
+	STAR_TRANSFER_STATUS rxStatus, txStatus;
+	STAR_SPACEWIRE_ADDRESS *pAddress, *pAddressOpt;
+	STAR_STREAM_ITEM *pRxStreamItem;
+	FILE *outfile, *outfile1;
+	double  duration;
+	
+	char file_pre[40] = "images/frame_";
+	char file_post[20] = ".test";
+	char file_post2[20] = ".txt";
+	char im_post[20] = ".pgm";
+	char command_str[200];
+	char nframes_char[5];
+	char file_name[40],image_name[40],file_name2[40];
+	static int temp2=0;
+	nframes = 0;
+	 
+	//nframes=atoi(ptrToArg[0][5]);
+	//mode=atoi(ptrToArg[0][3]);
+	nframes = 1;
+    mode=1;
+			
+	/* Initiate receive, send the commands through transmit link and receive through the same link */
+	  fprintf(logFile,"%s","Initiating transmit and receive via SpaceWire Brick Mk-II.\n");
+        //fprintf(logFile,"\n");
+		 printf("=====Initiating transmit and receive via SpaceWire Brick Mk-II=====\n\n"); 	
+	
+	/* Select the transmit device and channel to be used */
+	if (chooseDeviceAndChannelID("transmit", &txChannelId, STAR_CHANNEL_DIRECTION_OUT,&deviceID) == 0 )
+	{
+	   
+	  return;
+	}
+
+         
+	
+	
+	/* Get transmit link and check for validity */
+        //transmitLink=atoi(ptrToArg[0][2]);
+transmitLink = 1;
+	 
+	
+	if ((transmitLink < 1) || (transmitLink > 2))
+ 
+	{
+	        fprintf(logFile,"%s","ERROR: Incorrect link number.");
+		printf("ERROR: Incorrect link number\n");
+		return;
+	}
+	else
+	{   /* Select the path to be added to the front of packets transmitted */
+		pAddress = getTransmitPathAddress(transmitLink);
+	  
+	}
+	
+		
+	/* Select the receive device and channel to be used */
+	if (chooseDeviceAndChannelID("receive", &rxChannelId, STAR_CHANNEL_DIRECTION_IN, &deviceID) == 0)
+	{
+	  DisposeAll(&txChannelId, &rxChannelId, &pTxStreamItem, &pTxTransferOp, &pRxTransferOp, &pAddress);
+	  return;
+	}
+	
+	 
+	
+	  
+	if(getData()!=1)   /*Fill the command array with commands and return operating mode*/
+	{ 
+	  DisposeAll(&txChannelId, &rxChannelId, &pTxStreamItem, &pTxTransferOp, &pRxTransferOp, &pAddress);
+	  fprintf(logFile,"%s","ERROR: While filling command buffer.\n");
+	  return;
+	  
+	}
+	  
+	  printf("\n\nNOTE- Previous files at the destined path will be overwritten by the program.\n");
+	
+          /* Allocate memory for transmit buffer */
+	  pTxBuffer = (unsigned char *)AllocateMemChar(TX_BUFFER_SIZE);	
+	 
+              
+	     if (pTxBuffer == NULL)
+	     {
+	       fprintf(logFile,"%s","ERROR: Unable to allocate memory for buffer.\n");
+	       return;
+	     }
+	     
+	  /*Fill Transmit Buffer */
+	  pTxBuffer[0] = transmitLink;
+printf("xyz %02x , %d",transmitLink,sizeOFbuffer);
+	  printf("\nCommands in transmit buffer are--\n");
+
+	  
+	  for(n=0;n<sizeOFbuffer-1;n++)
+	  { 
+	    *(pTxBuffer+1+n)=prompt[n];
+	    //printf("%02x ",prompt[n]);
+	  }
+	  
+	  /* Fills receive buffer with zeros */
+	//  memset(pRxBuffer, 0, RX_BUFFER_SIZE); 
+	  	  /* Create receive operation to receive 1 packet */
+	pRxTransferOp = STAR_createRxOperation(1, STAR_RECEIVE_PACKETS);
+	
+	if (pRxTransferOp == NULL)
+	{
+	  fprintf(logFile,"%s","ERROR: Unable to create receive operation.\n");
+	  DisposeAll(&txChannelId, &rxChannelId, &pTxStreamItem, &pTxTransferOp, &pRxTransferOp, &pAddress);
+	  return;
+	}
+	  
+	  /* Create the packet to be transmitted */
+	 // pTxStreamItem = STAR_createPacket(pAddress, (U8 *)pTxBuffer, sizeOFbuffer, STAR_EOP_TYPE_EOP);
+	pTxStreamItem = STAR_createPacket(pAddressOpt, (U8 *)pTxBuffer, sizeOFbuffer, STAR_EOP_TYPE_EOP);
+	  
+	  if (pTxStreamItem == NULL)
+	  {
+	    fprintf(logFile,"%s","ERROR: Unable to create the packet to be transmitted.\n");
+	    DisposeAll(&txChannelId, &rxChannelId, &pTxStreamItem, &pTxTransferOp, &pRxTransferOp, &pAddress);
+	    return;
+	  }
+	  
+	  
+	  /* Create the transmit transfer operation for the packet */
+	  pTxTransferOp = STAR_createTxOperation(&pTxStreamItem, 1);
+	  
+	  if (pTxTransferOp == NULL)
+	  {
+	    fprintf(logFile,"%s","ERROR: Unable to create the transfer operation to be transmitted.\n");
+	    DisposeAll(&txChannelId, &rxChannelId, &pTxStreamItem, &pTxTransferOp, &pRxTransferOp, &pAddress);
+	    return;
+	  }
+ 
+
+	
+	
+   for(testNum=0;testNum<nframes;testNum++)
+	{
+	  
+	  printf("\n\nTest Frame No. %d...\n", testNum+1);
+	  fprintf(logFile,"%s %d %s","Test Frame No.",testNum+1,"\n");
+	  strcpy(file_name,file_pre);  
+	  sprintf(nframes_char,"%d",testNum);
+	  strcat(file_name,nframes_char);
+	  strcpy(image_name,file_name);
+	  strcpy(file_name2,file_name);
+	  
+	  strcat(file_name,file_post);		
+	  strcat(image_name,im_post);
+	  strcat(file_name2,file_post2);
+	  
+	  outfile = fopen(file_name,"w");		/* .test file required to generate pgm image */
+	  outfile1 = fopen(file_name2,"w");	/* .txt file containing pixel intensities */
+	   
+	  
+	   /* Allocate memory for receive buffer */
+	  pRxBuffer = (unsigned char *)AllocateMemChar(RX_BUFFER_SIZE);
+	  
+	  
+         /*Dont Create receive Operation again if only 1 frame is tested*/
+         if(nframes>1)
+	 {
+	      pRxTransferOp = STAR_createRxOperation(1, STAR_RECEIVE_PACKETS);
+	      
+	      if (pRxTransferOp == NULL)
+	      {
+		  fprintf(logFile,"%s","ERROR: Unable to create receive operation.\n");
+		  DisposeAll(&txChannelId, &rxChannelId, &pTxStreamItem, &pTxTransferOp, &pRxTransferOp, &pAddress);
+		  return;
+	      }
+ 
+	  }
+   
+	  
+	  /* Submit the receive operation */
+	  if (STAR_submitTransferOperation(rxChannelId, pRxTransferOp) == 0)
+	  {
+	    printf("\nERROR: occurred during receive submit.  Test %d failed.\n", testNum + 1);
+	    fprintf(logFile,"%s %d %s","ERROR: Occurred during receive submit. Test ",testNum+1," failed.\n");
+	     
+	  }
+	  else
+	  { 
+	   fprintf(logFile,"%s","Receive operation transferred...\n");
+	    
+	  }
+	  
+	
+	    /* Submit the transmit operation */
+	    if (STAR_submitTransferOperation(txChannelId, pTxTransferOp) == 0)
+	    {
+	      printf("\nERROR: occurred during transmit submit.  Test %d failed.\n", testNum + 1);
+	      fprintf(logFile,"%s %d %s","ERROR: Occurred during transmit submit. Test ",testNum+1," failed.\n");
+	       
+	    }
+	    else
+	    {
+	     fprintf(logFile,"%s","Transmit operation transferred...\n");
+	      
+	    }
+	    
+	     /*Wait on the transmit operation to complete*/
+	    txStatus = STAR_waitOnTransferOperationCompletion(pTxTransferOp, 1000);
+	    
+	    if(txStatus != STAR_TRANSFER_STATUS_COMPLETE)
+	    {
+	      printf("\nERROR: Couldn't transmit commands.  Test %d failed.\n", testNum + 1);
+	      fprintf(logFile,"%s %d %s","ERROR: Couldn't transmit commands. Test ",testNum+1," failed.\n");
+	      //errorCount++;
+	      OutputStatus(txStatus);
+          
+	    }
+	    else
+	    {
+	      printf("=====Transmitted commands successfully=====\n\n");
+	      fprintf(logFile,"%s","Transmitted commands successfully.\n"); 
+	      
+	      if(mode !=5)	//Other than HK mode
+	      {
+		PerformTickIn(deviceID);  
+	      }
+	      
+	    }
+	     printf("\n.\n.\n.\nWaiting to receive....\n\n"); 
+	    /* Wait on the receive operation completing */
+	    rxStatus = STAR_waitOnTransferOperationCompletion(pRxTransferOp, 2000);
+	    
+	    if (rxStatus != STAR_TRANSFER_STATUS_COMPLETE)
+	    {
+	      printf("\nERROR: Couldn't receive data from PDS.  Test %d failed.\n", testNum + 1);
+	      fprintf(logFile,"%s %d %s","ERROR: Couldn't receive data from PDS. Test ",testNum+1," failed.\n");
+	      errorCount++;
+	      OutputStatus(rxStatus);
+	       
+	    }
+	    else
+ 	    {
+	      printf("\n========Received data successfully=======\n");
+	      fprintf(logFile,"%s","Received data successfully.\n");
+	           
+	    }	
+	    
+	    
+	    /*Get Received Data */
+	    
+	    rxPacketCount = STAR_getTransferItemCount(pRxTransferOp);
+	    if (rxPacketCount != 1)
+	    {
+	      fprintf(logFile,"%s %u %s","ERROR: expected to receive 1 packet but received ",rxPacketCount,".\n");
+	      
+	    }
+	    else
+	    {
+	      /* For each traffic item received */
+	      for (l = 0U; l < rxPacketCount; l++)
+	      {
+		pRxStreamItem = STAR_getTransferItem(pRxTransferOp, l);
+		pRxBuffer = (char *)STAR_getPacketData((STAR_SPACEWIRE_PACKET *)pRxStreamItem->item, &bytesReceived);
+		 
+		
+	      }
+	    }
+	   
+	   
+	    flag_err=0;
+	    
+	    printf("\nSize of data received : %d bytes.\n",bytesReceived);
+	    fprintf(logFile,"%s %d %s","Size of data received : ",bytesReceived," bytes.\n");
+	  
+	  
+	    if((mode == 5 && bytesReceived != 16) || (mode == 4 && bytesReceived != wbytes) || (mode == 1 && bytesReceived != fbytes)) /* HK mode || window mode || FF image mode */
+	    {    
+	   
+	          fprintf(logFile,"%s","ERROR: Mismatch in expected and received bytes.\n");
+	           
+	          flag_err = 1;
+	          flag_errCount++;
+	         // break;
+	    }
+	    else
+	    {
+	       pass_cntr++;
+	       fprintf(logFile,"%s %d %s","Test ",testNum+1," Passed.\n");   
+	      
+	    }
+	    
+	    
+	    
+	    if (mode == 5  && flag_err != 1)  //HK data
+	    {
+	      
+	      
+	      for(j=0;j<bytesReceived;j++)
+	       fprintf(outfile1,"%02d ",pRxBuffer[j]);
+	      
+	       printf("\n\nHK data saved at images/frame_%d.txt\n",testNum);
+	      j=0;
+	    }
+	    
+	    
+	    if (mode == 1  && flag_err != 1)  //Image mode
+	    {  
+	      if (pix_width == 0) //save 16 bit data as pixels (generates .txt file)
+	      {
+		for(j=0;j<flines;j++)
+		{
+		  for(k=0;k<1024;k++)
+		  {
+		    intensity = pRxBuffer[2*(k+j*1024)]*256;
+		    im_write[j][k]=intensity|pRxBuffer[(2*(k+j*1024))+1];
+		    fprintf(outfile1,"%04d ",im_write[j][k]);
+		  }
+		  fprintf(outfile1,"\n");
+		}
+	      }
+	      else if (pix_width == 1) //save 8 bit data as pixels and generate image (.txt,.test,.pgm)
+	      {
+		
+		  
+		for(j=0;j<flines;j++)  
+		{
+		  for(k=0;k<1024;k++)
+		  {
+		    im_write[j][k]=pRxBuffer[k+j*1024];   /*initialize array with zeroes*/
+		    fprintf(outfile1,"%03d ",im_write[j][k]);
+		     
+		  }
+		  fprintf(outfile1,"\n");
+		}
+		
+		fwrite(pRxBuffer, 1, 1024*1024, outfile); 
+		snprintf(command_str,sizeof(command_str),"cat apsdmp.hdr %s > %s",file_name,image_name);
+		system(command_str);
+		 printf("\n\nNOTE- Full frame image can be seen at images/frame_%d.pgm\n",testNum);
+		
+	      }
+	      printf("\n\nNOTE- Full frame data written at images/frame_%d.txt\n",testNum);
+	     
+	    }
+	    
+	    
+	     if( mode == 2  && flag_err != 1 ) //Threshold
+	    {   
+	        threshData = (unsigned char *)AllocateMemChar(RX_BUFFER_SIZE);
+		
+ 	        if(hk==1)
+		  a=(bytesReceived-16)/6;
+		else
+		  a=(bytesReceived)/6;
+		
+		/*Extracting line number and pixel number and intensity from received buffer into twrite[] */
+		for(j=0;j<a;j++)//Should be changed to 'a'
+		{
+		
+		  linenum=(pRxBuffer[6*j]&0x0F)*256;
+		  twrite[3*j]=linenum|pRxBuffer[6*j+1];
+		  pixelnum=(pRxBuffer[6*j+2]&0x0F)*256;
+		  twrite[3*j+1]=pixelnum|pRxBuffer[6*j+3];
+		  intensity=(pRxBuffer[6*j+4]&0x0F)*256;
+		  twrite[3*j+2]=intensity|pRxBuffer[6*j+5];
+		 
+		  threshData[(twrite[3*j]*1024) + twrite[3*j+1] ] = pRxBuffer[6*j+5];
+		
+		
+		  fprintf(outfile1,"%d\t\t%d\t\t%d\n",twrite[3*j],twrite[3*j+1],twrite[3*j+2]); 
+		    
+		}
+		
+		fwrite(threshData, 1, 1024*1024, outfile); 
+		snprintf(command_str,sizeof(command_str),"cat apsdmp.hdr %s > %s",file_name,image_name);
+		system(command_str);
+	 
+		if(a>0)
+		{  
+		  fprintf(logFile, "%s", "Pixel Data and HK bytes received.\n");
+		}
+		else
+		{  if(bytesReceived==16)
+		    fprintf(logFile, "%s", "Only HK bytes received.\n");
+		}
+		
+		 printf("\n\nNOTE- Full frame thresholded data written at images/frame_%d.txt\n",testNum);
+	      
+	    }
+	    
+	    
+	    
+	    if (mode == 3  && flag_err != 1) //Sobel Modes
+	    {   j=0;
+	        i=0;
+		
+		threshData = (unsigned char *)AllocateMemChar(RX_BUFFER_SIZE);
+		 
+		/*Extracting line number and pixel number and intensity from received buffer into twrite[] */
+		for(j=0;j<(bytesReceived-16);)
+		{
+		   // fprintf(outfile1,"%02x%02x\t %d\n",pRxBuffer[j],pRxBuffer[j+1],j);
+		  //  j =j+2;
+		  
+		   if(((pRxBuffer[j]& 0xFF)>>4) == 1)
+		  { 
+		    
+		    linenum = (pRxBuffer[j]&0x0F)*256 |  pRxBuffer[j+1];
+		    last =1;
+		    j = j+2;
+		    
+		     
+		  }
+		  else if(((pRxBuffer[j]& 0xF0)>>4) == 2)
+		  { 
+	            pixelnum = (pRxBuffer[j]&0x0F)*256 | pRxBuffer[j+1];
+		    last = 2;
+		    j = j+2;
+		     
+		  }
+		  else if(((pRxBuffer[j]& 0xF0)>>4) == 3)
+		  { 
+		   
+		    if(last == 3 )
+		    {
+		      
+		      twrite[i++]=linenum;
+		      pixelnum = pixelnum + 1;
+		      twrite[i++] = pixelnum;
+		      intensity = (pRxBuffer[j]&0x0F)*256;
+		      twrite[i++] = intensity | pRxBuffer[j+1];
+		      
+		      threshData[ (linenum*1024) + pixelnum ] = pRxBuffer[j+1];
+		      
+		      j=j+2;
+		      fprintf(outfile1,"%d\t\t%d\t\t%d\n",linenum,pixelnum,twrite[i-1]); 
+		      
+		      
+		      
+		    }
+		    else if(last == 2)
+		    {
+		      twrite[i++] = linenum;
+		      twrite[i++] = pixelnum-2;
+		      intensity = (pRxBuffer[j]&0x0F)*256;
+		      twrite[i++] = intensity | pRxBuffer[j+1];
+		      fprintf(outfile1,"%d\t\t%d\t\t%d\n",linenum,pixelnum-2,twrite[i-1]);
+		      
+		      twrite[i++] = linenum;
+		      twrite[i++] = pixelnum-1;
+		      intensity = (pRxBuffer[j+2]&0x0F)*256;
+		      twrite[i++] = intensity | pRxBuffer[j+3];
+		      fprintf(outfile1,"%d\t\t%d\t\t%d\n",linenum,pixelnum-1,twrite[i-1]);
+		      
+		      twrite[i++] = linenum;
+		      twrite[i++] = pixelnum;
+		      intensity = (pRxBuffer[j+4]&0x0F)*256;
+		      twrite[i++] = intensity | pRxBuffer[j+5];
+		      fprintf(outfile1,"%d\t\t%d\t\t%d\n",linenum,pixelnum,twrite[i-1]);
+		      
+		       threshData[ (linenum*1024) + pixelnum-2 ] = pRxBuffer[j+1];
+		       threshData[ (linenum*1024) + pixelnum-1 ] = pRxBuffer[j+3];
+		       threshData[ (linenum*1024) + pixelnum ] = pRxBuffer[j+5];
+		       
+		      j=j+6;
+		      
+		    }
+		    
+		    last = 3;
+		   
+		    
+		  }
+		   
+		  
+		}
+		
+		//Create Image
+		fwrite(threshData, 1, 1024*1024, outfile); 
+		snprintf(command_str,sizeof(command_str),"cat apsdmp.hdr %s > %s",file_name,image_name);
+		system(command_str);
+	 
+		if(a>0)
+		{  
+		  fprintf(logFile, "%s", "Pixel Data and HK bytes received.\n");
+		}
+		else
+		{  if(bytesReceived==16)
+		    fprintf(logFile, "%s", "Only HK bytes received.\n");
+		}
+	   
+	      printf("\n\nNOTE- Full frame thresholded data written at images/frame_%d.txt\n",testNum);
+	     
+	      
+	    }
+
+	    
+	    
+	    if(mode==4 && flag_err != 1) //Window mode,save window data into file (generates .txt file)
+	    {
+	      for(z=1;z<=wnum;z++)
+	      {
+		for(j=0;j<60;j++)
+		  for(k=0;k<60;k++)
+		    pData[j][k]=0;		//Filling pData[][] with zeroes
+		    
+		    rcvdata_index=(z-1)*wsizeg*wsizeg*2;
+		  
+		  for(j=0;j<wsizeg;j++)
+		  {
+		    for(k=0;k<wsizeg;k++)
+		    {
+		      a=pRxBuffer[rcvdata_index++]*256;
+		      pData[j][k]=a|pRxBuffer[rcvdata_index++];
+		      fprintf(outfile1,"%04d ",pData[j][k]); 
+		      
+		  
+		     
+		    }
+		    fprintf(outfile1,"\n");
+		  }				
+		  fprintf(outfile1,"\n");
+	      }
+	      
+	      printf("\n\nNOTE- Window mode data written at images/frame_%d.txt\n",testNum);
+		 
+	    }
+	    
+	   
+ 	
+	    
+	    if(ferror(outfile))
+	      
+	    fprintf(logFile,"%s %d %s","Write error in file_write. After writing ",bytesReceived," bytes\n");
+ 	    
+	    	   /* Destroy the packet received */
+	   if (bytesReceived >0 && pRxStreamItem != NULL)
+	   {
+	     STAR_destroyStreamItem(pRxStreamItem);
+	   }
+ 
+	    free(pRxBuffer);
+	    fprintf(logFile,"%s %d %s","***Receive buffer free for frame ",testNum+1," ***\n");
+	    bytesReceived=0;
+ 	    
+	    
+	    fclose(outfile);
+	    fclose(outfile1);
+	    
+	}
+	
+ 
+ 
+	     free(pTxBuffer);
+	     fprintf(logFile,"%s","Transmit buffer free.\n");
+ 
+	    printf("Pass Tests : %d\n",pass_cntr);
+	    printf("Failed Tests : %d \n", errorCount);
+	    printf("Tests with Data mismatch : %d",flag_errCount);
+	
+	if (errorCount == 0 && flag_errCount==0)
+	{
+	  printf("\n\n++++++++TEST SUCCESSFULL!!!!+++++++++\n");
+	  fprintf(logFile,"%s","TEST SUCCESSFULL!\n");
+	}
+	else
+	{	
+	  printf("\n\n--------TEST FAILED!!!!-----------\n");
+	  fprintf(logFile,"%s","TEST FAILED!\n");
+	     
+	}
+	
+	
+	DisposeAll(&txChannelId, &rxChannelId, &pTxStreamItem, &pTxTransferOp, &pRxTransferOp, &pAddress);
+}
+
+
+/******************************************************************************/
+/*  Allocates memory for U8 (char) type. Returns 1 if OK, 0 if not            */
+/******************************************************************************/
+U8 *AllocateMemChar(unsigned long size)
+{
+	U8* buffer;
+	buffer = (U8 *)calloc(size, sizeof(U8));
+	if (buffer == NULL)
+	{
+		printf( "ERROR: Can't allocate memory!!!!!!!\n" );
+		fprintf(logFile,"%s","ERROR: Can't allocate memory!\n");
+		getchar();
+		free(buffer);
+		return 0;
+	}
+	return buffer;
+}
+
+
+/******************************************************************************/
+/* Resets the Spacewire Brick.                                                */
+/******************************************************************************/
+void ResetSPWUSB()
+{
+  
+    STAR_DEVICE_ID deviceId;
+
+    deviceId = chooseDevice("", STAR_DEVICE_ALL);
+    if (deviceId == STAR_DEVICE_UNKNOWN)
+    {
+        puts("ERROR: Unknown device.\n");  
+      return;
+    }
+
+    if (STAR_resetDevice(deviceId) == 0)
+    
+      puts("ERROR: Unable to reset device.\n");
+     
+    else
+      
+	printf("Device successfully reset\n");
+    
+ 
+    
+    
+	
+}
+
+/******************************************************************************/
+/* Resets the Camera Head Unit.                                               */
+/******************************************************************************/
+void ResetPDS()
+{       int transmitLink=1;
+  	STAR_CHANNEL_ID rxChannelId = 0U, txChannelId = 0U;
+        STAR_TRANSFER_OPERATION *pTxTransferOp = NULL, *pRxTransferOp = NULL;	
+  	STAR_DEVICE_ID deviceID;
+	STAR_STREAM_ITEM *pTxStreamItem;
+	STAR_SPACEWIRE_ADDRESS *pAddress;
+	STAR_TRANSFER_STATUS txStatus;
+	
+	
+	/* Initiate receive, send the commands through transmit link and receive through the same link */
+	 
+	/* Select the transmit device and channel to be used */
+	if (chooseDeviceAndChannelID("transmit", &txChannelId, STAR_CHANNEL_DIRECTION_OUT,&deviceID) == 0 )
+	{
+	  
+	  return;
+	}
+
+	 
+	
+	/* Get transmit link and check for validity */
+	//transmitLink=atoi(ptrToArg[0][2]);
+transmitLink = 1;
+	
+	if ((transmitLink < 1) || (transmitLink > 2))
+	{
+		printf("ERROR: Incorrect link number\n");
+		return;
+	}
+	else
+	{   /* Select the path to be added to the front of packets transmitted */
+		pAddress = getTransmitPathAddress(transmitLink);
+		fprintf(logFile,"%s","Path Address obtained to transmit.\n");
+	  
+	}
+ 
+	 pTxBuffer = (char *)calloc(1U, 2);
+	     if (pTxBuffer == NULL)
+	     {
+	       puts("\nERROR: Unable to allocate memory for transmit buffer");
+	       fprintf(logFile,"%s","ERROR: Unable to allocate memory for transmit buffer.\n");
+	       return;
+	     }
+	
+	pTxBuffer[0] = transmitLink;
+	pTxBuffer[1] = 0x49;
+ 
+	  /* Create the packet to be transmitted */
+	pTxStreamItem = STAR_createPacket(pAddress, (U8 *)pTxBuffer, sizeOFbuffer, STAR_EOP_TYPE_EOP);
+    
+	if (pTxStreamItem == NULL)
+	 {
+	    
+	    fprintf(logFile,"%s","ERROR: Unable to create the packet to be transmitted.\n");
+	    DisposeAll(&txChannelId, &rxChannelId, &pTxStreamItem, &pTxTransferOp, &pRxTransferOp, &pAddress);
+	    return;
+	 }
+       
+       
+	  /* Create the transmit transfer operation for the packet */
+	  pTxTransferOp = STAR_createTxOperation(&pTxStreamItem, 1);
+       
+	if (pTxTransferOp == NULL)
+	 {
+	      fprintf(logFile,"%s","ERROR: Unable to create the transfer operation to be transmitted.\n");
+	      DisposeAll(&txChannelId, &rxChannelId, &pTxStreamItem, &pTxTransferOp, &pRxTransferOp, &pAddress);
+	      return;
+	  }
+	  
+ 
+	
+	    /* Submit the transmit operation */
+	    if (STAR_submitTransferOperation(txChannelId, pTxTransferOp) == 0)
+	    {
+	      printf("\nERROR: occurred during transmit submit.");
+	      fprintf(logFile,"%s","ERROR: occurred during transmit submit.\n");
+	      DisposeAll(&txChannelId, &rxChannelId, &pTxStreamItem, &pTxTransferOp, &pRxTransferOp, &pAddress);
+	    }
+ 
+	    
+	    
+	     /*Wait on the transmit operation to complete*/
+	    txStatus = STAR_waitOnTransferOperationCompletion(pTxTransferOp, 1000);
+	    
+	    if(txStatus != STAR_TRANSFER_STATUS_COMPLETE)
+	    {
+	      printf("\nERROR: Couldn't transmit command.\n");
+	      fprintf(logFile,"%s","ERROR: Couldn't transmit command.\n");
+	      OutputStatus(txStatus);
+	      DisposeAll(&txChannelId, &rxChannelId, &pTxStreamItem, &pTxTransferOp, &pRxTransferOp, &pAddress);
+	      
+	      
+	    }
+	    else
+	    {
+	        printf("Reset PDS successfully...\n");
+		fprintf(logFile,"%s","Reset PDS successfully.\n");
+ 
+	    }
+ 
+	 
+	    free(pTxBuffer);
+	    fprintf(logFile,"%s","Transmit buffer free.\n");
+	    DisposeAll(&txChannelId, &rxChannelId, &pTxStreamItem, &pTxTransferOp, &pRxTransferOp, &pAddress);
+	    
+		
+}
+
+/******************************************************************************/
+/* Allows user to choose the mode of operation and allows to input            */
+/* parameters or opt for default values. Commands sent to the PDS are         */
+/* formulated and fills the command buffer with commands.                     */
+/******************************************************************************/
+int getData()
+{
+	int mode;
+	int flag=0;
+	int temp;
+	 int x;
+	cmnd_index=0;
+	 
+        
+	//mode=atoi(ptrToArg[0][3]);
+       mode =5;
+	// x=atoi(ptrToArg[0][4]);
+x=1;
+
+	switch(mode)
+	{
+		case 1:		/*Image mode*/
+		        printf("\n\nMode of operation is Image Mode!\n");
+			fprintf(logFile,"%s","Mode of operation is Image Mode!\n");
+		         
+			if(x)
+			{
+			        printf("Default values used!\n");
+				flag=FFdefaultValues();
+			}	
+			else
+			{
+			  if(FFPrompt())
+			    flag=FFdefaultValues();
+			  else
+			   flag=1;
+		        
+			  
+			}
+		break;
+
+		case 2:		/* Threshold mode*/
+		        printf("\n\nMode of operation is Threshold Mode!\n");
+			fprintf(logFile,"%s","Mode of operation is Threshold Mode!\n");
+			  
+			if(x)
+			{
+			        printf("Default values used!\n");
+			        flag=FFdefaultValues();
+			}			
+			else
+			{
+			   if(FFPrompt())
+			     flag=FFdefaultValues();
+			   else
+			   flag=1;
+	 
+		 	}
+				 
+		break;
+	
+		case 3:		/*Sobel mode*/
+		        printf("\n\nMode of operation is Sobel Mode!\n");
+			fprintf(logFile,"%s","Mode of operation is Sobel Mode!\n");
+			  
+			if(x)
+			{
+			        printf("Default values used!\n");
+				flag=FFdefaultValues();
+			}
+			else
+			{
+			  if(FFPrompt())
+			     flag=FFdefaultValues();
+			  else
+			   flag=1;
+                        }
+				 
+		break;
+		
+		case 4:	/*Window mode */
+		        printf("\n\nMode of operation is Window Mode!\n");
+			fprintf(logFile,"%s","Mode of operation is Window Mode!\n");
+			 
+			 
+			if(x)
+			{
+			        printf("Default values used!\n");
+				flag=WMdefaultValues();
+			}			
+			else
+			{
+			 if(WMPrompt())
+			     flag=WMdefaultValues();
+			 else
+			   flag=1;
+			  
+			//wbytes = 10*((prompt[8]&0x03)+1)*10*((prompt[8]&0x03)+1)*10*2 + ((prompt[2]&0x08)>>3)*16; //10 represents 10 windows
+		 		
+			}
+		break;
+		
+		case 5:	/*HK mode */
+		        printf("\n\nMode of operation is HK Mode!\n");
+			fprintf(logFile,"%s","Mode of operation is HK Mode!\n");
+		         
+			flag=HKdefaultValues();
+						
+			break;
+
+		default: /*default mode= image mode */
+			printf("Invalid entry.Image mode with default values is set.!!");
+			fprintf(logFile,"%s","Invalid entry.Image mode with default values is set!");
+			
+			flag=FFdefaultValues(mode);	
+		break;
+	}
+	
+	 
+	sizeOFbuffer=cmnd_index+1;
+	return flag;
+}
+
+/******************************************************************************/
+/*  Fills array prompt[] with default values for full frame mode.Returns 1    */
+/*  to the flag variable.                                                     */
+/******************************************************************************/
+int FFdefaultValues()  //modified for spadex pds engineering model
+{
+	int l_mode = 0;
+	int temp;
+	pix_width=1;			//8 bit mode
+	hk=1;
+			 
+	//l_mode = atoi(ptrToArg[0][3]);
+l_mode=1;
+	cmnd_index = 0;
+	
+
+	//prompt[cmnd_index++]=0x49;		//Reset
+	prompt[cmnd_index++]=0x7E;		//Mode
+	/*If you are disabling HK please set hk=0*/
+	if(l_mode==1)
+		prompt[cmnd_index++]=0xA8;	//8 bit mode,HK enabled, 1MHz
+	else if(l_mode==2)
+		prompt[cmnd_index++]=0x19;	//16 bit mode,HK enabled, 3MHz 
+	else
+		prompt[cmnd_index++]=0x3A;	//16 bit mode,HK enabled, 6MHz 
+	prompt[cmnd_index++]=0x53;		//st line address
+	prompt[cmnd_index++]=0x00;  
+	prompt[cmnd_index++]=0x00;                
+	prompt[cmnd_index++]=0x52;		//st pixel address 
+	prompt[cmnd_index++]=0x00;
+	prompt[cmnd_index++]=0x00; 
+	prompt[cmnd_index++]=0x55;		//no. of lines
+	prompt[cmnd_index++]=0x03;  	
+	prompt[cmnd_index++]=0xff;  
+	//Put the no. of lines in flines as indicated by 0x55
+	flines=1023; 
+	fbytes = (1024*(flines+1)) + hk*8;
+	prompt[cmnd_index++]=0x54;		//no.of pixels
+	prompt[cmnd_index++]=0x03;
+	prompt[cmnd_index++]=0xff;
+	prompt[cmnd_index++]=0x56;		//exposure time	(default = 15)
+	prompt[cmnd_index++]=0x00;
+	prompt[cmnd_index++]=0x01;
+	prompt[cmnd_index++]=0x76;		//SPW destination  address enabled
+	prompt[cmnd_index++]=0x40;
+	prompt[cmnd_index++]=0x77;		//SPW destination address
+	prompt[cmnd_index++]=0x04;
+	prompt[cmnd_index++]=0x7B;		//Unit gain
+	prompt[cmnd_index++]=0xF8;              //default = F8 
+	prompt[cmnd_index++]=0x7A;       	//DR/NDR mode
+	prompt[cmnd_index++]=0x00;        	//DR-0,NDR-1
+	prompt[cmnd_index++]=0x7C;		//Col amp black level
+	prompt[cmnd_index++]=0x2D;
+	prompt[cmnd_index++]=0x7D;		//Col amp offset correction
+	prompt[cmnd_index++]=0x4B;
+	prompt[cmnd_index++]=0x51;		//Threshold value
+	
+	if(l_mode==1)
+	{
+		prompt[cmnd_index++]=0x00;		//default threshold value
+		prompt[cmnd_index++]=0x00;
+	}
+	else
+	{
+	   
+		prompt[cmnd_index++]=0x00;	//threshold value=100
+		prompt[cmnd_index++]=0x64;
+		
+	}
+	prompt[cmnd_index++]=0x75;		//start frame
+	prompt[cmnd_index++]=0x01;
+	sizeOFbuffer=cmnd_index+1;
+	
+	return 1;	
+}
+
+int  FFPrompt()
+{
+  
+		FILE *paramFile;
+	        int temp=0;
+		char str[200];
+	        int winConfig=0;
+		int mode=1;
+		
+		cmnd_index=0;
+		char paramFilePathFF[50]="params/ff_params.txt";
+		paramFile = fopen(paramFilePathFF,"r"); 
+		
+		if (paramFile == NULL)
+		{
+		  printf("Error: Trouble opening param file. Default values taken.\n");
+		  return 1;
+		}
+	//	mode=atoi(ptrToArg[0][3]);
+mode = 1;
+		winConfig=winConfig|(mode-1); //
+		
+		//prompt[cmnd_index++]=0x49;		//Reset
+		prompt[cmnd_index++]=0x7E;		//Mode
+		 	
+		       
+		if(fscanf(paramFile,"%d",&temp)==0)          //Housekeeping 
+		{
+		  printf("ERROR: File inputs insufficient. Default values taken.");
+		  return 1;
+		  
+		}
+		 
+		if(temp!=0 && temp!=1)
+		{
+			fprintf(logFile,"%s","Invalid entry!!!.Health data enabled at end of frame.\n");
+			temp=1;     
+		}
+		hk=temp;
+	
+		temp*=8;				//left shifting by 3 times
+		winConfig=winConfig|temp;
+	
+		//Redundant Text
+		
+		if(fgets(str,200,paramFile)==0)          //Housekeeping Text
+		{
+		  printf("ERROR: File inputs insufficient. Default values taken.");
+		  return 1;
+		  
+		}
+		 
+		if(fscanf(paramFile,"%d",&temp)==0)          //Pixel Read Rate 1,2,3,6Mhz
+		{
+		  printf("ERROR: File inputs insufficient. Default values taken.");
+		  return 1;
+		  
+		}
+		 
+		if(temp!=0 && temp!=1 && temp!=2 && temp!=3)
+		{
+			fprintf(logFile,"%s","Invalid entry!!!.6Mhz Mode selected.\n");
+			temp=3;   // 3 - 6Mhz  
+		}
+		
+		 
+		temp*=16;				//left shifting by 4 times
+		winConfig=winConfig|temp;
+		
+		if(fgets(str,200,paramFile)==0)          //Pixel Read Rate 1,2,3,6Mhz Text
+		{
+		  printf("ERROR: File inputs insufficient. Default values taken.");
+		  return 1;
+		  
+		}
+		 
+		
+		if(fscanf(paramFile,"%d",&pix_width)==0)         //8 bit(1) or 16 bit(0)
+		{
+		  printf("ERROR: File inputs insufficient. Default values taken.");
+		  return 1;
+		  
+		}
+		 
+		 
+		if(pix_width!=0 && pix_width!=1)
+		{
+			fprintf(logFile,"%s","Invalid entry!!!.default value taken to be 8 bit mode.\n");
+			pix_width=1;     
+		}
+		
+		temp=pix_width;
+		temp*=128;				//left shifting by 8 times
+		prompt[cmnd_index++]=winConfig|temp; 
+		
+		if(fgets(str,200,paramFile)==0)          //8 bit(1) or 16 bit(0) Text
+		{
+		  printf("ERROR: File inputs insufficient. Default values taken.");
+		  return 1;
+		  
+		}
+		  
+
+		prompt[cmnd_index++]=0x53; 		
+	        
+	        if(fscanf(paramFile,"%d",&temp)==0)         
+		{
+		  printf("ERROR: File inputs insufficient. Default values taken.");
+		  return 1;
+		  
+		}       
+		printf("@@@@@@@%d",temp);//start line address
+		 
+		if(temp<0 || temp>1023)
+		{
+			fprintf(logFile,"%s","Invalid entry!!!.default value taken to be 0.\n");
+			temp=0;     
+		}
+		convert(temp);
+		
+		if(fgets(str,200,paramFile)==0)          //start line address Text
+		{
+		  printf("ERROR: File inputs insufficient. Default values taken.");
+		  return 1;
+		  
+		}
+		  
+
+		prompt[cmnd_index++]=0x52;		//start pixel address
+		prompt[cmnd_index++]=00;
+		prompt[cmnd_index++]=00; 
+		prompt[cmnd_index++]=0x55;	 	
+	        
+	        if(fscanf(paramFile,"%d",&temp)==0)           //no. of lines
+		{
+		  printf("ERROR: File inputs insufficient. Default values taken.");
+		  return 1;
+		  
+		}       
+		 
+		if(temp<0 || temp>1023)
+		{
+		fprintf(logFile,"%s","Invalid entry!!!.default value taken to be 1023.\n");
+		temp=1023;     
+		}
+		
+		if ((prompt[4]*256+prompt[5] +temp) > 1023)
+		{
+		  fprintf(logFile,"%s","Start line + No. of lines >1023 .Default values taken.\n");
+		  return 1;
+		}
+		convert(temp);
+
+		 
+		flines = temp +1;
+		
+		if(pix_width == 1)
+		  fbytes = (1024*flines) + hk*8;
+		else
+		  fbytes = (1024*flines)*2 + hk*16;
+		
+	 	fprintf(logFile,"%s %d %s","fbytes-",fbytes, " \n");
+			
+		if(fgets(str,200,paramFile)==0)          //no. of lines Text
+		{
+		  printf("ERROR: File inputs insufficient. Default values taken.");
+		  return 1;
+		  
+		}
+		 
+		
+		prompt[cmnd_index++]=0x54;		//no.of pixels
+		prompt[cmnd_index++]=0x03;
+		prompt[cmnd_index++]=0xFF;
+
+		prompt[cmnd_index++]=0x56;		//exposure time
+		
+		if(fscanf(paramFile,"%d",&temp)==0)         
+		{
+		  printf("ERROR: File inputs insufficient. Default values taken.");
+		  return 1;
+		  
+		} 
+		 
+		if(temp<0 || temp>1023)
+		{
+			fprintf(logFile,"%s","Invalid entry!!!.default value taken to be 15.\n");
+			temp=15;     
+		}
+		
+		//Should be temp=temp*yMHz*(2^10/10^3)
+		if( ((winConfig&0x30)>>4) == 0)
+		  temp=temp*2; 
+		else if( ((winConfig&0x30)>>4) == 1)
+		  temp=temp*3;
+		else if( ((winConfig&0x30)>>4) == 2)
+		  temp=temp;
+		else if( ((winConfig&0x30)>>4) == 3)
+		  temp=temp*6;
+		  
+		convert(temp);
+		
+		if(fgets(str,200,paramFile)==0)          //exposure time Text
+		{
+		  printf("ERROR: File inputs insufficient. Default values taken.");
+		  return 1;
+		  
+		}
+		 
+		 
+		prompt[cmnd_index++]=0x76;		//SPW destination  address enabled
+		prompt[cmnd_index++]=0x40;
+		prompt[cmnd_index++]=0x77;		//SPW destination address
+		prompt[cmnd_index++]=0x04;
+		prompt[cmnd_index++]=0x7B;		//Unit gain
+		prompt[cmnd_index++]=0x8B; //F8;
+ 
+		prompt[cmnd_index++]=0x7A;        	//DR/NDR mode
+		prompt[cmnd_index++]=0x00;		//DR-0,NDR-1
+		prompt[cmnd_index++]=0x7C;		//Col amp black level
+		prompt[cmnd_index++]=0x2D;
+ 
+
+		prompt[cmnd_index++]=0x7D;		//Column amplifier offset correction
+		prompt[cmnd_index++]=0x00;//0x4B;
+ 
+
+		prompt[cmnd_index++]=0x51;		//Threshold value
+		if(mode!=1)
+		{
+			if(fscanf(paramFile,"%d",&temp)==0)         
+			{
+			  printf("ERROR: File inputs insufficient. Default values taken.");
+			  return 1;
+		    
+			}  
+			 
+			if(temp<0 || temp>4096)
+			{
+				fprintf(logFile,"%s","Invalid entry!!!.default value taken to be 100.\n");
+				temp=100;     
+			}
+			convert(temp);
+		}
+		else
+		{	
+			prompt[cmnd_index++]=00;
+			prompt[cmnd_index++]=00;
+		}
+		
+		if(fgets(str,200,paramFile)==0)          //Threshold value Text
+		{
+		  printf("ERROR: File inputs insufficient. Default values taken.");
+		  return 1;
+		  
+		}
+		 
+		 
+		prompt[cmnd_index++]=0x75;		//start frame
+		prompt[cmnd_index++]=0x01;
+		
+		fclose(paramFile);
+		sizeOFbuffer=cmnd_index+1;
+		
+		return 0;
+	
+  
+}
+
+/******************************************************************************/
+/*  Fills array prompt[] with default values for window.Returns 1             */
+/*  to the flag variable                                                      */
+/******************************************************************************/
+int WMdefaultValues()  
+{
+	int i;
+	wnum=10;
+	wsizeg=10;
+	cmnd_index=0;
+	hk=1;
+	wbytes = wnum*wsizeg*wsizeg*2+hk*16;
+	//prompt[cmnd_index++]=0x49;	        //Reset 
+	prompt[cmnd_index++]=0x76;		//SPW enable
+	prompt[cmnd_index++]=0xFF;
+	prompt[cmnd_index++]=0x77;		//SPW address
+	prompt[cmnd_index++]=0x04;
+	prompt[cmnd_index++]=0x7A;		//CDS/NDR
+	prompt[cmnd_index++]=0x02;
+	prompt[cmnd_index++]=0x7B;		//Gain + Offset
+	prompt[cmnd_index++]=0xF8;
+	//If you change 0x79 0r 0x7e, change variables wsizeg, wnum,wbytes and hk accordingly
+	prompt[cmnd_index++]=0x79;		//Win_size
+	prompt[cmnd_index++]=0xA1;		//10 Windows, 10x10 
+	prompt[cmnd_index++]=0x7E;		//Mode
+	prompt[cmnd_index++]=0x5C;		//16 bit,1ms frame_rate, 3Mhz pix_rate, HK
+	prompt[cmnd_index++]=0x7F;		//CDS level data
+	prompt[cmnd_index++]=0x00;			
+	prompt[cmnd_index++]=0x7C;		//Col amp Black Level
+	prompt[cmnd_index++]=0x2D;		
+	prompt[cmnd_index++]=0x7d;		//Col amp offset correction
+	prompt[cmnd_index++]=0x4B;		
+	prompt[cmnd_index++]=0x56;		//Exposure Time [x(in us)/10]
+	prompt[cmnd_index++]=0x00;              //Effectively 5ms
+	prompt[cmnd_index++]=0x05;
+ 
+	
+	//If (X,Y) is center then in commands put X -(wsizeg/2) or Y -(wsizeg/2)
+	prompt[cmnd_index++]=0x57;   	//Window1-y (10,10)[Center]
+	prompt[cmnd_index++]=0x00;
+	prompt[cmnd_index++]=0X05; 
+	prompt[cmnd_index++]=0x58;   	//Window1-x
+	prompt[cmnd_index++]=0x00;
+	prompt[cmnd_index++]=0X05;
+	prompt[cmnd_index++]=0x57;  	//Window2(256,256)
+	prompt[cmnd_index++]=0x00;
+	prompt[cmnd_index++]=0xFB;
+	prompt[cmnd_index++]=0x58;
+	prompt[cmnd_index++]=0x00;
+	prompt[cmnd_index++]=0xFB;
+	prompt[cmnd_index++]=0x57;	//Window3(256,512)
+	prompt[cmnd_index++]=0x00;
+	prompt[cmnd_index++]=0xFB;
+	prompt[cmnd_index++]=0x58;
+	prompt[cmnd_index++]=0x01;
+	prompt[cmnd_index++]=0xFB;
+	prompt[cmnd_index++]=0x57;	//Window4(256,768)	
+	prompt[cmnd_index++]=0x00;	
+	prompt[cmnd_index++]=0xFB;	
+	prompt[cmnd_index++]=0x58;	
+	prompt[cmnd_index++]=0x02;	
+	prompt[cmnd_index++]=0xFB;	
+	prompt[cmnd_index++]=0x57;	//Window5(512,256)
+	prompt[cmnd_index++]=0x01;	
+	prompt[cmnd_index++]=0xFB;	
+	prompt[cmnd_index++]=0x58;	
+	prompt[cmnd_index++]=0x00;	
+	prompt[cmnd_index++]=0xFB;	
+	prompt[cmnd_index++]=0x57;	//Window6(415,520)
+	prompt[cmnd_index++]=0x01;	
+	prompt[cmnd_index++]=0x9F;	
+	prompt[cmnd_index++]=0x58;	
+	prompt[cmnd_index++]=0x02;	
+	prompt[cmnd_index++]=0x08;	
+	prompt[cmnd_index++]=0x57;	//Window7(512,768)
+	prompt[cmnd_index++]=0x01;	
+	prompt[cmnd_index++]=0xFB;	
+	prompt[cmnd_index++]=0x58;	
+	prompt[cmnd_index++]=0x02;		
+	prompt[cmnd_index++]=0xFB;		
+	prompt[cmnd_index++]=0x57;	//Window8(768,256)	
+	prompt[cmnd_index++]=0x02;		
+	prompt[cmnd_index++]=0xFB;		
+	prompt[cmnd_index++]=0x58;			
+	prompt[cmnd_index++]=0x00;		
+	prompt[cmnd_index++]=0xFB;		
+	prompt[cmnd_index++]=0x57;	//Window9(768,512)	
+	prompt[cmnd_index++]=0x02;		
+	prompt[cmnd_index++]=0xFB;		
+	prompt[cmnd_index++]=0x58;		
+	prompt[cmnd_index++]=0x01;		
+	prompt[cmnd_index++]=0xFB;		
+	prompt[cmnd_index++]=0x57;	//Window10(768,768)		
+	prompt[cmnd_index++]=0x02;		
+	prompt[cmnd_index++]=0xFB;		
+	prompt[cmnd_index++]=0x58;		
+	prompt[cmnd_index++]=0x02;		
+	prompt[cmnd_index++]=0xFB;
+	 
+ 
+	prompt[cmnd_index++]=0x75;		//start frame
+	prompt[cmnd_index++]=01;
+	sizeOFbuffer=cmnd_index+1;
+	return 1;
+}
+
+/******************************************************************************/
+/*  Fills array prompt[] with user inputs for window mode.                    */
+/*  Returns 1 to the flag variable                                            */
+/******************************************************************************/
+int WMPrompt()
+{
+	int i,level,intgStep,slot,rsl_start;
+	int wsize;
+	int xcor[16],ycor[16],IT,address,fread;
+	FILE *paramFile;
+	char paramFilePathWM[50]="params/wm_params.txt";
+	char str[200];
+	
+	paramFile = fopen(paramFilePathWM,"r"); 
+	
+	if (paramFile == NULL)
+	{
+	  printf("Error: Trouble opening param file. Default values taken.\n");
+	  return 1;
+	}
+	
+	if(fscanf(paramFile,"%d",&wsize)==0)          //Window Size 
+	{
+	  printf("ERROR: File inputs insufficient. Default values taken.");
+	  return 1;
+	  
+	}
+	
+	if(fgets(str,200,paramFile)==0)             //Window Size Text
+	{
+          printf("ERROR: File inputs insufficient. Default values taken.");
+	  return 1;
+		  
+	}
+	
+	
+	if(wsize<0 || wsize>6)
+	{
+	   fprintf(logFile,"%s","Invalid entry. Default size chosen as 10x10.");
+	   wsize=1;//10X10
+	}			
+
+	if(fscanf(paramFile,"%d",&wnum)==0)          //No. of Windows
+	{
+	  printf("ERROR: File inputs insufficient. Default values taken.");
+	  return 1;
+	  
+	}
+	
+	if(fgets(str,200,paramFile)==0)             //No. of windows Text
+	{
+          printf("ERROR: File inputs insufficient. Default values taken.");
+	  return 1;
+		  
+	}
+	
+	wsize++; //for switch-case
+	switch(wsize)
+	{
+		case 1: if(wnum<0 || wnum>16)  //why 16 is taken as max windows?
+			{
+			fprintf(logFile,"%s","Invalid entry!!!Default value taken as 4.");
+			wnum=4;
+			}
+			wsizeg=5;
+		break;
+		case 2: if(wnum<0 || wnum>16)
+			{
+			fprintf(logFile,"%s","Invalid entry!!!Default value taken as 4.");
+			wnum=4;
+			}
+			wsizeg=10;
+		break;
+		case 3: if(wnum<0 || wnum>16)
+			{
+			fprintf(logFile,"%s","Invalid entry!!!Default value taken as 4.");
+			wnum=4;
+			}
+			wsizeg=20;
+		break;	
+		case 4: if(wnum<0 || wnum>8)
+			{
+			fprintf(logFile,"%s","Invalid entry!!!Default value taken as 4.");
+			wnum=4;
+			}
+			wsizeg=30;
+		break;
+		case 5: if(wnum<0 || wnum>5)
+			{
+			fprintf(logFile,"%s","Invalid entry!!!Default value taken as 4.");
+			wnum=4;
+			}
+			wsizeg=40;
+		break;	
+		case 6: if(wnum<0 || wnum>3)
+			{
+			fprintf(logFile,"%s","Invalid entry!!!Default value taken as 1.");
+			wnum=1;
+			}
+			wsizeg=50;
+		break;
+		case 7: if(wnum<0 || wnum>2)
+			{
+			fprintf(logFile,"%s","Invalid entry!!!Default value taken as 1.");
+			wnum=1;
+			}
+			wsizeg=60;
+		break;
+	}
+
+	if(fscanf(paramFile,"%d",&intgStep)==0)          // Integration Step Count
+	{
+	  printf("ERROR: File inputs insufficient. Default values taken.");
+	  return 1;
+	  
+	}
+	
+	if(fgets(str,200,paramFile)==0)             //Integration Step Count Text
+	{
+          printf("ERROR: File inputs insufficient. Default values taken.");
+	  return 1;
+		  
+	}
+	
+	if(intgStep<0 || intgStep>1)
+	{
+		fprintf(logFile,"%s","Invalid entry. Default rate chosen as 10us.");
+		intgStep=0;
+	}	
+	
+	cmnd_index=0;
+	prompt[cmnd_index++]=0x49;		//Reset
+	prompt[cmnd_index++]=0x76;		//SPW enable
+	prompt[cmnd_index++]=0xFF;
+	prompt[cmnd_index++]=0x77;		//SPW address
+	prompt[cmnd_index++]=0x04;
+	prompt[cmnd_index++]=0x7A;		//CDS/NDR
+	prompt[cmnd_index++]=0x02;
+	prompt[cmnd_index++]=0x7E;		//Mode
+	
+	if(fscanf(paramFile,"%d",&hk)==0)          
+	{
+	  printf("ERROR: File inputs insufficient. Default values taken.");
+	  return 1;
+	  
+	}
+	
+	if(hk!=0 && hk!=1)
+	{
+	  fprintf(logFile,"%s","Invalid entry!!!.default value taken to be 1(HK Enabled).\n");
+	  hk=1;     
+	}
+	 
+	 
+	 if(fgets(str,200,paramFile)==0)             //HK Text
+	{
+          printf("ERROR: File inputs insufficient. Default values taken.");
+	  return 1;
+		  
+	}
+	
+	
+
+		
+	if(fscanf(paramFile,"%d",&pix_width)==0)          //8 bit or 16 bit
+	{
+	  printf("ERROR: File inputs insufficient. Default values taken.");
+	  return 1;
+	  
+	}
+	
+	if(fgets(str,200,paramFile)==0)             //8 bit or 16 bit Text
+	{
+          printf("ERROR: File inputs insufficient. Default values taken.");
+	  return 1;
+		  
+	}
+	
+	if(pix_width!=0 && pix_width!=1)
+	{
+	  fprintf(logFile,"%s","Invalid entry!!!.default value taken to be 16 bit mode.\n");
+	  pix_width=0;     
+	}
+	 
+	if(pix_width==0)
+	  wbytes = wsizeg*wsizeg*wnum*2 + hk*16;	
+	else
+	  wbytes = wsizeg*wsizeg*wnum*1 + hk*8;	
+	
+	 
+	
+	prompt[cmnd_index++]=4|hk*8|16|((intgStep)*64)|pix_width*128;	//    16bit|IntgStep|3MHz|HK|WinMode
+	
+	prompt[cmnd_index++]=0x79; //Num of Windows, Window size
+	prompt[cmnd_index++]=(wsize-1)|wnum*16;
+	
+	prompt[cmnd_index++]=0x7B;		//Gain +Offset
+	prompt[cmnd_index++]=0xF8;
+	
+	prompt[cmnd_index++]=0x7F;		//CDS level data
+	 
+	if(fscanf(paramFile,"%d",&level)==0)          //CDS level
+	{
+	  printf("ERROR: File inputs insufficient. Default values taken.");
+	  return 1;
+	  
+	}
+	
+	if(fgets(str,200,paramFile)==0)             //CDS level Text
+	{
+          printf("ERROR: File inputs insufficient. Default values taken.");
+	  return 1;
+		  
+	}
+	
+	if(level<0 || level>2)
+	{
+		fprintf(logFile,"%s","Invalid entry. You will receive CDS data.");
+		level=0;
+	}	
+	prompt[cmnd_index++]= level;
+	prompt[cmnd_index++]=0x7C;	//Col amp Black Level
+	prompt[cmnd_index++]=0x2D;
+	prompt[cmnd_index++]=0x7D;	//Col amp offset correction
+	prompt[cmnd_index++]=0x4B;
+
+	if(fscanf(paramFile,"%d",&IT)==0)       //Integration Time    
+	{
+	  printf("ERROR: File inputs insufficient. Default values taken.");
+	  return 1;
+	  
+	}
+	
+	if(fgets(str,200,paramFile)==0)             //Intg Time Text
+	{
+          printf("ERROR: File inputs insufficient. Default values taken.");
+	  return 1;
+		  
+	}
+	
+	prompt[cmnd_index++]=0x56;	
+	intgStep==0? convert(IT/10):convert(IT);
+	 
+	//xcor is pixel, ycor is line
+	for(i=0;i<wnum;i++)
+	{
+		xcor[i]=0;
+		ycor[i]=0;
+	}
+	
+	for(i=0;i<wnum;i++)
+	{
+		//printf("\nX[%d]=",i+1);
+		
+		if(fscanf(paramFile,"%d",&xcor[i])==0)          
+		{
+		  printf("ERROR: File inputs insufficient. Default values taken.");
+		  return 1;
+		  
+		}
+		 
+		if(xcor[i]>1023)
+			fprintf(logFile,"%s","Invalid entry. Default set to 0.");
+		
+		if(i==0)
+		{
+		  if(fgets(str,200,paramFile)==0)             //Window Coord Text
+		    {
+		      printf("ERROR: File inputs insufficient. Default values taken.");
+		      return 1;
+		  
+		    }
+		}
+		 
+		
+		if(fscanf(paramFile,"%d",&ycor[i])==0)          
+		{
+		  printf("ERROR: File inputs insufficient. Default values taken.");
+		  return 1;
+		  
+		}
+		  
+		if(ycor[i]>1023)
+			fprintf(logFile,"%s","Invalid entry. Default set to 0.");
+		
+		 
+	}
+	
+
+	for(i=0;i<wnum;i++)		//x,y co-ordinates
+	{
+		prompt[cmnd_index++]=0x57;   
+		convert(xcor[i]);
+		prompt[cmnd_index++]=0x58;
+		convert(ycor[i]);
+	}
+
+	
+	prompt[cmnd_index++]=0x75;		//start frame
+	prompt[cmnd_index++]=01;
+	
+	fclose(paramFile);
+	sizeOFbuffer=cmnd_index +1;
+	return 0;
+}
+
+int HKdefaultValues()
+{
+	prompt[cmnd_index++] = 0x49;
+	prompt[cmnd_index++] = 0x7E;
+	prompt[cmnd_index++] = 0x00;
+	prompt[cmnd_index++] = 0x76;
+	prompt[cmnd_index++] = 0xFF;
+	prompt[cmnd_index++] = 0x77;
+	prompt[cmnd_index++] = 0x04;
+	prompt[cmnd_index++] = 0x4A;
+	sizeOFbuffer=cmnd_index+1;
+
+	return 1;
+}
+
+/******************************************************************************/
+/* Converts 16-bit val to two 8-bit digits and stores to propmt               */
+/******************************************************************************/
+void convert(int val)
+{
+	if(val>255)
+	{
+		prompt[cmnd_index++]=(val/256)&0xFF;
+		prompt[cmnd_index++]=val&0x00FF;
+	}
+	else
+	{
+		prompt[cmnd_index++]=0;
+		prompt[cmnd_index++]=val;
+	}
+	
+ 
+}
+

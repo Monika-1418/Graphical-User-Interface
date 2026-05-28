@@ -1,0 +1,8 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$a01641.xhtml" title="Parent class for call&#45;back objects which are used to receive notifications of events occurring within..." alt="" coords="5,112,205,141"/>
+<area shape="rect" id="node3" href="$a01237.xhtml" title="Parent call&#45;back object for channel events for receiving notifications of when channels are opened or..." alt="" coords="263,5,428,35"/>
+<area shape="rect" id="node5" href="$a01293.xhtml" title="Parent call&#45;back object for device events for receiving notifications of when devices are added or re..." alt="" coords="265,59,425,88"/>
+<area shape="rect" id="node7" href="$a01309.xhtml" title="Parent call&#45;back object for driver events for receiving notifications of when drivers are added or re..." alt="" coords="268,112,423,141"/>
+<area shape="rect" id="node9" href="$a01521.xhtml" title="Parent call&#45;back object for receiving notifications of when RMAP operations are authorised or complet..." alt="" coords="256,165,435,195"/>
+<area shape="rect" id="node11" href="$a01701.xhtml" title="Parent call&#45;back object for transfer operation completion events, e.g. " alt="" coords="255,218,436,265"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="operator=" name="operator=">
+<area shape="rect" id="node3" href="$a01633.xhtml#a54f7ff7df89cb5481643f8a41eeed072" title="Decrement the reference count for the listener, and return the updated value. " alt="" coords="131,5,352,69"/>
+<area shape="rect" id="node5" href="$a01633.xhtml#aa142492c2c3361401d7396c5795a1b78" title="Increment the reference count for the listener, and return the updated value. " alt="" coords="131,93,352,157"/>
+<area shape="rect" id="node7" href="$a01633.xhtml#a1a10b492bdef608e8567c818d1b841b2" title="Get whether the listener is registered. " alt="" coords="131,181,352,245"/>
+</map>

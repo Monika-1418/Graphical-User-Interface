@@ -1,0 +1,7 @@
+<map id="STARSystemListenerCallback" name="STARSystemListenerCallback">
+<area shape="rect" id="node3" href="$a01237.xhtml" title="Parent call&#45;back object for channel events for receiving notifications of when channels are opened or..." alt="" coords="5,201,200,338"/>
+<area shape="rect" id="node5" href="$a01293.xhtml" title="Parent call&#45;back object for device events for receiving notifications of when devices are added or re..." alt="" coords="224,201,411,338"/>
+<area shape="rect" id="node7" href="$a01309.xhtml" title="Parent call&#45;back object for driver events for receiving notifications of when drivers are added or re..." alt="" coords="435,201,616,338"/>
+<area shape="rect" id="node9" href="$a01521.xhtml" title="Parent call&#45;back object for receiving notifications of when RMAP operations are authorised or complet..." alt="" coords="640,209,845,329"/>
+<area shape="rect" id="node11" href="$a01701.xhtml" title="Parent call&#45;back object for transfer operation completion events, e.g. " alt="" coords="869,157,1077,381"/>
+</map>

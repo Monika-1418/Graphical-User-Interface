@@ -1,0 +1,4 @@
+<map id="TransferOperation" name="TransferOperation">
+<area shape="rect" id="node3" href="$a01501.xhtml" title="Represents a receive operation, used to receive packets or other stream items on an opened channel..." alt="" coords="5,382,176,589"/>
+<area shape="rect" id="node5" href="$a01717.xhtml" title="Represents a transmit operation, used to transmit packets or other stream items on an opened channel..." alt="" coords="200,399,357,571"/>
+</map>

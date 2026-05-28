@@ -1,0 +1,6 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Sink
+Exec=/usr/local/STAR-Dundee/STAR-System/bin/star_sink
+Icon=/usr/local/STAR-Dundee/STAR-System/STAR.png

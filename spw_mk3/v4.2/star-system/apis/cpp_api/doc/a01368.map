@@ -1,0 +1,10 @@
+<map id="Mk2DeviceConfiguration" name="Mk2DeviceConfiguration">
+<area shape="rect" id="node5" href="$a01181.xhtml" title="Provides the configuration for a Brick Mk2 device. " alt="" coords="261,785,496,1095"/>
+<area shape="rect" id="node11" href="$a01413.xhtml" title="Provides the configuration for a PCIe device. " alt="" coords="520,750,787,1130"/>
+<area shape="rect" id="node15" href="$a01397.xhtml" title="Provides the configuration for a PCI Mk2 device. " alt="" coords="811,741,1056,1139"/>
+<area shape="rect" id="node17" href="$a01453.xhtml" title="Provides the configuration for a PXI device. " alt="" coords="1080,785,1269,1095"/>
+<area shape="rect" id="node2" href="$a01273.xhtml" title="Base class to represent the configuration state of a device and which can be used to query or set a d..." alt="" coords="693,5,893,333"/>
+<area shape="rect" id="node7" href="$a01201.xhtml" title="Provides the configuration for a Brick Mk3 device. " alt="" coords="5,1187,251,1498"/>
+<area shape="rect" id="node9" href="$a01589.xhtml" title="Provides the configuration for a Router Mk2S device. " alt="" coords="275,1187,515,1498"/>
+<area shape="rect" id="node13" href="$a01609.xhtml" title="Provides the configuration for a SPLT device. " alt="" coords="553,1257,753,1429"/>
+</map>

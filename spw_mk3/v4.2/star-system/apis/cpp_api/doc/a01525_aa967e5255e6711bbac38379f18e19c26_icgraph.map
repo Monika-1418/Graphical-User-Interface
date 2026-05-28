@@ -1,0 +1,5 @@
+<map id="IsReplyPacket" name="IsReplyPacket">
+<area shape="rect" id="node3" href="$a01525.xhtml#a8a629a53f2542cc7165409ca326d72cf" title="Check that the packet is in the correct format for an RMAP packet. " alt="" coords="163,5,293,35"/>
+<area shape="rect" id="node5" href="$a01525.xhtml#a3556f9997473e27fd1150dfd0a89bb3a" title="Overloaded assignment operator &#45; to allow instances of RMAPPacket objects to have their contents assi..." alt="" coords="189,59,267,88"/>
+<area shape="rect" id="node7" href="$a01525.xhtml#a4560ab0467e350b5639c34b6c0044e98" title="Copy constructor &#45; to allow copies of RMAPPacket objects to be made when being passed by value in fun..." alt="" coords="177,112,279,141"/>
+</map>

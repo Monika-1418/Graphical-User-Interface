@@ -1,0 +1,10 @@
+<map id="IncrementReferenceCount" name="IncrementReferenceCount">
+<area shape="rect" id="node3" href="$a01233.xhtml#abd7486e54454d8cebdc081e8da86a979" title="Overloaded constructor, initialise with a given channel listener ID. " alt="" coords="261,5,453,69"/>
+<area shape="rect" id="node5" href="$a01289.xhtml#a15876126d8aabb770362a8d50a961470" title="Overloaded constructor, initialise with a given device listener ID. " alt="" coords="261,93,453,157"/>
+<area shape="rect" id="node7" href="$a01305.xhtml#a073d62596ca5489d9d4a0abb28304f03" title="Overloaded constructor, initialise with a given driver listener ID. " alt="" coords="261,181,453,245"/>
+<area shape="rect" id="node9" href="$a01305.xhtml#a33615c9303531691bf7f73085c1d0247" title="Overloaded assignment operator &#45; to allow instances of DriverListener objects to have their contents ..." alt="" coords="261,269,453,333"/>
+<area shape="rect" id="node11" href="$a01289.xhtml#aedc865d28baa35f54596dcac3292630b" title="Overloaded assignment operator &#45; to allow instances of DeviceListener objects to have their contents ..." alt="" coords="261,357,453,421"/>
+<area shape="rect" id="node13" href="$a01233.xhtml#a3c589783d85063edf1a19b7b237a639b" title="Overloaded assignment operator &#45; to allow instances of ChannelListener objects to have their contents..." alt="" coords="261,445,453,509"/>
+<area shape="rect" id="node15" href="$a01697.xhtml#a0afd2bcb3aa5d375e36b5772b2bb1af3" title="Overloaded assignment operator. " alt="" coords="229,533,485,597"/>
+<area shape="rect" id="node17" href="$a01697.xhtml#ac13bd3b59211135469438be161b652ce" title="Overloaded constructor, initialise with a specified transfer operation and pointer to callback functi..." alt="" coords="229,621,485,685"/>
+</map>

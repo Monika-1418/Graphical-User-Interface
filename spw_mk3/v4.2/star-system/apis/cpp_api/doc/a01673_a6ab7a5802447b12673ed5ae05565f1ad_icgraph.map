@@ -1,0 +1,4 @@
+<map id="GetStreamItemFor" name="GetStreamItemFor">
+<area shape="rect" id="node3" href="$a01501.xhtml#a0ef9b553425f213d432718a01441a5fa" title="Gets the stream item at a given zero&#45;based index of the receive operation. " alt="" coords="185,5,431,69"/>
+<area shape="rect" id="node5" href="$a01501.xhtml#a16c3deee3a18b7c677460cf4e7905d72" title="Get the entire list of transfer items associated with the receive operation. " alt="" coords="185,93,431,157"/>
+</map>

@@ -1,0 +1,3 @@
+
+
+Focussing: avgcpi-0.000000 avgside-0.000000 avgbgnd-0.000000, avgfocusratio--nan, maxLtominL--1025.000000, maxPtominP--1025.000000, avgcentL-0.000000, avgcentP-0.000000,maxLIdx-1,minLIdx-1,maxPIdx-1,minPIdx-1

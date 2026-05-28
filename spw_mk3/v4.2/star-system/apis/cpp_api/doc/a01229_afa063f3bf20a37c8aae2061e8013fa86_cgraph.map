@@ -1,0 +1,5 @@
+<map id="operator=" name="operator=">
+<area shape="rect" id="node3" href="$a01225.xhtml#a8a2d8a246e795af2f669858615be88a1" title="Decrement the reference count for the channel, and return the updated value. " alt="" coords="132,5,364,69"/>
+<area shape="rect" id="node5" href="$a01225.xhtml#af9c8a6ef8b9c8c7032f6b4fe2dfc72d7" title="Increment the reference count for the channel, and return the updated value. " alt="" coords="132,93,364,157"/>
+<area shape="rect" id="node7" href="$a01225.xhtml#a95d4f59eb9b9ee16b1746480fbc26fd5" title="Get whether the channel is open. " alt="" coords="132,181,364,245"/>
+</map>

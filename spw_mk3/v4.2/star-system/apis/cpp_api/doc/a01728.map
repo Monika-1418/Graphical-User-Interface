@@ -1,0 +1,6 @@
+<map id="TriggerEventManager" name="TriggerEventManager">
+<area shape="rect" id="node3" href="$a01221.xhtml" title="Functions in this class deal with getting and setting trigger event parameters for the Brick Mk3..." alt="" coords="5,312,235,605"/>
+<area shape="rect" id="node5" href="$a01433.xhtml" title="Functions in this class deal with getting and setting trigger event parameters for the PCIe..." alt="" coords="259,347,461,571"/>
+<area shape="rect" id="node7" href="$a01485.xhtml" title="Functions in this class deal with getting and setting trigger event parameters for the PXI router..." alt="" coords="485,329,720,588"/>
+<area shape="rect" id="node9" href="$a01497.xhtml" title="Functions in this class deal with getting and setting trigger event parameters for the PXI..." alt="" coords="744,312,939,605"/>
+</map>

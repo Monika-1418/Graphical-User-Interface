@@ -1,0 +1,11 @@
+<map id="GetPortConnection" name="GetPortConnection">
+<area shape="rect" id="node3" href="$a01273.xhtml#a8cc6f9767b76f81ac7c949e8ee7a68df" title="Create and return an instance of a Port object which corresponds to the given port number on the give..." alt="" coords="263,80,348,109"/>
+<area shape="rect" id="node11" href="$a01437.xhtml#a17d5c4929105df0f65ed145625e7ceba" title="Get the id of the device which &#39;owns&#39; the port. " alt="" coords="188,156,423,220"/>
+<area shape="rect" id="node17" href="$a01437.xhtml#a476b68bb47f7417a81b41f1878bd41da" title="Get the value of the port&#39;s status control register. " alt="" coords="192,244,419,308"/>
+<area shape="rect" id="node19" href="$a01437.xhtml#a95251b99f03ff7d467f5f4c7810c8681" title="Get the port type. " alt="" coords="209,331,401,378"/>
+<area shape="rect" id="node5" href="$a01273.xhtml#aa9df725ecbac12fb410aa677e1f31168" title="Create an instance of a ConfigPort with the given values. " alt="" coords="512,5,635,35"/>
+<area shape="rect" id="node7" href="$a01273.xhtml#a4a1cb284a54e0a6f5877f4716fbfa219" title="Create an instance of an ExternalPort with the given values. " alt="" coords="507,59,640,88"/>
+<area shape="rect" id="node9" href="$a01273.xhtml#ac5e6675e752bc9cc4cd8e12e14c8bc57" title="Create an instance of a LinkPort with the given values. " alt="" coords="519,112,628,141"/>
+<area shape="rect" id="node13" href="$a01437.xhtml#a1c6d6e6574ff27d5ba66a9db55ce9dbb" title="Get information about any errors present on the Port. " alt="" coords="475,165,672,211"/>
+<area shape="rect" id="node15" href="$a01437.xhtml#a47f013acd9123d3230bc86fb56adcb23" title="Get the status information for the Port. " alt="" coords="472,234,675,281"/>
+</map>

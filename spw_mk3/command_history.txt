@@ -1,0 +1,270 @@
+passwd vsn
+    2  exit
+    3  pwd
+    4  chmod +x star-system_install_v4.02.sh 
+    5  ./star-system_install_v4.02.sh 
+    6  ./star-system_install_v4.02.sh -all
+    7  ./star-system_install_v4.02.sh 
+    8  ./star-system_install_v4.02.sh --qt5 --examples --includes --doc --app-notes --usb-driver --cpp-doc --cpp-inc --cpp-examples 
+    9  ./star-system_install_v4.02.sh 
+   10  pwd
+   11  ls
+   12  ./star-system_install_v4.02.sh 
+   13  ./star-system_install_v4.02.sh --install
+   14  uname -a
+   15  ls -ltr
+   16  chmod 755 *
+   17  ls -ltr
+   18  ./star-system_linux_x86-64_v4.02
+   19  cd /dev
+   20  ls
+   21  ls -ltr
+   22  ls -ltr | grep ttyUSB0
+   23  rm -rf STAR-Dundee/
+   24  cd
+   25  ls
+   26  pwd
+   27  ls /
+   28  cd /root
+   29  ls
+   30  cd ..
+   31  cd /home/vsn/
+   32  ls
+   33  cd spw_mk3/
+   34  ls
+   35  cd v4.2/
+   36  ls
+   37  cd star-system
+   38  ls
+   39  chmod -R 755 *
+   40  ./remove_star-system.sh 
+   41  ls
+   42  ./build_star-system.sh 
+   43  cd ..
+   44  ls
+   45  ./star-system_linux_x86-64_v4.02
+   46  ls -ltr
+   47  cd star-system
+   48  ls
+   49  ./build_star-system.sh 
+   50  cd ..
+   51  ls
+   52  cd v4.1/
+   53  ls
+   54  chmod 755 *
+   55  ls -ltr
+   56  ./star-system_linux_x86-64_v4.01
+   57  cd /usr/local/
+   58  ls -ltr
+   59  rm -rf STAR-Dundee/
+   60  cd STAR-Dundee/
+   61  ls
+   62  cd STAR-System/
+   63  ls
+   64  ./build_star-system.sh 
+   65  apt-get install make
+   66  ./build_star-system.sh 
+   67  apt-get install gcc
+   68  apt-get install ddd
+   69  apt-get install gdb
+   70  apt-get install kate
+   71  apt-get install kcalc kompare
+   72  apt-get install gimp
+   73  apt-get install octave
+   
+   Note gcc-12 required (if gcc 11 already there, remove from synaptic, install gcc-12 and then give below commands)
+   79  apt-get install gcc-12 g++-12 build-essential
+   80  ln -sf /usr/bin/gcc-12 /usr/bin/gcc
+   81  ln -sf /usr/bin/g++-12 /usr/bin/g++
+
+   
+   
+   74  ./build_star-system.sh 
+   75  cd ..
+   76  ls -ltr
+   77  rm -rf STAR-Dundee/
+   78  ls -ltr
+   79  cd STAR-Dundee/
+   80  ls
+   81  cd STAR-System/
+   82  ls
+   83  chmod 755 *
+   84  ./build_star-system.sh 
+   85  reboot
+   86  cd /usr/local/
+   87  ls
+   88  cd STAR-Dundee/
+   89  ls
+   90  cd /dev
+   91  ls
+   92  dmesg 
+   93  cd /dev
+   94  ls
+   95  ls | grp ttyUSB
+   96  ls | grep ttyUSB
+   97  dmesg
+   98  cd /usr/l
+   99  cd /usr/local/
+  100  cd STAR-Dundee/
+  101  ls
+  102  cd STAR-System/
+  103  ls
+  104  ./launch_star-system_test.sh 
+  105  ls
+  106  ./launch_application.sh 
+  107  uname -a
+  108  lsb_release -a
+  109  ls
+  110  ./uninstall
+  111  cd ..
+  112  ls
+  113  cd ..
+  114  rm -rf STAR-Dundee/
+  115  cd STAR-Dundee/
+  116  ls
+  117  cd STAR-System/
+  118  ls
+  119  chmod 755 *
+  120  ./build_star-system.sh 
+  121  apt list --installed |grep linux-image
+  122  ./uninstall
+  123  ls
+  124  cd ..
+  125  ls
+  126  cd STAR-Dundee/
+  127  ls
+  128  cd STAR-System/
+  129  s
+  130  ls
+  131  ./build_star-system.sh 
+  132  ls /dev/*spw*
+  133  ls
+  134  ls -l /dev/ | grep star
+  135  cd bin
+  136  ls
+  137  ./star_device_config 
+  138  cd ..
+  139  ls
+  140  ./build_star-system.sh 
+  141  ls
+  142  ./uninstall 
+  143  cd ..
+  144  ls
+  145  rm -rf STAR-Dundee/
+  146  cd /home/vsn/
+  147  ls
+  148  cd spw_mk3/
+  149  ls
+  150  cd v4.2
+  151  cd ../v4.1
+  152  ls -ltr
+  153  ./star-system_install_v4.01.sh 
+  154  ./star-system_install_v4.01.sh --install
+  155  ls
+  156  gedit readme.txt 
+  157  gedit readme.txt &
+  158  /usr/src/kernels/$(uname -r)/scripts/sign-file sha256 star.priv         star.der $(modinfo -n star_spw_usb)
+  159  ls
+  160  ./star-system_linux_x86-64_v4.01
+  161  cd ..
+  162  ls
+  163  tar -xvzf star-system_linux_x86-64_v6.01.tgz 
+  164  ls -ltr
+  165  mkdir v6.01
+  166  mv star-system* v6.01/
+  167  ls
+  168  mv license.txt readme.txt v6.01/
+  169  ls -ltr
+  170  cd v6.01/
+  171  ls
+  172  ls -tr
+  173  ls -ltr
+  174  cd ..
+  175  chmod 755 *
+  176  ls -ltr
+  177  cd v6.01/
+  178  ls -ltr
+  179  ./star-system_linux_x86-64_v6.01 
+  180  ls /dev*
+  181  dmesg
+  182  ls /dev/*spw*
+  183  /star-system_install_v6.01.sh --all --no-pci-driver --no-ultra-pcie-driver --no-ethernet-driver
+  184  ls
+  185  pwd
+  186  ./star-system_install_v6.01.sh --all --no-pci-driver --no-ultra-pcie-driver --no-ethernet-driver
+  187  reboot
+  188  ./star-system_install_v6.01.sh --all --no-pci-driver --no-ultra-pcie-driver --no-ethernet-driver
+  189  cd /usr/local/STAR-Dundee/
+  190  ls
+  191  cd STAR-System/
+  192  ls
+  193  ./remove_star-system.sh 
+  194  ls
+  195  cd ..
+  196  rm -rf STAR-Dundee/
+  197  cd STAR-Dundee/
+  198  ls
+  199  cd STAR-System/
+  200  ls
+  201  cd bin
+  202  ls
+  203  ./star_device_config 
+  204  cd ..
+  205  ls
+  206  ./remove_star-system.sh 
+  207  cd ..
+  208  rm -rf STAR-Dundee/
+  209  ls
+  210  mokutil --disable-validation
+  211  cd /home/vsn/spw_mk3/
+  212  ls
+  213  cd v6.01/
+  214  ls
+  215  ls -ltr
+  216  ./star-system_install_v6.01.sh --all --no-pci-driver --no-ultra-pcie-driver --no-ethernet-driver
+  217  mokutil --disable-validation
+  218  insmod star_spw_usb.ko
+  219  ls
+  220  ls -ltr
+  221  mokutil --sb-statr
+  222  mokutil --sb-state
+  223  cd ~/.ssl
+  224  openssl req -new -x509 -newkey rsa:2048 -keyout star.priv -outform DER         -out star.der -nodes -days 36500 -subj "/CN=STAR-Dundee/"
+  225  /usr/src/kernels/$(uname -r)/scripts/sign-file sha256 star.priv         star.der $(modinfo -n star_spw_usb)
+  226  /usr/src/kernels/$(uname -r)/scripts/sign-file sha256 star.priv star.der $(modinfo -n star_spw_usb)
+  227  /usr/src/linux-headers-5.15.0-67-generic/$(uname -r)/scripts/sign-file sha256 star.priv star.der $(modinfo -n star_spw_usb)
+  228  /usr/src/linux-headers-$(uname -r)/scripts/sign-file sha256 star.priv star.der $(modinfo -n star_spw_usb)
+  229  mokutil --import star.der
+  230  reboot
+  231  cd /usr/local/STAR-Dundee/
+  232  ls -ltr
+  233  cd STAR-System/
+  234  ls
+  235  cd bin
+  236  ls
+  237  ./star_device_
+  238  ./star_device_config 
+  239  chmod 777 *
+  240  ./star_device_config 
+  241  ldd ./star_device_config 
+  242  ldd ./star_device_config | grep 'not found'
+  243  export LD_LIBRARY_PATH=/usr/local/STAR-Dundee/STAR-System/lib:$LD_LIBRARY_PATH
+  244  ./star_device_config 
+  245  cd ..
+  246  ls
+  247  ./build_star-system.sh 
+  248  dmesg
+  249  ls /dev | grep star
+  250  lsbrelease -v
+  251  lsbrelease -a
+  252  lsb_release -v
+  253  lsb_release -a
+  254  ./RPUInterfaceSim 1 1 1 1 1 
+  255  python --v
+  256  python -v
+  257  python3
+  258  ./RPUInterfaceSim 1 1 1 1 1 
+  259  1 1 1 1 1
+  260  exit
+  261  history
+

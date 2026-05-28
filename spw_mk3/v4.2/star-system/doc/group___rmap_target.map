@@ -1,0 +1,5 @@
+<map id="RMAP Target API" name="RMAP Target API">
+<area shape="rect" id="node1" href="$group__rmap_target_notifications.xhtml" title="Functions in this group deal with the RMAP target notification handling. " alt="" coords="207,5,300,35"/>
+<area shape="rect" id="node3" href="$group__rmap_target_conf.xhtml" title="Functions in this group deal with setting and getting RMAP target configuration parameters. " alt="" coords="204,59,303,88"/>
+<area shape="rect" id="node4" href="$group__rmap_target_manual_auth.xhtml" title="Functions in this group deal with the manual RMAP target authorisation. " alt="" coords="181,112,325,141"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Actions" name="Actions">
+<area shape="rect" id="node1" href="$a01132.xhtml" title="Functions in this group deal with setting and getting trigger output actions for Brick Mk3 devices..." alt="" coords="249,5,329,35"/>
+<area shape="rect" id="node2" href="$a01134.xhtml" title="Functions in this group deal with setting and getting trigger output actions for PXI devices..." alt="" coords="268,59,311,88"/>
+<area shape="rect" id="node5" href="$a01133.xhtml" title="Functions in this group deal with setting and getting trigger output actions for PCIe devices..." alt="" coords="264,112,315,141"/>
+<area shape="rect" id="node4" href="$a01126.xhtml" title="Classes for configuring triggering capabilities on supported devices. " alt="" coords="7,59,84,88"/>
+</map>

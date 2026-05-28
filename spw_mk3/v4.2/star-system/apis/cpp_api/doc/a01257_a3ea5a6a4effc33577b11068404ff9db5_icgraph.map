@@ -1,0 +1,6 @@
+<map id="DestroyDataChunk" name="DestroyDataChunk">
+<area shape="rect" id="node3" href="$a01257.xhtml#acee96ee39d87927093f94a915730d31c" title="Creates a DataChunk, used to refer to part of a buffer. " alt="" coords="191,7,316,36"/>
+<area shape="rect" id="node7" href="$a01257.xhtml#ad018f03c831d501acb319a199a3a638e" title="Overloaded assignment operator &#45; to allow instances of DataChunk objects to have their contents assig..." alt="" coords="371,59,448,88"/>
+<area shape="rect" id="node10" href="$a01257.xhtml#ad9a43ec3fe4073397256dadc8b3d502c" title="Destructor. " alt="" coords="205,111,301,140"/>
+<area shape="rect" id="node5" href="$a01257.xhtml#a3fae5fd7fecde5a555cfd2b9aac39066" title="Constructor &#45; create a data chunk and initialise it using the buffer provided. " alt="" coords="365,5,453,35"/>
+</map>

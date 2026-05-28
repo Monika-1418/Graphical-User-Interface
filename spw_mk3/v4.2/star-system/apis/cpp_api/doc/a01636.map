@@ -1,0 +1,6 @@
+<map id="STARSystemListener" name="STARSystemListener">
+<area shape="rect" id="node3" href="$a01233.xhtml" title="Identifies a listener or call&#45;back object which has been registered to receive notifications of chann..." alt="" coords="5,192,149,381"/>
+<area shape="rect" id="node5" href="$a01289.xhtml" title="Identifies a listener or call&#45;back object which has been registered to receive notifications of devic..." alt="" coords="173,192,309,381"/>
+<area shape="rect" id="node7" href="$a01305.xhtml" title="Identifies a listener or call&#45;back object which has been registered to receive notifications of drive..." alt="" coords="333,192,464,381"/>
+<area shape="rect" id="node9" href="$a01697.xhtml" title="Identifies a listener which has been registered to receive transfer operation completion events..." alt="" coords="488,201,699,373"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Configuration" name="Configuration">
+<area shape="rect" id="node2" href="$a01136.xhtml" title="Functions in this group deal with configuring the different triggering subsystems for Brick Mk3 devic..." alt="" coords="281,5,361,35"/>
+<area shape="rect" id="node4" href="$a01137.xhtml" title="Functions in this group deal with configuring the different triggering subsystems for PCIe devices..." alt="" coords="296,59,347,88"/>
+<area shape="rect" id="node5" href="$a01138.xhtml" title="Functions in this group deal with configuring the different triggering subsystems for PXI devices..." alt="" coords="300,112,343,141"/>
+<area shape="rect" id="node3" href="$a01126.xhtml" title="Classes for configuring triggering capabilities on supported devices. " alt="" coords="7,59,84,88"/>
+</map>

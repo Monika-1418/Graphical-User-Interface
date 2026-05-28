@@ -1,0 +1,35 @@
+# Makefile for the STAR-Dundee SpaceWire PCI Driver
+
+ifneq ($(KERNELRELEASE),)
+
+	#EXTRA_CFLAGS += -Wall -Wextra
+	#EXTRA_CFLAGS += -Wmissing-prototypes -Wmissing-declarations
+	#EXTRA_CFLAGS += -pedantic
+
+	ifdef DEBUG
+		EXTRA_CFLAGS += -g -O0
+	endif
+
+	EXTRA_CFLAGS += -Os	# To get round a bug in __kfree_rcu in kernels > 2.6.39 
+
+	obj-m := star_spw_pci.o
+	star_spw_pci-objs := pcimk2_driver.o pcimk2_ioctl.o pcimk2_interrupts.o pcimk2_dma.o \
+						pcimk2_fileops.o pcimk2_buffers.o pcimk2_registers.o pcimk2_kernel.o
+
+else
+
+	KDIR := /lib/modules/$(shell uname -r)/build
+	PWD := $(shell pwd)
+	INSTALLDIR := /lib/modules/$(shell uname -r)/kernel/drivers/spacewire
+
+default:
+	$(MAKE) -C $(KDIR) M=$(PWD) modules
+	if [ ! -d "$(INSTALLDIR)" ]; \
+	then mkdir -v -p "$(INSTALLDIR)"; \
+	fi
+	cp star_spw_pci.ko "$(INSTALLDIR)"
+
+clean:
+	/bin/rm -f *.o *.ko "$(INSTALLDIR)"\star_spw_pci.ko
+
+endif

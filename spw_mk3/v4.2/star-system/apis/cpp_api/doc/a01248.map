@@ -1,0 +1,11 @@
+<map id="ConfigPort" name="ConfigPort">
+<area shape="rect" id="node5" href="$a01365.xhtml" title="Represents a Configuration Port on a Mk2 device. " alt="" coords="488,637,624,792"/>
+<area shape="rect" id="node2" href="$a01437.xhtml" title="Base class for ports on a device. " alt="" coords="468,6,644,351"/>
+<area shape="rect" id="node7" href="$a01177.xhtml" title="Represents a Configuration Port on a Brick Mk2 device. " alt="" coords="204,840,369,995"/>
+<area shape="rect" id="node13" href="$a01409.xhtml" title="Represents a Configuration Port on a PCIe device. " alt="" coords="399,840,540,995"/>
+<area shape="rect" id="node17" href="$a01393.xhtml" title="Represents a Configuration Port on a PCI Mk2 device. " alt="" coords="564,840,724,995"/>
+<area shape="rect" id="node19" href="$a01449.xhtml" title="Represents a Configuration Port on a PXI device. " alt="" coords="748,840,881,995"/>
+<area shape="rect" id="node9" href="$a01197.xhtml" title="Represents a Configuration Port on a Brick Mk3 device. " alt="" coords="5,1043,171,1197"/>
+<area shape="rect" id="node11" href="$a01585.xhtml" title="Represents a Configuration Port on a Router Mk2S device. " alt="" coords="195,1043,379,1197"/>
+<area shape="rect" id="node15" href="$a01605.xhtml" title="Represents a Configuration Port on a SPLT device. " alt="" coords="403,1043,547,1197"/>
+</map>

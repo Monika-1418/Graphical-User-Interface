@@ -1,0 +1,14 @@
+1637757273 
+Initiating transmit and receive via SpaceWire Brick Mk-II.
+Test Frame No. 1 
+ERROR: Occurred during receive submit. Test  1  failed.
+ERROR: Occurred during transmit submit. Test  1  failed.
+ERROR: Couldn't transmit commands. Test  1  failed.
+Status = An error occurred while processing the transfer.
+ERROR: Couldn't receive data from PDS. Test  1  failed.
+Status = An error occurred while processing the transfer.
+ERROR: expected to receive 1 packet but received  0 .
+Size of data received :  0  bytes.
+Test  1  Passed.
+***Receive buffer free for frame  1  ***
+TEST FAILED!

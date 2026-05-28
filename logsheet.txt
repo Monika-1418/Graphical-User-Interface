@@ -1,0 +1,28 @@
+1836791038 
+Initiating transmit and receive via SpaceWire Brick Mk-II.
+deviceId-- 65536 , channelNumber-- 1 , pChannelId-- 65540 .
+deviceId-- 65536 , channelNumber-- 1 , pChannelId-- 65541 .
+Mode of operation is Image Mode!
+Test Frame No. 1 
+Receive operation transferred...
+Transmit operation transferred...
+Transmitted commands successfully.
+Channel to transmit TimeCode obtained.
+Timecode  0  transmitted successfully.
+Timecode  1  transmitted successfully.
+Disposed transfer operations for Timecodes successfully.
+Disposed transfer streams for Timecodes successfully.
+Closed channel to transmit TimeCode.
+ERROR: Couldn't receive data from PDS. Test  1  failed.
+Status = Transfer has begun.
+ERROR: expected to receive 1 packet but received  0 .
+Size of data received :  0  bytes.
+ERROR: Mismatch in expected and received bytes.
+***Receive buffer free for frame  1  ***
+Transmit buffer free.
+TEST FAILED!
+***Successfully disposed transmit transfer operation.
+Successfully disposed receive transfer operation.
+Successfully disposed transmit stream.
+Successfully disposed receive channel ID.
+Successfully disposed transmit channel ID.***

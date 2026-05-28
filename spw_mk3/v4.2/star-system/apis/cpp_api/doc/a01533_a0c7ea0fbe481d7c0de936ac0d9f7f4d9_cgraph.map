@@ -1,0 +1,4 @@
+<map id="GetRMAPPacketFromBuffer" name="GetRMAPPacketFromBuffer">
+<area shape="rect" id="node3" href="$a01525.xhtml#a4cc71e874f67756e1eed7dbc262dd6a1" title="Set the raw data for a received RMAP packet to be held by this object. " alt="" coords="244,5,492,69"/>
+<area shape="rect" id="node5" href="$a01525.xhtml#a73dadb52845a39b4e4e922858bf650b2" title="Set the RMAP_PACKET struct corresponding to a received RMAP packet. " alt="" coords="261,93,475,157"/>
+</map>

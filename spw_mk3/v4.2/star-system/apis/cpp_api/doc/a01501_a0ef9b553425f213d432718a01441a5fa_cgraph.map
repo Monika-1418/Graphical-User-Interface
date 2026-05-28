@@ -1,0 +1,4 @@
+<map id="GetTransferItem" name="GetTransferItem">
+<area shape="rect" id="node3" href="$a01673.xhtml#a6ab7a5802447b12673ed5ae05565f1ad" title="Create and return an instance of a StreamItem object corresponding to the given STAR_STREAM_ITEM. " alt="" coords="172,5,393,69"/>
+<area shape="rect" id="node5" href="$a01501.xhtml#ace9075b0daf80357b0fe5a7d52c301da" title="Gets the current count of stream items received by the operation. " alt="" coords="207,93,359,123"/>
+</map>

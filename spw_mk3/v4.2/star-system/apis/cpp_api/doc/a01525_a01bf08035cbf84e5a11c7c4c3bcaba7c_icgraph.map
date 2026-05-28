@@ -1,0 +1,20 @@
+<map id="HoldsDataForAReceivedPacket" name="HoldsDataForAReceivedPacket">
+<area shape="rect" id="node3" href="$a01525.xhtml#a8a629a53f2542cc7165409ca326d72cf" title="Check that the packet is in the correct format for an RMAP packet. " alt="" coords="507,510,637,539"/>
+<area shape="rect" id="node5" href="$a01525.xhtml#ad84ce4ac987955b8c442092f33430a34" title="Get the memory address and extended memory address of the packet. " alt="" coords="315,57,405,86"/>
+<area shape="rect" id="node7" href="$a01525.xhtml#aa0a980b5f6a4adb58143fba5c2c6ca50" title="Get the data in the packet. " alt="" coords="325,110,395,139"/>
+<area shape="rect" id="node9" href="$a01525.xhtml#a2f72b80ba0efd2b52c0d23fe98028c8d" title="Get the value of the data CRC field in the packet. " alt="" coords="309,163,411,193"/>
+<area shape="rect" id="node11" href="$a01525.xhtml#a7c468c4ef60bded61d1c3bad42e25d5b" title="Get the value of the header CRC field in the packet. " alt="" coords="303,217,417,246"/>
+<area shape="rect" id="node13" href="$a01525.xhtml#a964ec4c77cef8ea994b483c84d1cd3b8" title="Get whether the packet has incrementing of memory addresses enabled, to read from or write to sequent..." alt="" coords="285,270,435,299"/>
+<area shape="rect" id="node15" href="$a01525.xhtml#a6ed9dc7c7d3629763cc327a7eaf3c86c" title="Get the key field in the packet. " alt="" coords="327,323,393,353"/>
+<area shape="rect" id="node17" href="$a01525.xhtml#a32a0db3735c9f4e031d131ac4c875d6b" title="Get the mask in the packet. " alt="" coords="323,377,397,406"/>
+<area shape="rect" id="node19" href="$a01525.xhtml#ac8daff8b3010b22733009e15d166d1a4" title="Get the type of the packet (whether it is a read, write or read/modify/write command or reply)..." alt="" coords="304,430,416,459"/>
+<area shape="rect" id="node22" href="$a01525.xhtml#a9c00a660bf260f8c1c821ff2bb290a39" title="Get whether the packet has acknowledgement enabled, to acknowledge the command with a reply packet..." alt="" coords="263,483,457,513"/>
+<area shape="rect" id="node24" href="$a01525.xhtml#a11e0abf818e9b6f6ddc5b2394960692d" title="Gets the data length property of a read command packet. " alt="" coords="304,537,416,566"/>
+<area shape="rect" id="node26" href="$a01525.xhtml#a41386c98a89b4622ed7b05b4c5aaa68e" title="Get the reply address of the packet. " alt="" coords="297,590,423,619"/>
+<area shape="rect" id="node29" href="$a01525.xhtml#a93a1089e8c6ee46b4055b1285651b4c2" title="Get the value of the status field in the packet. " alt="" coords="320,643,400,673"/>
+<area shape="rect" id="node31" href="$a01525.xhtml#a4f72f887e9729e65d39a662873cbb161" title="Get the target address of the packet. " alt="" coords="296,697,424,726"/>
+<area shape="rect" id="node34" href="$a01525.xhtml#ab0d02b9707d0d5b8be380c5af75721e8" title="Get the transaction identifier in the packet. " alt="" coords="297,750,423,779"/>
+<area shape="rect" id="node36" href="$a01525.xhtml#a30c76848d92026c21cf1e02c40886399" title="Get whether the packet has verify before write enabled, to check any data before writing it to memory..." alt="" coords="287,803,433,833"/>
+<area shape="rect" id="node38" href="$a01525.xhtml#a3556f9997473e27fd1150dfd0a89bb3a" title="Overloaded assignment operator &#45; to allow instances of RMAPPacket objects to have their contents assi..." alt="" coords="321,857,399,886"/>
+<area shape="rect" id="node40" href="$a01525.xhtml#a4560ab0467e350b5639c34b6c0044e98" title="Copy constructor &#45; to allow copies of RMAPPacket objects to be made when being passed by value in fun..." alt="" coords="309,910,411,939"/>
+</map>

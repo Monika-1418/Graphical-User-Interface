@@ -1,0 +1,5 @@
+<map id="STARDevice" name="STARDevice">
+<area shape="rect" id="node3" href="$a01269.xhtml" title="Represents a locally connected device (e.g. " alt="" coords="5,253,211,529"/>
+<area shape="rect" id="node7" href="$a01505.xhtml" title="Represents a remote device, i.e. " alt="" coords="235,227,464,555"/>
+<area shape="rect" id="node5" href="$a01741.xhtml" title="Represents a virtual device, i.e. " alt="" coords="44,603,172,723"/>
+</map>

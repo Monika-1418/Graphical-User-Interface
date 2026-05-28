@@ -1,0 +1,4 @@
+<map id="ReceiveOperation" name="ReceiveOperation">
+<area shape="rect" id="node2" href="$a01709.xhtml" title="Base class for transfer operations. " alt="" coords="5,243,269,536"/>
+<area shape="rect" id="node4" href="$a01705.xhtml" title="Helper class which holds a reference count for possible shared ownership of a transfer operation..." alt="" coords="36,5,239,160"/>
+</map>

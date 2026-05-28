@@ -1,0 +1,7 @@
+<map id="GetRMAPPacketFromStreamItem" name="GetRMAPPacketFromStreamItem">
+<area shape="rect" id="node3" href="$a01389.xhtml#ab736d2cec4f52a8431ab57c76a699c8c" title="Frees an array of packet data previously created by a call to GetPacketData(). " alt="" coords="275,5,549,51"/>
+<area shape="rect" id="node5" href="$a01389.xhtml#af76e3db8021235bed9325130cdec0887" title="Get the packet&#39;s data as an array of bytes. " alt="" coords="288,74,536,121"/>
+<area shape="rect" id="node7" href="$a01533.xhtml#a0c7ea0fbe481d7c0de936ac0d9f7f4d9" title="Extract an RMAP packet from a given data buffer, and return it. " alt="" coords="319,144,505,173"/>
+<area shape="rect" id="node9" href="$a01525.xhtml#a4cc71e874f67756e1eed7dbc262dd6a1" title="Set the raw data for a received RMAP packet to be held by this object. " alt="" coords="599,83,847,147"/>
+<area shape="rect" id="node11" href="$a01525.xhtml#a73dadb52845a39b4e4e922858bf650b2" title="Set the RMAP_PACKET struct corresponding to a received RMAP packet. " alt="" coords="616,171,829,235"/>
+</map>

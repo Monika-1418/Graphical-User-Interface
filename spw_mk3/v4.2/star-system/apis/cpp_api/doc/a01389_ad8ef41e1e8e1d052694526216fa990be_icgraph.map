@@ -1,0 +1,5 @@
+<map id="DestroyPacket" name="DestroyPacket">
+<area shape="rect" id="node3" href="$a01389.xhtml#acf0c147e814a25702eaf954b97a446c0" title="Creates a new packet from user provided data. " alt="" coords="164,5,265,35"/>
+<area shape="rect" id="node5" href="$a01389.xhtml#a1c8a6cabd54835d622e3071205c5ddf0" title="Overloaded assignment operator &#45; to allow instances of Packets to have their contents assigned to eac..." alt="" coords="176,59,253,88"/>
+<area shape="rect" id="node7" href="$a01389.xhtml#a566ff01b33546e7d918331999d0c3357" title="Destructor. " alt="" coords="180,112,249,141"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="GetPortNumber" name="GetPortNumber">
+<area shape="rect" id="node3" href="$a01345.xhtml#a5d40091cd3c22151bdd43724fa8a9afe" title="Disables time&#45;code distribution on this port. " alt="" coords="180,5,380,69"/>
+<area shape="rect" id="node5" href="$a01345.xhtml#a12a946878dbdc0ba1d310c3c213e5d57" title="Enables time&#45;code distribution on this port. " alt="" coords="183,93,377,157"/>
+<area shape="rect" id="node7" href="$a01345.xhtml#a07c3af06b46232367f646e3aeb22a663" title="Get whether time&#45;code distribution is enabled on this port. " alt="" coords="168,181,392,245"/>
+</map>

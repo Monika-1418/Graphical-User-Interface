@@ -1,0 +1,17 @@
+<map id="Generic Configuration API" name="Generic Configuration API">
+<area shape="rect" id="node1" href="$group___a_p_i___error_injection.xhtml" title="Functions in this group deal with error injection. " alt="" coords="260,5,361,35"/>
+<area shape="rect" id="node2" href="$group___a_p_i___events.xhtml" title="Functions in this group deal with events. " alt="" coords="280,59,341,88"/>
+<area shape="rect" id="node3" href="$group___a_p_i___hardware.xhtml" title="Functions in this group are hardware related functions. " alt="" coords="272,112,349,141"/>
+<area shape="rect" id="node4" href="$group___a_p_i___defines.xhtml" title="Function return error values are defined here. " alt="" coords="277,165,344,195"/>
+<area shape="rect" id="node5" href="$group___a_p_i___periodic.xhtml" title="Functions in this group deal with periodic functions. " alt="" coords="276,219,345,248"/>
+<area shape="rect" id="node7" href="$group___a_p_i___precision_links.xhtml" title="Functions in this group deal with controlling link speed with greater precision. " alt="" coords="256,272,365,301"/>
+<area shape="rect" id="node8" href="$group___a_p_i___g_a_r.xhtml" title="Functions in this group deal with group adaptive routing. " alt="" coords="231,325,391,355"/>
+<area shape="rect" id="node9" href="$group___a_p_i___user.xhtml" title="Functions in this group are user functions. " alt="" coords="285,379,336,408"/>
+<area shape="rect" id="node10" href="$group___a_p_i___interface_mode.xhtml" title="Functions in this group deal with interface mode. " alt="" coords="256,432,365,461"/>
+<area shape="rect" id="node11" href="$group___a_p_i___link_speed.xhtml" title="Functions in this group deal with measuring link speed. " alt="" coords="268,485,353,515"/>
+<area shape="rect" id="node12" href="$group___a_p_i___links.xhtml" title="Functions in this group deal with controlling link speed. " alt="" coords="284,539,337,568"/>
+<area shape="rect" id="node13" href="$group___a_p_i___device_identification.xhtml" title="Functions in this group deal with device identification. " alt="" coords="252,592,369,621"/>
+<area shape="rect" id="node14" href="$group___a_p_i___timecodes.xhtml" title="Functions in this group deal with time&#45;codes. " alt="" coords="265,645,356,675"/>
+<area shape="rect" id="node15" href="$group___a_p_i___timestamping.xhtml" title="Functions in this group deal with timestampings. " alt="" coords="259,699,363,728"/>
+<area shape="rect" id="node16" href="$group___a_p_i___port_status_control.xhtml" title="Functions in this group deal with port status and control. " alt="" coords="232,752,389,781"/>
+</map>

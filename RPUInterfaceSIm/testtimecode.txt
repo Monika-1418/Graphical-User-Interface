@@ -1,0 +1,178 @@
+static void transmitTimecode(STAR_DEVICE_ID deviceId)
+{
+    /* Open channel 0 to transmit */
+    /* Note that STAR-System devices currently only support transmitting and */
+    /* receiving time-codes on channel 0 */
+    
+    
+ 
+    STAR_CHANNEL_ID txChannel = STAR_openChannelToLocalDevice(deviceId,
+        STAR_CHANNEL_DIRECTION_OUT, 0, 0);
+     /* if(CFG_ROUTER_getTimeCodeValue(deviceId,g_currentTimecode)==0)
+	    transmitTimecodeTemp(deviceId);*/
+
+
+    /* If transmit channel was opened */
+    if(txChannel)
+    {
+       printf("InsideNew***********\n");
+        STAR_TRANSFER_STATUS status ;
+        STAR_TRANSFER_OPERATION * transferOperation;
+	//STAR_TRANSFER_OPERATION * transferOperation1;
+	  sleep(4);
+	  printf("g_currentTimecodeB--%d",g_currentTimecode);
+          if(CFG_ROUTER_getTimeCodeValue(deviceId,&g_currentTimecode)==0)
+	  {printf("g_currentTimecodeA--%d",g_currentTimecode);
+	    return;
+	  }
+	  g_currentTimecode=g_currentTimecode%64;
+	  g_currentTimecode=g_currentTimecode+1;
+        /* Create a time-code */
+        STAR_STREAM_ITEM *timecode = STAR_createTimeCode(g_currentTimecode+1);
+	g_currentTimecode1=g_currentTimecode+1;
+	//STAR_STREAM_ITEM *timecode1 = STAR_createTimeCode(g_currentTimecode1);
+
+        /* If time-code was created */
+        if (timecode)
+        {
+            /* Create transmit operation to transmit time-code */
+            transferOperation = STAR_createTxOperation(&timecode, 1);
+	//    transferOperation1 = STAR_createTxOperation(&timecode1, 1);
+
+            /* Start transmitting the time-code */
+            STAR_submitTransferOperation(txChannel, transferOperation);
+	  //  STAR_submitTransferOperation(txChannel, transferOperation1);
+
+            /* Wait indefinitely for transfer to complete */
+            status = STAR_waitOnTransferOperationCompletion(transferOperation,
+                2000);
+	  //  status1 = STAR_waitOnTransferOperationCompletion(transferOperation1,
+                //-1);    
+
+            /* If time-code was transmitted successfully */
+            if (status == STAR_TRANSFER_STATUS_COMPLETE)
+            {
+                /* Print success message */
+                printf("Time-code %u transmitted successfully.\n",
+                    g_currentTimecode);
+            }
+            else
+            {
+                /* Print error message */
+                printf("Error transmitting time-code %u, status = %d.\n",
+                    g_currentTimecode, status);
+            }
+            
+ 
+
+            /* Dispose of transfer operation */
+            STAR_disposeTransferOperation(transferOperation);
+           // STAR_disposeTransferOperation(transferOperation1);
+            /* Destroy time-code */
+             STAR_destroyStreamItem(timecode);
+	  ///   STAR_destroyStreamItem(timecode1);
+
+            /* Move to the next time-code value */
+            g_currentTimecode++;
+            if (g_currentTimecode == 64)
+            {
+                g_currentTimecode = 0;
+            }
+        }
+
+        /* Close transmit channel */
+        STAR_closeChannel(txChannel);
+    }
+}
+
+
+static void transmitTimecode(STAR_DEVICE_ID deviceId)
+{
+    /* Open channel 0 to transmit */
+    /* Note that STAR-System devices currently only support transmitting and */
+    /* receiving time-codes on channel 0 */
+    
+    
+ 
+    STAR_CHANNEL_ID txChannel = STAR_openChannelToLocalDevice(deviceId,
+        STAR_CHANNEL_DIRECTION_OUT, 0, 0);
+    
+    if (txChannel != 0U )
+    {
+      STAR_closeChannel(txChannel);
+    }
+     /* if(CFG_ROUTER_getTimeCodeValue(deviceId,g_currentTimecode)==0)
+	    transmitTimecodeTemp(deviceId);*/
+
+
+    /* If transmit channel was opened */
+    if(txChannel)
+    {
+       printf("InsideNew***********\n");
+        STAR_TRANSFER_STATUS status ;
+        STAR_TRANSFER_OPERATION * transferOperation;
+	//STAR_TRANSFER_OPERATION * transferOperation1;
+	  sleep(4);
+	  printf("g_currentTimecodeB--%d",g_currentTimecode);
+ 
+	  printf("g_currentTimecodeA--%d",g_currentTimecode);
+	  sleep(3);
+	  g_currentTimecode=g_currentTimecode%64;
+	  g_currentTimecode=g_currentTimecode+1;
+        /* Create a time-code */
+        STAR_STREAM_ITEM *timecode = STAR_createTimeCode(g_currentTimecode+1);
+	g_currentTimecode1=g_currentTimecode+1;
+	//STAR_STREAM_ITEM *timecode1 = STAR_createTimeCode(g_currentTimecode1);
+        
+        /* If time-code was created */
+        if (timecode)
+        {
+            /* Create transmit operation to transmit time-code */
+            transferOperation = STAR_createTxOperation(&timecode, 1);
+	//    transferOperation1 = STAR_createTxOperation(&timecode1, 1);
+
+            /* Start transmitting the time-code */
+            STAR_submitTransferOperation(txChannel, transferOperation);
+	  //  STAR_submitTransferOperation(txChannel, transferOperation1);
+
+            /* Wait indefinitely for transfer to complete */
+            status = STAR_waitOnTransferOperationCompletion(transferOperation,
+                -1);
+	  //  status1 = STAR_waitOnTransferOperationCompletion(transferOperation1,
+                //-1);    
+
+            /* If time-code was transmitted successfully */
+            if (status == STAR_TRANSFER_STATUS_COMPLETE)
+            {
+                /* Print success message */
+                printf("Time-code %u transmitted successfully.\n",
+                    g_currentTimecode);
+            }
+            else
+            {
+                /* Print error message */
+                printf("Error transmitting time-code %u, status = %d.\n",
+                    g_currentTimecode, status);
+            }
+            
+ 
+
+            /* Dispose of transfer operation */
+            STAR_disposeTransferOperation(transferOperation);
+           // STAR_disposeTransferOperation(transferOperation1);
+            /* Destroy time-code */
+             STAR_destroyStreamItem(timecode);
+	  ///   STAR_destroyStreamItem(timecode1);
+
+            /* Move to the next time-code value */
+            g_currentTimecode++;
+            if (g_currentTimecode == 64)
+            {
+                g_currentTimecode = 0;
+            }
+        }
+
+        /* Close transmit channel */
+        STAR_closeChannel(txChannel);
+    }
+}

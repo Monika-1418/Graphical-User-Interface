@@ -1,0 +1,11 @@
+<map id="CopyDevice" name="CopyDevice">
+<area shape="rect" id="node3" href="$a01621.xhtml#a05a487cc6ffbf0e31537f4eba6ea2d30" title="Set the device&#39;s ID. " alt="" coords="151,189,247,219"/>
+<area shape="rect" id="node5" href="$a01741.xhtml#a692a9dce661481258715fa6d59a7156a" title="Create and return an instance of a VirtualDevice object which is a copy of &#39;this&#39; object..." alt="" coords="301,5,493,69"/>
+<area shape="rect" id="node7" href="$a01505.xhtml#af72071ada62567767dc91823ff13ef8a" title="Create and return an instance of a RemoteDevice object which is a copy of &#39;this&#39; object. " alt="" coords="301,93,493,157"/>
+<area shape="rect" id="node9" href="$a01269.xhtml#af72071ada62567767dc91823ff13ef8a" title="Create and return an instance of a Device object which is a copy of &#39;this&#39; object. " alt="" coords="297,181,497,227"/>
+<area shape="rect" id="node11" href="$a01277.xhtml#a3d1e70844eb20a3fdc87ce913bbfb2ff" title="Create and return an instance of a Device object corresponding to the given device ID..." alt="" coords="301,251,493,315"/>
+<area shape="rect" id="node17" href="$a01297.xhtml#a94e53b6118b7d5593431ade39496af60" title="Gets an array of devices present for this driver. " alt="" coords="561,339,767,403"/>
+<area shape="rect" id="node13" href="$a01285.xhtml#ab5ba25642b9c31c63d71c8481136c502" title="Create a new instance of a Device object which is a copy of the Device at the specified index positio..." alt="" coords="547,111,781,158"/>
+<area shape="rect" id="node15" href="$a01629.xhtml#afd520becb277a382d30b8a429d0fff36" title="Get the device with the given ID. " alt="" coords="549,181,779,227"/>
+<area shape="rect" id="node19" href="$a01505.xhtml#aeb86b9acdf825d93a6e3ef263c1bdd68" title="Gets the local device used to communicate with the remote device on. " alt="" coords="568,251,760,315"/>
+</map>

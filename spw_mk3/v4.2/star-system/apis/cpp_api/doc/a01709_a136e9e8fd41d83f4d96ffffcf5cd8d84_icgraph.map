@@ -1,0 +1,6 @@
+<map id="DisposeTransferOperation" name="DisposeTransferOperation">
+<area shape="rect" id="node3" href="$a01501.xhtml#a713aa0955840d18be34dbce655af04fe" title="Creates a receive operation using receive parameters provided, which can then be submitted later..." alt="" coords="232,5,477,69"/>
+<area shape="rect" id="node7" href="$a01717.xhtml#a07fe4916c82baa2994a759347ee6e548" title="Create a transmit operation using the stream items provided, which can then be submitted later..." alt="" coords="231,93,479,157"/>
+<area shape="rect" id="node5" href="$a01501.xhtml#a093778278715fd14c92d49fdffeeb141" title="Overloaded constructor to automatically create a receive operation using receive parameters provided..." alt="" coords="531,5,776,69"/>
+<area shape="rect" id="node9" href="$a01717.xhtml#aeabee951a3cddce67271ffcffa2f56b6" title="Overloaded constructor to automatically create a transmit operation using the stream items provided..." alt="" coords="529,93,777,157"/>
+</map>

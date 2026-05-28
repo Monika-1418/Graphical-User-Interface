@@ -1,0 +1,4 @@
+<map id="CreateAddress" name="CreateAddress">
+<area shape="rect" id="node3" href="$a01169.xhtml#ad21777a0e9a4278990e59a7acff6ca11" title="Constructor &#45; use given path and path length to automatically create a SpaceWire address. " alt="" coords="167,5,236,35"/>
+<area shape="rect" id="node5" href="$a01169.xhtml#ac83b92abfc37256a809556a446efbba2" title="Overloaded assignment operator &#45; invoked when an attempt is made to assign the contents of one Addres..." alt="" coords="163,59,240,88"/>
+</map>

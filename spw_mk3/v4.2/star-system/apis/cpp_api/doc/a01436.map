@@ -1,0 +1,29 @@
+<map id="Port" name="Port">
+<area shape="rect" id="node3" href="$a01249.xhtml" title="Represents a Configuration Port on a device. " alt="" coords="856,452,968,641"/>
+<area shape="rect" id="node21" href="$a01317.xhtml" title="Represents an External Port on a device. " alt="" coords="1260,452,1383,641"/>
+<area shape="rect" id="node39" href="$a01345.xhtml" title="Represents a (SpaceWire) Link Port on a device. " alt="" coords="1651,400,1885,693"/>
+<area shape="rect" id="node5" href="$a01365.xhtml" title="Represents a Configuration Port on a Mk2 device. " alt="" coords="576,811,712,965"/>
+<area shape="rect" id="node7" href="$a01177.xhtml" title="Represents a Configuration Port on a Brick Mk2 device. " alt="" coords="204,1161,369,1316"/>
+<area shape="rect" id="node13" href="$a01409.xhtml" title="Represents a Configuration Port on a PCIe device. " alt="" coords="399,1161,540,1316"/>
+<area shape="rect" id="node17" href="$a01393.xhtml" title="Represents a Configuration Port on a PCI Mk2 device. " alt="" coords="564,1161,724,1316"/>
+<area shape="rect" id="node19" href="$a01449.xhtml" title="Represents a Configuration Port on a PXI device. " alt="" coords="748,1161,881,1316"/>
+<area shape="rect" id="node9" href="$a01197.xhtml" title="Represents a Configuration Port on a Brick Mk3 device. " alt="" coords="5,1477,171,1632"/>
+<area shape="rect" id="node11" href="$a01585.xhtml" title="Represents a Configuration Port on a Router Mk2S device. " alt="" coords="195,1477,379,1632"/>
+<area shape="rect" id="node15" href="$a01605.xhtml" title="Represents a Configuration Port on a SPLT device. " alt="" coords="403,1477,547,1632"/>
+<area shape="rect" id="node23" href="$a01373.xhtml" title="Represents an External Port on a Mk2 device. " alt="" coords="1209,741,1433,1035"/>
+<area shape="rect" id="node25" href="$a01189.xhtml" title="Represents an External Port on a Brick Mk2 device. " alt="" coords="905,1092,1129,1385"/>
+<area shape="rect" id="node31" href="$a01417.xhtml" title="Represents an External Port on a PCIe device. " alt="" coords="1153,1161,1305,1316"/>
+<area shape="rect" id="node35" href="$a01401.xhtml" title="Represents an External Port on a PCI Mk2 device. " alt="" coords="1329,1161,1500,1316"/>
+<area shape="rect" id="node37" href="$a01457.xhtml" title="Represents an External Port on a PXI device. " alt="" coords="1524,1161,1668,1316"/>
+<area shape="rect" id="node27" href="$a01205.xhtml" title="Represents an External Port on a Brick Mk3 device. " alt="" coords="727,1477,903,1632"/>
+<area shape="rect" id="node29" href="$a01593.xhtml" title="Represents an External Port on a Router Mk2S device. " alt="" coords="927,1477,1121,1632"/>
+<area shape="rect" id="node33" href="$a01613.xhtml" title="Represents an External Port on a SPLT device. " alt="" coords="1152,1477,1307,1632"/>
+<area shape="rect" id="node41" href="$a01377.xhtml" title="Represents a Link Port on a Mk2 device. " alt="" coords="1917,759,2109,1017"/>
+<area shape="rect" id="node43" href="$a01193.xhtml" title="Represents a Link Port on a Brick Mk2 device. " alt="" coords="1692,1109,1884,1368"/>
+<area shape="rect" id="node49" href="$a01421.xhtml" title="Represents a Link Port on a PCIe device. " alt="" coords="1908,1101,2119,1377"/>
+<area shape="rect" id="node53" href="$a01405.xhtml" title="Represents a Link Port on a PCI Mk2 device. " alt="" coords="2143,1083,2375,1394"/>
+<area shape="rect" id="node55" href="$a01461.xhtml" title="Represents a Link Port on a PXI device. " alt="" coords="2399,1109,2591,1368"/>
+<area shape="rect" id="node45" href="$a01209.xhtml" title="Represents a Link Port on a Brick Mk3 device. " alt="" coords="1525,1443,1704,1667"/>
+<area shape="rect" id="node47" href="$a01597.xhtml" title="Represents a Link Port on a Router Mk2S device. " alt="" coords="1728,1477,1899,1632"/>
+<area shape="rect" id="node51" href="$a01617.xhtml" title="Represents a Link Port on a SPLT device. " alt="" coords="1948,1477,2079,1632"/>
+</map>

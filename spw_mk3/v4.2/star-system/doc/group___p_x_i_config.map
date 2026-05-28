@@ -1,0 +1,7 @@
+<map id="PXI Configuration API" name="PXI Configuration API">
+<area shape="rect" id="node1" href="$group__err_inject_p_x_i.xhtml" title="Functions in this group deal with injecting errors onto SpaceWire links. " alt="" coords="471,5,572,35"/>
+<area shape="rect" id="node2" href="$group___device_config.xhtml" title="The Device Configuration APIs provide functions for configuring devices. " alt="" coords="5,85,219,115"/>
+<area shape="rect" id="node3" href="$group___p_x_i_interface_mode.xhtml" title="Functions in this group deal with managing the device in Interface mode. " alt="" coords="467,59,576,88"/>
+<area shape="rect" id="node4" href="$group___p_x_i_links.xhtml" title="Functions in this group deal with setting the link speeds of PXI devices devices. ..." alt="" coords="479,112,564,141"/>
+<area shape="rect" id="node5" href="$group___p_x_i_events.xhtml" title="Functions in this group deal with enabling and disabling link events. " alt="" coords="491,165,552,195"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="GetChunkData" name="GetChunkData">
+<area shape="rect" id="node3" href="$a01257.xhtml#aeb6009cf6c7987a1d94c13d4d093d39f" title="Copy constructor &#45; to allow copies of DataChunk objects to be made when being passed by value in func..." alt="" coords="163,5,251,35"/>
+<area shape="rect" id="node5" href="$a01257.xhtml#ad018f03c831d501acb319a199a3a638e" title="Overloaded assignment operator &#45; to allow instances of DataChunk objects to have their contents assig..." alt="" coords="168,59,245,88"/>
+</map>

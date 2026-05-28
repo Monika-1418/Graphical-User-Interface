@@ -1,0 +1,6 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=STAR-System Documentation
+Exec=/usr/local/STAR-Dundee/STAR-System/launch_docs.sh
+Icon=/usr/local/STAR-Dundee/STAR-System/STAR.png

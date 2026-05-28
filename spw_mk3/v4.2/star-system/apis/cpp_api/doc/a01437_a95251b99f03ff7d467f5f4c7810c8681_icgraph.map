@@ -1,0 +1,4 @@
+<map id="GetType" name="GetType">
+<area shape="rect" id="node3" href="$a01273.xhtml#a9aa876ec7e5fbeb037179c887b7a26bc" title="Gets the output port to which the given (source) port is currently connected to whilst routing is in ..." alt="" coords="125,5,355,69"/>
+<area shape="rect" id="node5" href="$a01345.xhtml#a6578a6fa4300a587e2526383348776c8" title="Set the status of the link. " alt="" coords="144,93,336,157"/>
+</map>

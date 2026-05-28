@@ -1,0 +1,6 @@
+<map id="operator=" name="operator=">
+<area shape="rect" id="node3" href="$a01169.xhtml#a516af4998616fe9122360092da5e03f1" title="Creates a SpaceWire address. " alt="" coords="131,5,240,35"/>
+<area shape="rect" id="node5" href="$a01169.xhtml#a56462f6417d411c651c533aeb9fed465" title="Free any resources held by the Address object, e.g. " alt="" coords="289,32,404,61"/>
+<area shape="rect" id="node8" href="$a01169.xhtml#ae9652ef942b34a957376ce4b9b06ffbf" title="Get the path. " alt="" coords="151,109,220,139"/>
+<area shape="rect" id="node10" href="$a01169.xhtml#ad3d83f389caa7562cfc91795c3e85f02" title="Get the length of the address. " alt="" coords="131,163,240,192"/>
+</map>

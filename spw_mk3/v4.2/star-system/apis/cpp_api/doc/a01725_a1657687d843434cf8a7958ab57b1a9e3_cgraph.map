@@ -1,0 +1,34 @@
+<map id="operator=" name="operator=">
+<area shape="rect" id="node3" href="$a01725.xhtml#a452011519a035db4c36a660e555d6dbc" title="Disables auto reload for a specific counter. " alt="" coords="153,5,332,35"/>
+<area shape="rect" id="node5" href="$a01725.xhtml#a528f1385c3a64ad0c00f5ff72a740d58" title="Disables load zero for a specific counter. " alt="" coords="160,59,325,88"/>
+<area shape="rect" id="node7" href="$a01725.xhtml#a49873f6e1a0d05ec3b2540ac222d14f9" title="Disables start mode for a specific counter. " alt="" coords="157,112,328,141"/>
+<area shape="rect" id="node9" href="$a01725.xhtml#aab3e44b31202b30b485c5bed1ed5709c" title="Disables start stop mode for a specific counter. " alt="" coords="144,165,341,195"/>
+<area shape="rect" id="node11" href="$a01725.xhtml#a2b8cc9ce69236ccd61b63b7ec2d4b220" title="Disables trigger count for a specific counter. " alt="" coords="149,219,336,248"/>
+<area shape="rect" id="node13" href="$a01725.xhtml#a4f7062133dc91da2b1a0b86ca89d10bd" title="Disables packet transmit mode for a specific port. " alt="" coords="136,272,349,301"/>
+<area shape="rect" id="node15" href="$a01725.xhtml#a1524764d9f27e1d04e1e61ecf000b940" title="Disables a specific internal trigger. " alt="" coords="189,325,296,355"/>
+<area shape="rect" id="node17" href="$a01725.xhtml#a9bbee1975c25e5cb4f9ee4a9925938ba" title="Enables auto reload for a specific counter. " alt="" coords="155,379,331,408"/>
+<area shape="rect" id="node19" href="$a01725.xhtml#a738773b8da8616a0514f5992c25eb293" title="Enables load zero for a specific counter. " alt="" coords="161,432,324,461"/>
+<area shape="rect" id="node21" href="$a01725.xhtml#a30865cbb8b96e5fd4be8a5b6ef9be991" title="Enables start mode for a specific counter. " alt="" coords="159,485,327,515"/>
+<area shape="rect" id="node23" href="$a01725.xhtml#aa47f857304a818aaca8b0a60b6e177b9" title="Enables start stop mode for a specific counter. " alt="" coords="145,539,340,568"/>
+<area shape="rect" id="node25" href="$a01725.xhtml#a556a9203bc87075d6a3888bc398da841" title="Enables trigger count for a specific counter. " alt="" coords="152,592,333,621"/>
+<area shape="rect" id="node27" href="$a01725.xhtml#a4f9f273746a85cab123577bd0ad9b9b1" title="Enables packet transmit mode for a specific port. " alt="" coords="137,645,348,675"/>
+<area shape="rect" id="node29" href="$a01725.xhtml#a934ca66ae9b624e06d36ee14a96e8d55" title="Enables a specific internal trigger. " alt="" coords="192,699,293,728"/>
+<area shape="rect" id="node31" href="$a01725.xhtml#a05a2afd026396c9491c01aa863d8a008" title="Force the reload of a specific counter. " alt="" coords="172,752,313,781"/>
+<area shape="rect" id="node33" href="$a01725.xhtml#a0bab76bfa5d9ba77805f7f4ff19d4971" title="Force the triggering of a specific internal trigger. " alt="" coords="196,805,289,835"/>
+<area shape="rect" id="node35" href="$a01725.xhtml#ab36698ac7a76b139fb0f714fccb7b148" title="Gets whether auto reload is enabled for a specific counter. " alt="" coords="141,859,344,888"/>
+<area shape="rect" id="node37" href="$a01725.xhtml#a8141c6c683994bb1219c58e7809fed78" title="Gets whether load zero is enabled for a specific counter. " alt="" coords="148,912,337,941"/>
+<area shape="rect" id="node39" href="$a01725.xhtml#af12f9c1db1890d1114343245cba9416f" title="Gets the reload value for a specific counter. " alt="" coords="161,965,324,995"/>
+<area shape="rect" id="node41" href="$a01725.xhtml#a129915483d7fadd80d1cdeb671dde698" title="Gets whether start mode is enabled for a specific counter. " alt="" coords="145,1019,340,1048"/>
+<area shape="rect" id="node43" href="$a01725.xhtml#a54c9aa244842b81342238048197353d7" title="Gets whether start stop mode is enabled for a specific counter. " alt="" coords="132,1072,353,1101"/>
+<area shape="rect" id="node45" href="$a01725.xhtml#a1a1bc3748808b06a042e5ae70d69c3dc" title="Gets whether trigger count is enabled for a specific counter. " alt="" coords="137,1125,348,1155"/>
+<area shape="rect" id="node47" href="$a01725.xhtml#a11fe427f88da2e0490f9b6ed98d0ee44" title="Gets the counter value for a specific counter. " alt="" coords="181,1179,304,1208"/>
+<area shape="rect" id="node49" href="$a01725.xhtml#a413b895bcdf5dccbd289c3342c9ea75a" title="Gets whether packet transmit mode is enabled for a specific port. " alt="" coords="148,1231,337,1278"/>
+<area shape="rect" id="node51" href="$a01725.xhtml#adf513de80dfdc7a20724c530f2f18a50" title="Gets the AND/OR mask for a trigger type for a specific internal trigger. " alt="" coords="173,1301,312,1331"/>
+<area shape="rect" id="node53" href="$a01725.xhtml#acf6f8c0248c67d7f3844e7c76ca43108" title="Gets whether a trigger is enabled. " alt="" coords="177,1355,308,1384"/>
+<area shape="rect" id="node55" href="$a01725.xhtml#a0d66f7ae39bc29c958656f3acf61d3b3" title="Gets the input mode for a specific internal trigger. " alt="" coords="171,1408,315,1437"/>
+<area shape="rect" id="node57" href="$a01725.xhtml#a6e074d99bc766c7b6f7ca8918b5336ec" title="Gets the invert mask for a trigger type for a specific internal trigger. " alt="" coords="169,1461,316,1491"/>
+<area shape="rect" id="node59" href="$a01725.xhtml#acd484ce910c93d12fceae694c1bba593" title="Sets the reload value for a specific counter. " alt="" coords="161,1515,324,1544"/>
+<area shape="rect" id="node61" href="$a01725.xhtml#a16af83dd8fce89d0da0a70b9159432c9" title="Sets the AND/OR mask for a trigger type for a specific internal trigger. " alt="" coords="175,1568,311,1597"/>
+<area shape="rect" id="node63" href="$a01725.xhtml#aaea9ef21554e534ed31b39055d0d382b" title="Sets the input mode for a specific internal trigger. " alt="" coords="172,1621,313,1651"/>
+<area shape="rect" id="node65" href="$a01725.xhtml#a6a78e216a592246a6d1f55ff60f89db7" title="Sets the invert mask for a trigger type for a specific internal trigger. " alt="" coords="169,1675,316,1704"/>
+</map>

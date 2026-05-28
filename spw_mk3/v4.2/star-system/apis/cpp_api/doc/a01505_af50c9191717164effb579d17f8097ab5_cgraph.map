@@ -1,0 +1,6 @@
+<map id="RemoteDevice" name="RemoteDevice">
+<area shape="rect" id="node3" href="$a01505.xhtml#a80cb0cf2ba3ba67d22b952a57295dafc" title="Create a remote device. " alt="" coords="164,67,311,96"/>
+<area shape="rect" id="node5" href="$a01505.xhtml#afcb9f42a332f4190c8c5cb4e1f1ed7f9" title="Destroy this remote device. " alt="" coords="437,5,547,35"/>
+<area shape="rect" id="node7" href="$a01621.xhtml#ab60e1b7d62b67f1fba59ecb68e4c5d61" title="Get the device&#39;s ID. " alt="" coords="372,58,612,105"/>
+<area shape="rect" id="node9" href="$a01169.xhtml#a80df6b0a137570ac75cd405b8d402ae0" title="Gets the underlying STAR_SPACEWIRE_ADDRESS struct which is held internally by the Address object..." alt="" coords="360,128,624,192"/>
+</map>

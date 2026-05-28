@@ -1,0 +1,5 @@
+<map id="CreateDevice" name="CreateDevice">
+<area shape="rect" id="node3" href="$a01621.xhtml#a05a487cc6ffbf0e31537f4eba6ea2d30" title="Set the device&#39;s ID. " alt="" coords="157,45,397,91"/>
+<area shape="rect" id="node5" href="$a01621.xhtml#a6e3e20395600d3ee8eeea21ed8db1b75" title="Create and return an instance of a new Device object which is a copy of this device. " alt="" coords="445,5,683,51"/>
+<area shape="rect" id="node7" href="$a01621.xhtml#a4c2f14b261161a3e38c8516e4ab8bd6a" title="Gets the configuration state for the device. " alt="" coords="451,75,677,139"/>
+</map>
